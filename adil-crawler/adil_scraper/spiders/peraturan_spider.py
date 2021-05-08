@@ -1,4 +1,5 @@
 from urllib.parse import urlparse, parse_qs
+import requests
 import datetime
 import scrapy
 
@@ -47,10 +48,9 @@ class PeraturanSpider(scrapy.Spider):
         url = response.url
         item = {
             'id': self.parse_id_from_url(url),
-            'url': url,
-            'document' : [],
-            'category': [],
-            'relations': {},
+            'source': url,
+            'document': [],
+            'document_status': []
         }
         # Parse metadata
         rows = response.xpath('//tr')
@@ -62,6 +62,12 @@ class PeraturanSpider(scrapy.Spider):
         documents = response.xpath("//a[@title='Download']/@href").getall()
         item['document'] = documents
 
+        # Check document head status
+        for doc in documents:
+            r = requests.head(doc)
+            item['document_status'].append(r.status_code)
+
+
         # Parse categories
         categories = response.xpath("//span[@class='badge badge-warning']/text()").getall()
         item['category'] = categories
@@ -69,21 +75,24 @@ class PeraturanSpider(scrapy.Spider):
         # Parse data section
         headings = response.css('.panel-heading').xpath('text()').getall()
         headings = [self.snakeify(heading) for heading in headings]
-        item['data_section'] = headings
 
         # Parse relation
-        if "relasi" in item['data_section']:
+        url_list = []
+        if "relasi" in headings:
             rows = response.css(".col-md-3 > div.panel:last-child > .panel-body > *:not(br)")
             key = ""
             for row in rows:
                 if len(row.attrib) == 0:
                     key = row.xpath('text()').get().replace(':', '')
                     key = self.snakeify(key)
-                    if not item['relations'].get(key, False):
-                        item['relations'][key] = []
+                    if not item.get(key, False):
+                        item[key] = []
                 else:
                     url = 'https://peraturan.go.id' + row.attrib['href']
                     val = self.parse_id_from_url(url)
-                    item['relations'][key].append(val)
-                    yield scrapy.Request(url=url, callback=self.parse_peraturan)
-        yield item
+                    item[key].append(val)
+                    # Check if allowed to be crawled
+                    if (key in ["diubah_oleh", "dicabut_oleh", "mengubah", "mencabut"]):
+                        yield scrapy.Request(url=url, callback=self.parse_peraturan)
+        if len(documents):
+            yield item
