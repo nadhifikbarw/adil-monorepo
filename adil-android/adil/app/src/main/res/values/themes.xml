@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Adil" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_01</item>
+        <item name="colorPrimaryVariant">@color/blue_02</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange_01</item>
+        <item name="colorSecondaryVariant">@color/orange_02</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_logo</item>
+    </style>
+
+    <!-- Search Bar Styles -->
+    <style name="SearchBar.Light" parent="MaterialSearchBarLight">
+        <item name="android:padding">10dp</item>
+        <item name="mt_searchBarColor">@color/grey_100</item>
+        <item name="mt_dividerColor">@color/searchBarDividerColor</item>
+        <item name="mt_navIconTint">@color/searchBarNavIconTintColor</item>
+        <item name="mt_searchIconTint">@color/searchBarSearchIconTintColor</item>
+        <item name="mt_clearIconTint">@color/searchBarClearIconTintColor</item>
+        <item name="mt_menuIconTint">@color/searchBarMenuIconTintColor</item>
+        <item name="mt_backIconTint">@color/searchBarBackIconTintColor</item>
+        <item name="mt_textCursorTint">@color/searchBarCursorColor</item>
+        <item name="mt_textColor">@color/searchBarTextColor</item>
+        <item name="mt_hintColor">@color/searchBarHintColor</item>
+        <item name="mt_placeholderColor">@color/searchBarPlaceholderColor</item>
+        <item name="mt_highlightedTextColor">@color/searchBarTextHighlightColor</item>
+    </style>
+
+    <style name="FragmentContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+
+</resources>
