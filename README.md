@@ -11,9 +11,16 @@ Adil monorepo is the centralized repository to keep track and document developme
 
 We're trying to solve Indonesian hyper-regulation problems causing disharmonious, inconsistent, overlapping, that leads to ambiguous interpretations of legislation and difficult for citizens to access the most relevant regulations for their needs. We want to help Indonesian to access legal information to find answers to relevant legal questions through a comprehensive and centralized digital legal archive platform based on Android as a bridge between legal experts and legal aid seekers. We are leveraging ML to standardize PDF-based legal products to a more open format (HTML) combined with Full-text search capability built in the cloud for scalability.
 
+## Project Structure
+* adil-android - Android application project
+* adil-crawler - Scrapy project to extract dataset 
+* adil-data-exploration - Raw data exploration, and processor
+* adil-firestore-loader - Data model formation and Firestore loader
+
 ## Open Law Specification Initiative
 
 One way to better resolve this hyper-regulation problems is by shifting to a more open approach to represent regulation documents in its digital form instaed of using regular PDF or DOC(X) data format (current status-quo), one of our member is trying to define an open specification to represent law document in an open data format (HTML) adhering to [5-stars Open Data](https://5stardata.info/en/) principles to promote reusability and ease of further automation / manipulation, the scope of this initiative is outside of this current project but serves as the basis of where future development might be going.
 
 [Adil Open Law Specification](https://github.com/nadhifikbarw/adil-open-law-specification)
+
 
