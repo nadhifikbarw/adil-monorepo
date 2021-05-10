@@ -385,105 +385,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e44c4eecd25a60b2fa313231373339":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4eecd25a60b2fa313231373339",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2006\/pp29-2006.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Pemerintah",
-    "nomor_peraturan":"29",
-    "tahun_peraturan":"2006",
-    "tentang":"HAK KEUANGAN KEDUDUKAN PROTOKOL DAN PERLINDUNGAN KEAMANAN PIMPINAN KOMISI PEMBERANTASAN KORUPSI",
-    "tgl_ditetapkan":"2006",
-    "tgl_diundangkan":"2006-08-16",
-    "category":[
-      "Korupsi"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":[
-      "11e5899fecd5e0389933303734363037"
-    ],
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e44c4eb6b511c08750313231363038":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4eb6b511c08750313231363038",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2000\/pp19-2000.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Pemerintah",
-    "nomor_peraturan":"19",
-    "tahun_peraturan":"2000",
-    "tentang":"TIM GABUNGAN PEMBERANTASAN TINDAK PIDANA KORUPSI",
-    "tgl_ditetapkan":"2000",
-    "tgl_diundangkan":"2000-05-04",
-    "category":[
-      "Korupsi"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e555142d260eb2a68a313035343434":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e555142d260eb2a68a313035343434",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/bn\/2015\/KEU BN 359-2015.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Menteri",
-    "nomor_peraturan":"41\/PMK.05\/2015",
-    "tahun_peraturan":"2015",
-    "tentang":"TARIF LAYANAN BADAN LAYANAN UMUM UNIVERSITAS NEGERI SURABAYA",
-    "tgl_ditetapkan":"2015-03-09",
-    "tgl_diundangkan":"2015-03-09",
-    "category":[
-      "Pelayanan Publik",
-      "Riset dan Teknologi",
-      "Keuangan"
-    ],
-    "memiliki_dasar_hukum":[
-      "11e44c4eac3c2ea0ba7c313231353530",
-      "11e44c4e2c8a98408d4e313231323136",
-      "11e44c4ed1ff55e0a0f6313231363534",
-      "11e4add3fe6222e8b6f7313433373235"
-    ],
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":"Kementerian Keuangan",
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e44c4e869f6ba0a085313231343437":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4e869f6ba0a085313231343437",
     "document":[
@@ -515,79 +416,6 @@
       "11e44c4ecfb12b10a863313231363530",
       "11e44c4ea08f1bd0a631313231353331",
       "11e44c4e903227209046313231353033"
-    ],
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e55063664fdf98942c313133393135":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e55063664fdf98942c313133393135",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/bn\/2015\/KEU BN 253-2015.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Menteri",
-    "nomor_peraturan":"27\/PMK.05\/2015",
-    "tahun_peraturan":"2015",
-    "tentang":"TARIF LAYANAN BADAN LAYANAN UMUM UNIVERSITAS SULTAN AGENG TIRTAYASA",
-    "tgl_ditetapkan":"2015-02-13",
-    "tgl_diundangkan":"2015-02-13",
-    "category":[
-      "Pendidikan & Kebudayaan",
-      "Riset dan Teknologi",
-      "Keuangan"
-    ],
-    "memiliki_dasar_hukum":[
-      "11e44c4eac3c2ea0ba7c313231353530",
-      "11e44c4e2c8a98408d4e313231323136",
-      "11e44c4ed1ff55e0a0f6313231363534",
-      "11e4add3fe6222e8b6f7313433373235"
-    ],
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":"Kementerian Keuangan",
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e44c4f4fbd9930ba75313232303235":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4f4fbd9930ba75313232303235",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2000\/pp71-2000.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Pemerintah",
-    "nomor_peraturan":"71",
-    "tahun_peraturan":"2000",
-    "tentang":"TATA CARA PELAKSANAAN PERAN SERTA MASYARAKAT DAN PEMBERIAN PENGHARGAAN DALAM PENCEGAHAN DAN PEMBERANTASAN TINDAK PIDANA KORUPSI",
-    "tgl_ditetapkan":"2000",
-    "tgl_diundangkan":"2000-08-21",
-    "category":[
-      "Korupsi"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":[
-      "11e73b974f9cc132ada7313335373531",
-      "11e6b6302a97c18088ef313233343237",
-      "11e7729eb0d466ba8d3a313433393135",
-      "11e6e108aa59aaa283fa303831303031",
-      "11e6f8af7bc1bcd49ac7313033323036"
     ],
     "mencabut":null,
     "dilaksanakan_oleh_peraturan_pelaksana":null,
@@ -1105,38 +933,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e44c4f0fbff7f0a66a313231383337":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4f0fbff7f0a66a313231383337",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/lain-lain\/2004\/KEPPRES_Nomor_40_Tahun_2004_11e44c4f0fc11dd0be65313231383337.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Keputusan Presiden",
-    "nomor_peraturan":"40",
-    "tahun_peraturan":"2004",
-    "tentang":"RENCANA AKSI NASIONAL HAK ASASI MANUSIA INDONESIA TAHUN 2004-2009",
-    "tgl_ditetapkan":"2004",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":[
-      "11e44c4ecfb12b10a863313231363530"
-    ],
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e44c4ebd4d827085ec313231363139":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4ebd4d827085ec313231363139",
     "document":[
@@ -1409,132 +1205,6 @@
       "11e45e5048fbf590abb1323331323434",
       "11e45e5048fbf590abb1323331323434",
       "11e45e5048fbf590abb1323331323434"
-    ],
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e44c4ea427e630ad65313231353337":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4ea427e630ad65313231353337",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2011\/uu15-2011bt.pdf",
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2011\/uu15-2011pjl.pdf"
-    ],
-    "document_status":[
-      404,
-      404
-    ],
-    "jenis_peraturan":"Undang-Undang",
-    "nomor_peraturan":"15",
-    "tahun_peraturan":"2011",
-    "tentang":"PENYELENGGARA PEMILIHAN UMUM",
-    "tgl_ditetapkan":"2011-10-16",
-    "tgl_diundangkan":"2011-10-16",
-    "category":[
-      "Politik dan Pemilu",
-      "Konstitusional & Tata Negara"
-    ],
-    "memiliki_dasar_hukum":[
-      "11e58ce1a826e0a0b379313131343132"
-    ],
-    "dasar_hukum_dari":[
-      "11e73f62b632c166b974303935313235",
-      "11e6d3bfd6c0bdb698c5313032353537",
-      "11e6d3bff6f56816ae4d313032363531",
-      "11e6d3c010f41dd4b71a313032373335",
-      "11e44c4ea7a9c580a044313231353433",
-      "11e44c4e9b1b4b809a81313231353232",
-      "11e44c4e97d16bd09d88313231353136",
-      "11e44c4e8dbd6b20a9cc313231343539",
-      "11e44c4e34e9a5c08d56313231323330",
-      "11e44c4e40aabb00a2df313231323530",
-      "11e44c4e43e679108796313231323535",
-      "11e44c4e53fba910867e313231333232",
-      "11e44c4e6761abf0961c313231333535",
-      "11e44c4e5d8987009822313231333338",
-      "11e44c4e7105c5c08356313231343131",
-      "11e44c4ebd5fd7d0960f313231363139",
-      "11e44c4eda40e9e0bacb313231373038",
-      "11e44c4ed32aa2a08f27313231363536",
-      "11e44c4ece8433009217313231363438",
-      "11e44c4eb26bdc80ad4e313231363031",
-      "11e44c4ecac646b0b6ca313231363432",
-      "11e44c501b0e6ca0b880313232363036",
-      "11e44c4f13f62f1085ab313231383434",
-      "11e44c4f597b88d0a8f3313232303431",
-      "11e44c4e831ea1f098b5313231343431",
-      "11e4e4d27cf8270cbcbd313432323231",
-      "11e44c50a89a0240ad18313233303033",
-      "11e44c50a8a797309c2c313233303033",
-      "11e44c50a918dbe0c03d313233303034",
-      "11e44c50a8d0b930a249313233303034",
-      "11e44c50a98f6880941b313233303035",
-      "11e44c50a9d92a60a82c313233303035",
-      "11e44c50aa1fdde0ab51313233303036",
-      "11e44c50aab8db00a0b8313233303037",
-      "11e44c50aaddfe90b2e0313233303037",
-      "11e44c50ab09d540a90e313233303037",
-      "11e44c50ab30b040a39f313233303038",
-      "11e44c50ab46d900bf02313233303038",
-      "11e44c50abbe04d085b0313233303039",
-      "11e44c50ac4e8d2096fe313233303039",
-      "11e44c50ac5763b08e2c313233303130",
-      "11e44c50fa15cc20ac59313233323230",
-      "11e44c50ac8a7a10a193313233303130",
-      "11e44c50accf095087c3313233303130",
-      "11e44c50acdea86086d2313233303130",
-      "11e531d45c8dc3c4a0e6313431393436",
-      "11e531d82ac3d14aa033313434373030",
-      "11e56e21e68c895a9f9f303830353538",
-      "11e56e22e91e7d1c921c303831333132",
-      "11e56e2358cf07c69059303831363139",
-      "11e770d3d0e68a86b6ff303735343330",
-      "11e6f7ec93912bec8dd2313131363534",
-      "11e6b62f85cc0cf09c6f313232393530",
-      "11e6b62e79c733109aca313232323230",
-      "11e6b62e7ae040a0aeaa313232323232",
-      "11e6f80beead82d69d92313530313231",
-      "11e6d70dd09979d6ad32313532313431",
-      "11e6e75bd08d722caf8f303932303230",
-      "11e6dc64f7d6bb249242313032383039",
-      "11e6edd103e867bead5c313433343235",
-      "11e6d70df9e01606ae4c313532323530",
-      "11e6edd19738cc0cbe26313433383332",
-      "11e6b6303f85014080ef313233353032",
-      "11e6b630408b07a0a523313233353033",
-      "11e6b630416f9820c048313233353035",
-      "11e6f4f79ba66ac49ebb313635383138",
-      "11e6f8af62a5ed2eaaa7313033313233",
-      "11e7991922abcfa8ad98313335313239",
-      "11e6d620737a13a2c00f313130323334",
-      "11e797849e02281e94b3313333353530",
-      "11e750103673236cb5bf313531333432",
-      "11e7500ff8e7dcfe830b313531313538",
-      "11e7500fad8a9c249d49313530393532",
-      "11e7500b48dd6008a365313433383235",
-      "11e798583801168680f4313435303332",
-      "11e7500ab4e86ac8ba68313433343137",
-      "11e76607c85567d8bff0313430383436"
-    ],
-    "mencabut":[
-      "11e44c4ece6fa790aeda313231363438"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":[
-      "11e44c4f13f62f1085ab313231383434",
-      "11e44c4f597b88d0a8f3313232303431",
-      "11e44c4e831ea1f098b5313231343431",
-      "11e770d3d0e68a86b6ff303735343330",
-      "11e6d620737a13a2c00f313130323334"
-    ],
-    "ditafsirkan":[
-      "11e44c5046352e009796313232373138"
-    ],
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":[
-      "11e45e634b27d132bf58303132383438",
-      "11e796c4c9968eb8a97e313434323339"
     ],
     "mengubah":null,
     "menafsirkan":null,
@@ -2473,82 +2143,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e44c501217b8909fd1313232353531":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c501217b8909fd1313232353531",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/lain-lain\/1938\/Kolonial_Nomor_Stb 86_Tahun_1938_11e44c501217ed408841313232353531.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Kolonial",
-    "nomor_peraturan":"STB86",
-    "tahun_peraturan":"1938",
-    "tentang":"ORDONANSI PENGATURAN PERUSAHAAN 1934",
-    "tgl_ditetapkan":"1938",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":[
-      "11e44c502835c560b15f313232363238",
-      "11e44c4f12c4432099bb313231383432",
-      "11e44c4e3f843a60b01c313231323438",
-      "11e44c4ec4e16fe094d7313231363332"
-    ],
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":[
-      "11e44c4e677678f08f6a313231333535",
-      "11e44c4e52e4cb50b272313231333230"
-    ],
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e5997e4e15ea76b23c313232353435":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e5997e4e15ea76b23c313232353435",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2015\/perpres125-2015.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Presiden",
-    "nomor_peraturan":"125",
-    "tahun_peraturan":"2015",
-    "tentang":"PERUBAHAN ATAS PERATURAN PRESIDEN NOMOR 64 TAHUN 2012 TENTANG PENYEDIAAN, PENDISTRIBUSIAN, DAN PENETAPAN HARGA BAHAN BAKAR GAS UNTUK TRANSPORTASI JALAN",
-    "tgl_ditetapkan":"2015-11-02",
-    "tgl_diundangkan":"2015-11-09",
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":[
-      "11e58ce1a826e0a0b379313131343132",
-      "11e44c4ece5c4fd0a75f313231363438",
-      "11e44c4ef1faac2081b1313231373437",
-      "11e44c4f023baa90b614313231383135",
-      "11e44c4f468072f0b0d6313232303039"
-    ],
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":[
-      "11e44c4f468072f0b0d6313232303039"
-    ],
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e4e89b06b94c7a9abb303935353235":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e4e89b06b94c7a9abb303935353235",
     "document":[
@@ -2862,174 +2456,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e45e7151232286a32b303330393131":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e7151232286a32b303330393131",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2009\/Putusan MK_Nomor_9_PUU-VII_2009_Tahun_2009_11e45e715127a3c491d9303330393131.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"9\/PUU-VII\/2009",
-    "tahun_peraturan":"2009",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 10 TAHUN 2008 TENTANG PEMILIHAN UMUM",
-    "tgl_ditetapkan":"2009",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e81800740a835313231343339",
-      "11e44c4e81800740a835313231343339",
-      "11e44c4e81800740a835313231343339",
-      "11e44c4e81800740a835313231343339",
-      "11e44c4e81800740a835313231343339"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45e64705a0550a797303133373030":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e64705a0550a797303133373030",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2008\/Putusan MK_Nomor_22-24_PUU-VI_2008_Tahun_2008_11e45e64705cac6aa00f303133373030.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"22-24\/PUU-VI\/2008",
-    "tahun_peraturan":"2008",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 10 TAHUN 2008 TENTANG PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN",
-    "tgl_ditetapkan":"2008",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e81800740a835313231343339"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45e5cb4c61a1a84e0303034313339":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e5cb4c61a1a84e0303034313339",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2008\/Putusan MK_Nomor_32_PUU-VI_2008_Tahun_2008_11e45e5cb4c9ef28a9e7303034313339.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"32\/PUU-VI\/2008",
-    "tahun_peraturan":"2008",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 10 TAHUN 2008 TENTANG PEMILIHAN UMUM",
-    "tgl_ditetapkan":"2008",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e81800740a835313231343339",
-      "11e44c4e81800740a835313231343339",
-      "11e44c4e81800740a835313231343339",
-      "11e44c4e81800740a835313231343339",
-      "11e44c4e81800740a835313231343339"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45dc0ad62dd0eb0b2303630343435":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45dc0ad62dd0eb0b2303630343435",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2008\/Putusan MK_Nomor_12_PUU-VI_2008_Tahun_2008_11e45dc0ad658ce8b8ed303630343435.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"12\/PUU-VI\/2008",
-    "tahun_peraturan":"2008",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 10 TAHUN 2008 TENTANG PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH",
-    "tgl_ditetapkan":"2008",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e81800740a835313231343339"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45e61ef16059aa3d0303131393034":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e61ef16059aa3d0303131393034",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2003\/Putusan MK_Nomor_011-017_PUU-I_2003_Tahun_2003_11e45e61ef18551693cc303131393034.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"011-017\/PUU-I\/2003",
-    "tahun_peraturan":"2003",
-    "tentang":"PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 12 TAHUN 2003 TENTANG PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH",
-    "tgl_ditetapkan":"2003",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e8cd3e350b690313231343538"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e44c4ee4ff56a0a16c313231373236":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4ee4ff56a0a16c313231373236",
     "document":[
@@ -3313,73 +2739,6 @@
     "mengubah":[
       "11e45e86a97333ee9957303534313538"
     ],
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45e634b27d132bf58303132383438":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e634b27d132bf58303132383438",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2011\/Putusan MK_Nomor_80_PUU-IX_2011_Tahun_2011_11e45e634b2a1a1e903e303132383438.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"80\/PUU-IX\/2011",
-    "tahun_peraturan":"2011",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 15 TAHUN 2011 TENTANG PENYELENGGARA PEMILIHAN UMUM TERHADAP UNDANG-UNDANG DASAR",
-    "tgl_ditetapkan":"2011",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4ea427e630ad65313231353337"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45e5048fbf590abb1323331323434":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e5048fbf590abb1323331323434",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2010\/Putusan MK_Nomor_11_PUU-VIII_2010_Tahun_2010_11e45e5049015a30b4f3323331323434.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"11\/PUU-VIII\/2010",
-    "tahun_peraturan":"2010",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 22 TAHUN 2007 TENTANG PENYELENGGARA",
-    "tgl_ditetapkan":"2010",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4ece6fa790aeda313231363438",
-      "11e44c4ece6fa790aeda313231363438",
-      "11e44c4ece6fa790aeda313231363438",
-      "11e44c4ece6fa790aeda313231363438"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
     "menafsirkan":null,
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
@@ -3993,46 +3352,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e4e714ff8cb6728a16313131363230":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e4e714ff8cb6728a16313131363230",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/bn\/2013\/bn66- 2014.pdf",
-      "https:\/\/peraturan.go.id\/common\/dokumen\/bn\/2013\/bn66-2014lamp.pdf"
-    ],
-    "document_status":[
-      404,
-      404
-    ],
-    "jenis_peraturan":"Peraturan Lembaga Pemerintah Non Kementerian",
-    "nomor_peraturan":"15",
-    "tahun_peraturan":"2013",
-    "tentang":"PENGENDALIAN GRATIFIKASI DI LINGKUNGAN BADAN PERTANAHAN NASIONAL REPUBLIK INDONESIA",
-    "tgl_ditetapkan":"2013-12-31",
-    "tgl_diundangkan":"2014-01-17",
-    "category":[
-      "Korupsi",
-      "Pengawasan & Pengendalian",
-      "Organisasi Kelembagaan & Profesi",
-      "Aparatur Negara"
-    ],
-    "memiliki_dasar_hukum":[
-      "11e44c4ee763adc0b9ba313231373330",
-      "11e44c4ef51fa210b578313231373533",
-      "11e44c4f2dd48870a1fc313231393238",
-      "11e44c4f44ff92b09f2b313232303037"
-    ],
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":"Badan Pertanahan Nasional",
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e44c51d20e61109c83313233383232":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c51d20e61109c83313233383232",
     "document":[
@@ -4061,38 +3380,6 @@
     "diubah_oleh":[
       "11e4e7d2c83c71deb34c313030323031"
     ],
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45db256ef736e926e303432323037":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45db256ef736e926e303432323037",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2009\/Putusan MK_Nomor_98_PUU-VII_2009_Tahun_2009_11e45db256f238b0965f303432323037.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"98\/PUU-VII\/2009",
-    "tahun_peraturan":"2009",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 42 TAHUN 2008 TENTANG PEMILIHAN UMUM PRESIDEN DAN WAKIL PRESIDEN TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945",
-    "tgl_ditetapkan":"2009",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4f137334f0a5f3313231383433"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
     "dicabut_oleh":null,
     "mengubah":null,
     "menafsirkan":null,
@@ -4671,77 +3958,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e45e8707e6de26b833303534343337":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e8707e6de26b833303534343337",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2012\/Putusan MK_Nomor_92_PUU-X_2012_Tahun_2012_11e45e8707eff2b8bb78303534343337.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"92\/PUU-X\/2012",
-    "tahun_peraturan":"2012",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 27 TAHUN 2009 TENTANG MAJELIS PERMUSYAWARATAN RAKYAT, DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH DAN UNDANG-UNDANG NOMOR 12 TAHUN 2011 TENTANG PEMBENTUKAN PERATURAN PERUNDANG-UNDANGAN TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945",
-    "tgl_ditetapkan":"2012",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4ee4ff56a0a16c313231373236"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":[
-      "11e44c4ee4ff56a0a16c313231373236",
-      "11e44c4e8cfb29e09e4b313231343538"
-    ],
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45e4960d1f7dec080323232333137":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e4960d1f7dec080323232333137",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2009\/Putusan MK_Nomor_117_PUU-VII_2009_Tahun_2009_11e45e4960d7363690ca323232333137.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"117\/PUU-VII\/2009",
-    "tahun_peraturan":"2009",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 27 TAHUN 2009 TENTANG MAJELIS",
-    "tgl_ditetapkan":"2009",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4ee4ff56a0a16c313231373236",
-      "11e44c4ee4ff56a0a16c313231373236",
-      "11e44c4ee4ff56a0a16c313231373236",
-      "11e44c4ee4ff56a0a16c313231373236",
-      "11e44c4ee4ff56a0a16c313231373236"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e44c4ec9621600c03f313231363339":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4ec9621600c03f313231363339",
     "document":[
@@ -5043,38 +4259,6 @@
     "diubah_oleh":null,
     "dicabut_oleh":[
       "11e7ef72e9dd07ccbea4313131303438"
-    ],
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e44c4e41f7c5009036313231323532":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4e41f7c5009036313231323532",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2009\/perpu4-2009.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Pemerintah Pengganti Undang-undang",
-    "nomor_peraturan":"4",
-    "tahun_peraturan":"2009",
-    "tentang":"PERUBAHAN UU 30-2002 TENTANG KOMISI PEMBERANTASAN TINDAK PIDANA KORUPSI",
-    "tgl_ditetapkan":"2009",
-    "tgl_diundangkan":"2009-09-22",
-    "category":[
-      "Korupsi"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":[
-      "11e44c4e408f15808f10313231323530"
     ],
     "mengubah":null,
     "menafsirkan":null,
@@ -5873,41 +5057,6 @@
     "mengubah":[
       "11e44c4ef958c210c02c313231383030"
     ],
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45e6b9a40253292a2303232383137":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e6b9a40253292a2303232383137",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2004\/Putusan MK_Nomor_072- 073 _PUU-II_2004_Tahun_2004_11e45e6b9a43874a8569303232383137.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"072-073\/PUU-II\/2004",
-    "tahun_peraturan":"2004",
-    "tentang":"PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 32 TAHUN 2004 TENTANG PEMERINTAHAN DAERAH (SELANJUTNYA DISEBUT UU PEMERINTAHAN DAERAH)",
-    "tgl_ditetapkan":"2004",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4ef958c210c02c313231383030",
-      "11e44c4ef958c210c02c313231383030",
-      "11e44c4ef958c210c02c313231383030",
-      "11e44c4ef958c210c02c313231383030"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
     "menafsirkan":null,
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
@@ -8547,49 +7696,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e45e74f65c1bbaabdb303333353137":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e74f65c1bbaabdb303333353137",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2006\/Putusan MK_Nomor_005_PUU-IV_2006_Tahun_2006_11e45e74f665a55eb47e303333353137.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"005\/PUU-IV\/2006",
-    "tahun_peraturan":"2006",
-    "tentang":"PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 22 TAHUN 2004 TENTANG KOMISI YUDISIAL (SELANJUTNYA DISEBUT UU KY) DAN PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 4 TAHUN 2004 TENTANG KEKUASAAN KEHAKIMAN (SELANJUTNYA DISEBUT UU KK)",
-    "tgl_ditetapkan":"2006",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4e43a73ea0bba1313231323535"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e44c4e52c0bc7083bd313231333230":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4e52c0bc7083bd313231333230",
     "document":[
@@ -8735,114 +7841,6 @@
     ],
     "mengubah":null,
     "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45e50dbe1c9848763323331363530":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e50dbe1c9848763323331363530",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2008\/Putusan MK_Nomor_17_PUU-VI_2008_Tahun_2008_11e45e50dbe481f699e1323331363530.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"17\/PUU-VI\/2008",
-    "tahun_peraturan":"2008",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 32 TAHUN 2004 TENTANG PEMERINTAHAN DAERAH DAN UNDANG-UNDANG NOMOR 12 TAHUN 2008 TENTANG PERUBAHAN KEDUA ATAS UNDANG-UNDANG NOMOR 32 TAHUN 2004 TENTANG PEMERINTAHAN DAERAH",
-    "tgl_ditetapkan":"2008",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e8ce530208778313231343538"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e44c4eb43b6ce089be313231363034":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4eb43b6ce089be313231363034",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2011\/uu18-2011bt.pdf",
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2011\/uu18-2011pjl.pdf"
-    ],
-    "document_status":[
-      404,
-      404
-    ],
-    "jenis_peraturan":"Undang-Undang",
-    "nomor_peraturan":"18",
-    "tahun_peraturan":"2011",
-    "tentang":"PERUBAHAN ATAS UNDANG-UNDANG NOMOR 22 TAHUN 2004 TENTANG KOMISI YUDISIAL",
-    "tgl_ditetapkan":"2011-11-09",
-    "tgl_diundangkan":"2011-11-09",
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":[
-      "11e58ce1a826e0a0b379313131343132",
-      "11e44c4ece67e2d0a19c313231363438",
-      "11e44c4f258813e0b3b5313231393134"
-    ],
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":[
-      "11e44c4f4b5f98a0a681313232303137",
-      "11e6b62d4c703f80a71f313231333535",
-      "11e7046ebfdf6fd69c02303931383537"
-    ],
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":[
-      "11e44c4ece67e2d0a19c313231363438"
-    ],
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45e6229515674b020303132303432":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e6229515674b020303132303432",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2011\/Putusan MK_Nomor_73_PUU-IX_2011_Tahun_2011_11e45e62295481508346303132303432.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"73\/PUU-IX\/2011",
-    "tahun_peraturan":"2011",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 32 TAHUN 2004 TENTANG PEMERINTAHAN DAERAH SEBAGAIMANA TELAH DIUBAH TERAKHIR DENGAN UNDANG-UNDANG NOMOR 12 TAHUN 2008 TENTANG PERUBAHAN KEDUA ATAS UNDANG-UNDANG NOMOR 32 TAHUN 2004 TENTANG PEMERINTAHAN DAERAH TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945",
-    "tgl_ditetapkan":"2011",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e8ce530208778313231343538"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":[
-      "11e44c4e8ce530208778313231343538"
-    ],
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
@@ -9451,38 +8449,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e45dc708c7f0de807d303635303135":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45dc708c7f0de807d303635303135",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2011\/Putusan MK_Nomor_57_PUU-IX_2011_Tahun_2011_11e45dc708ca99068278303635303135.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"57\/PUU-IX\/2011",
-    "tahun_peraturan":"2011",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 36 TAHUN 2009 TENTANG KESEHATAN TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945",
-    "tgl_ditetapkan":"2011",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4f02947da0ac5b313231383135"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e44c4ea4015fe0b55c313231353337":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4ea4015fe0b55c313231353337",
     "document":[
@@ -9913,72 +8879,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e45dc79ab51742803c303635343230":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45dc79ab51742803c303635343230",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2011\/Putusan MK_Nomor_64_PUU-IX_2011_Tahun_2011_11e45dc79ab7b9488a9f303635343230.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"64\/PUU-IX\/2011",
-    "tahun_peraturan":"2011",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 6 TAHUN 2011 TENTANG KEIMIGRASIAN TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK",
-    "tgl_ditetapkan":"2011",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e5d373d0092f2313231333338"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45e609120ed98b9e5303130393137":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e609120ed98b9e5303130393137",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2003\/Putusan MK_Nomor_005_PUU-I_2003_Tahun_2003_11e45e60912470449684303130393137.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"005\/PUU-I\/2003",
-    "tahun_peraturan":"2003",
-    "tentang":"PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 32 TAHUN 2002 TENTANG PENYIARAN",
-    "tgl_ditetapkan":"2003",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4ef951b2d0a488313231383030",
-      "11e44c4ef951b2d0a488313231383030",
-      "11e44c4ef951b2d0a488313231383030"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e44c4e97a58c90b192313231353136":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4e97a58c90b192313231353136",
     "document":[
@@ -10104,102 +9004,6 @@
     "dicabut_oleh":[
       "11e44c4e52caa8b0be41313231333230"
     ],
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45dc017057da897f9303630303332":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45dc017057da897f9303630303332",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2007\/Putusan MK_Nomor_6_PUU-V_2007_Tahun_2007_11e45dc01708224ca5e9303630303332.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"6\/PUU-V\/2007",
-    "tahun_peraturan":"2007",
-    "tentang":"PENGUJIAN KITAB UNDANG-UNDANG HUKUM PIDANA",
-    "tgl_ditetapkan":"2007",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e2acd8a5093cd313231323133"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45db1b4232626be01303431373334":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45db1b4232626be01303431373334",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2006\/Putusan MK_Nomor_013-022_PUU-IV_2006_Tahun_2006_11e45db1b427f9629400303431373334.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"013-022\/PUU-IV\/2006",
-    "tahun_peraturan":"2006",
-    "tentang":"PENGUJIAN KITAB UNDANG-UNDANG HUKUM PIDANA (SELANJUTNYA DISEBUT KUHPIDANA) TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945 (SELANJUTNYA DISEBUT UUD 1945)",
-    "tgl_ditetapkan":"2006",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e2acd8a5093cd313231323133"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45da78cb23492a04c303330343532":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45da78cb23492a04c303330343532",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2013\/Putusan MK_Nomor_1_PUU-XI_2013_Tahun_2013_11e45da78cb4bce4aa02303330343532.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"1\/PUU-XI\/2013",
-    "tahun_peraturan":"2013",
-    "tentang":"UNDANG-UNDANG NOMOR 1 TAHUN",
-    "tgl_ditetapkan":"2013",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e2acd8a5093cd313231323133"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
     "mengubah":null,
     "menafsirkan":null,
     "peraturan_pelaksana_dari":null,
@@ -10420,37 +9224,6 @@
     ],
     "daerah_id":null
   },
-  "11e4b3575b7a895a857b313530373330":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e4b3575b7a895a857b313530373330",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/bn\/2014\/INDUSTRI bn1377-2014.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Menteri",
-    "nomor_peraturan":"79\/M-IND\/PER\/9\/2014",
-    "tahun_peraturan":"2014",
-    "tentang":"PERUBAHAN ATAS PERATURAN MENTERI PERINDUSTRIAN NOMOR 19\/M-IND\/PER\/3\/2013 TENTANG PENUNJUKAN LEMBAGA PENILAIAN KESESUAIAN DALAM RANGKA PEMBERLAKUAN DAN PENGAWASAN STANDAR NASIONAL INDONESIA (SNI) KOREK API GAS SECARA WAJIB",
-    "tgl_ditetapkan":"2014-10-15",
-    "tgl_diundangkan":"2014-09-24",
-    "category":[
-      "Energi, Migas & Tambang",
-      "Perdagangan & Industri"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":"Kementerian Perindustrian",
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e4a859b283b810b5a6313532363332":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e4a859b283b810b5a6313532363332",
     "document":[
@@ -10467,70 +9240,6 @@
     "tgl_diundangkan":"2014-06-24",
     "category":[
       "Energi, Migas & Tambang"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":"Kementerian Perindustrian",
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e4a5d802a4ff54a7b7313035333130":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e4a5d802a4ff54a7b7313035333130",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2014\/perpres194-2014.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Presiden",
-    "nomor_peraturan":"194",
-    "tahun_peraturan":"2014",
-    "tentang":"PERUBAHAN KEDUA ATAS PERATURAN PRESIDEN",
-    "tgl_ditetapkan":"2014-12-31",
-    "tgl_diundangkan":"2014-12-31",
-    "category":[
-      "Energi, Migas & Tambang",
-      "BUMN"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":[
-      "11e44c4e41dff3a088e1313231323532"
-    ],
-    "daerah_id":null
-  },
-  "11e4b716f4eee6aea98c303933363335":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e4b716f4eee6aea98c303933363335",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/bn\/2014\/INDUSTRI bn1100-2014.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Menteri",
-    "nomor_peraturan":"67\/M-IND\/PER\/2014",
-    "tahun_peraturan":"2014",
-    "tentang":"PERUBAHAN ATAS PERATURAN MENTERI PERINDUSTRIAN  NOMOR 18\/M-IND\/PER\/2\/2012 TENTANG PEMBERLAKUAN STANDAR NASIONAL INDONESIA (SNI) SEMEN SECARA WAJIB",
-    "tgl_ditetapkan":"2014-08-08",
-    "tgl_diundangkan":"2014-08-11",
-    "category":[
-      "Energi, Migas & Tambang",
-      "Perdagangan & Industri"
     ],
     "memiliki_dasar_hukum":null,
     "dasar_hukum_dari":null,
@@ -10616,42 +9325,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e4a5d77e0e0006a9db313034393237":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e4a5d77e0e0006a9db313034393237",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2014\/perpres193-2014.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Presiden",
-    "nomor_peraturan":"193",
-    "tahun_peraturan":"2014",
-    "tentang":"PERUBAHAN KEEMPAT ATAS PERATURAN PRESIDEN",
-    "tgl_ditetapkan":"2014-12-31",
-    "tgl_diundangkan":"2014-12-31",
-    "category":[
-      "Energi, Migas & Tambang",
-      "Perdata",
-      "BUMN"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":[
-      "11e44c4f1892a440bcdc313231383532"
-    ],
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":[
-      "11e44c4f4f3d12e08faa313232303234"
-    ],
-    "daerah_id":null
-  },
   "11e44c51ba26f470984b313233373432":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c51ba26f470984b313233373432",
     "document":[
@@ -10685,66 +9358,6 @@
     "dilaksanakan_oleh_peraturan_pelaksana":null,
     "ditafsirkan":null,
     "instansi":"Kementerian Energi Dan Sumber Daya Mineral",
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e44c4e717f07d08111313231343132":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4e717f07d08111313231343132",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/lain-lain\/1982\/INPRES_Nomor_9_Tahun_1982_11e44c4e718461b0a312313231343132.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Instruksi Presiden",
-    "nomor_peraturan":"9",
-    "tahun_peraturan":"1982",
-    "tentang":"KONSERVASI ENERGI",
-    "tgl_ditetapkan":"1982",
-    "tgl_diundangkan":null,
-    "category":[
-      "Energi, Migas & Tambang"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e44c4e56d612c0843e313231333237":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4e56d612c0843e313231333237",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/lain-lain\/2003\/KEPPRES_Nomor_6_Tahun_2003_11e44c4e56d9c44094ca313231333237.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Keputusan Presiden",
-    "nomor_peraturan":"6",
-    "tahun_peraturan":"2003",
-    "tentang":"PENGESAHAN PERSETUJUAN ANTARA PEMERINTAH RI DAN PEMERINTAH REPUBLIK KOREA TENTANG KERJASAMA DALAM BIDANG-BIDANG ENERGI DAN SUMBER-SUMBER MINERAL",
-    "tgl_ditetapkan":"2003",
-    "tgl_diundangkan":null,
-    "category":[
-      "Energi, Migas & Tambang"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
     "diubah_oleh":null,
     "dicabut_oleh":null,
     "mengubah":null,
@@ -10936,36 +9549,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e452bdb29a06d087dd313634353432":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e452bdb29a06d087dd313634353432",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/perda\/2012\/perda_pemprov_kalteng_no._6_th_2012.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Daerah",
-    "nomor_peraturan":"6",
-    "tahun_peraturan":"2012",
-    "tentang":"KETENAGALISTRIKAN DAN PEMANFAATAN ENERGI",
-    "tgl_ditetapkan":"2012",
-    "tgl_diundangkan":null,
-    "category":[
-      "Energi, Migas & Tambang"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":"Provinsi Kalimantan Tengah"
-  },
   "11e44c51b6d54ca08f7c313233373337":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c51b6d54ca08f7c313233373337",
     "document":[
@@ -11023,36 +9606,6 @@
       "11e58ce1a826e0a0b379313131343132",
       "11e44c4f3df1cea09de6313231393535"
     ],
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e44c4eccaf32809816313231363435":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4eccaf32809816313231363435",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/lain-lain\/2008\/KEPPRES_Nomor_22_Tahun_2008_11e44c4eccb15c70af90313231363435.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Keputusan Presiden",
-    "nomor_peraturan":"22",
-    "tahun_peraturan":"2008",
-    "tentang":"HARI JADI PERTAMBANGAN DAN ENERGI",
-    "tgl_ditetapkan":"2008",
-    "tgl_diundangkan":null,
-    "category":[
-      "Energi, Migas & Tambang"
-    ],
-    "memiliki_dasar_hukum":null,
     "dasar_hukum_dari":null,
     "mencabut":null,
     "dilaksanakan_oleh_peraturan_pelaksana":null,
@@ -11220,36 +9773,6 @@
     "menafsirkan":null,
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
-  },
-  "11e452bd8ae148d089bc313634343335":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e452bd8ae148d089bc313634343335",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/perda\/2009\/09pdkotabogor013.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Daerah",
-    "nomor_peraturan":"13",
-    "tahun_peraturan":"2009",
-    "tentang":"PENYEDIAAN DAN PENYERAHAN PRASARANA, SARANA, UTILITAS PERUMAHAN DAN PERMUKIMAN",
-    "tgl_ditetapkan":"2009",
-    "tgl_diundangkan":null,
-    "category":[
-      "Perumahan"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":"Kota Bogor"
   },
   "11e7894e7ee562e69581313133333038":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e7894e7ee562e69581313133333038",
@@ -11809,38 +10332,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e45db017911404a68f303430363031":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45db017911404a68f303430363031",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2007\/Putusan MK_Nomor_4_PUU -V_2007_Tahun_2007_11e45db01793bb3cb135303430363031.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"4\/PUU-V\/2007",
-    "tahun_peraturan":"2007",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 29 TAHUN 2004 TENTANG PRAKTIK KEDOKTERAN (LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2004 NOMOR 116, TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4431, SELANJUTNYA DISEBUT UU PRAKTIK KEDOKTERAN) TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945 (SELANJUTNYA DISEBUT UUD 1945)",
-    "tgl_ditetapkan":"2007",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4eee01f0c08f85313231373431"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e44c4f54064c70a8f9313232303332":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4f54064c70a8f9313232303332",
     "document":[
@@ -12220,36 +10711,6 @@
     "tgl_diundangkan":"2008-04-30",
     "category":[
       "Hukum Internasional",
-      "Pidana"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e44c4ff21a4940b13f313232343537":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4ff21a4940b13f313232343537",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/lain-lain\/2014\/INPRES_Nomor_5_Tahun_2014_11e44c4ff21a7fb093c8313232343537.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Instruksi Presiden",
-    "nomor_peraturan":"5",
-    "tahun_peraturan":"2014",
-    "tentang":"GERAKAN NASIONAL ANTI KEJAHATAN SEKSUAL TERHADAP ANAK",
-    "tgl_ditetapkan":"2014",
-    "tgl_diundangkan":null,
-    "category":[
       "Pidana"
     ],
     "memiliki_dasar_hukum":null,
@@ -13206,46 +11667,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e44c4e408f15808f10313231323530":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4e408f15808f10313231323530",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2010\/uu3-2010bt.pdf",
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2010\/uu3-2010pjl.pdf"
-    ],
-    "document_status":[
-      404,
-      404
-    ],
-    "jenis_peraturan":"Undang-Undang",
-    "nomor_peraturan":"3",
-    "tahun_peraturan":"2010",
-    "tentang":"PENCABUTAN PERATURAN PEMERINTAH PENGGANTI UU NO. 4 TAHUN 2009 TENTANG PERUBAHAN ATAS UU NO. 30 TAHUN 2002 TENTANG KOMISI PEMBERANTASAN TINDAK PIDANA KORUPSI",
-    "tgl_ditetapkan":"2010-06-15",
-    "tgl_diundangkan":"2010-06-15",
-    "category":[
-      "Korupsi",
-      "Pidana"
-    ],
-    "memiliki_dasar_hukum":[
-      "11e58ce1a826e0a0b379313131343132",
-      "11e44c4e810d5d70af67313231343338"
-    ],
-    "dasar_hukum_dari":[
-      "11e4bb0e25eed534a11b313034333336"
-    ],
-    "mencabut":[
-      "11e44c4e41f7c5009036313231323532"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e44c4e40975310ad52313231323530":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4e40975310ad52313231323530",
     "document":[
@@ -13279,75 +11700,6 @@
     "instansi":null,
     "diubah_oleh":null,
     "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e54f9b2adadd46b55b313134353536":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e54f9b2adadd46b55b313134353536",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/bn\/2011\/BN 58-2015.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Menteri",
-    "nomor_peraturan":"11\/PMK.05\/2011",
-    "tahun_peraturan":"2011",
-    "tentang":"TARIF LAYANAN BADAN LAYANAN UMUM BALAI RISET DAN ",
-    "tgl_ditetapkan":"2015-01-14",
-    "tgl_diundangkan":"2015-01-14",
-    "category":[
-      "Perdagangan & Industri",
-      "Administrasi Kepemerintahan",
-      "Riset dan Teknologi",
-      "Keuangan"
-    ],
-    "memiliki_dasar_hukum":[
-      "11e44c4eac3c2ea0ba7c313231353530",
-      "11e44c4e2c8a98408d4e313231323136",
-      "11e44c4ed1ff55e0a0f6313231363534"
-    ],
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":"Kementerian Keuangan",
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e44c4e281ce9d0947a313231323039":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4e281ce9d0947a313231323039",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/lain-lain\/2004\/KEPPRES_Nomor_1_Tahun_2004_11e44c4e28233e208a98313231323039.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Keputusan Presiden",
-    "nomor_peraturan":"1",
-    "tahun_peraturan":"2004",
-    "tentang":"KOMITE KOORDINASI NASIONAL PENCEGAHAN DAN PEMBERANTASAN TINDAK PIDANA PENCUCIAN UANG",
-    "tgl_ditetapkan":"2004",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":[
-      "11e44c4e5752d120bbe4313231333238"
-    ],
     "mengubah":null,
     "menafsirkan":null,
     "peraturan_pelaksana_dari":null,
@@ -13730,38 +12082,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e4a10d2ec42b70bdca303833313131":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e4a10d2ec42b70bdca303833313131",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/ln\/2014\/perpres83-2014.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Presiden",
-    "nomor_peraturan":"83",
-    "tahun_peraturan":"2014",
-    "tentang":"MAJELIS PERTIMBANGAN TENAGA NUKLIR",
-    "tgl_ditetapkan":"2014-08-22",
-    "tgl_diundangkan":"2014-08-25",
-    "category":[
-      "Riset dan Teknologi"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":[
-      "11e44c4e80edb2b0a2a5313231343338"
-    ],
-    "daerah_id":null
-  },
   "11e44c4e3fc05e908852313231323438":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c4e3fc05e908852313231323438",
     "document":[
@@ -13868,70 +12188,6 @@
     "peraturan_pelaksana_dari":null,
     "daerah_id":null
   },
-  "11e45da868f90430a6c5303331313032":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45da868f90430a6c5303331313032",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2012\/Putusan MK_Nomor_110_PUU-X_2012_Tahun_2012_11e45da8690002d0bfa0303331313032.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"110\/PUU-X\/2012",
-    "tahun_peraturan":"2012",
-    "tentang":"PENGUJIAN UNDANG-UNDANG NOMOR 11 TAHUN",
-    "tgl_ditetapkan":"2012",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4e87635880ae28313231343439"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e45e6ef5461556a374303235323138":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e45e6ef5461556a374303235323138",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/putusan\/2006\/Putusan MK_Nomor_012-016-019_PUU-IV_2006_Tahun_2006_11e45e6ef5488f16a4d3303235323138.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Putusan Mahkamah Konstitusi",
-    "nomor_peraturan":"012-016-019\/PUU-IV\/2006",
-    "tahun_peraturan":"2006",
-    "tentang":"PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 30 TAHUN 2002 TENTANG KOMISI PEMBERANTASAN TINDAK PIDANA KORUPSI (LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2002 NOMOR 137, TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4250, SELANJUTNYA DISEBUT UU KPK)",
-    "tgl_ditetapkan":"2006",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":[
-      "11e44c4ef1a942c0aabd313231373437"
-    ],
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":null,
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
   "11e6b62993037070ad58313134373135":{
     "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e6b62993037070ad58313134373135",
     "document":[
@@ -13958,39 +12214,6 @@
     "diubah_oleh":null,
     "dicabut_oleh":[
       "11e6b62f487856f0b1d5313232383037"
-    ],
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e44c5010ced7b09e4b313232353439":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e44c5010ced7b09e4b313232353439",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/lain-lain\/1915\/KOLONIAL_Nomor_Stb 732_Tahun_1915_11e44c5010cf0300afe2313232353439.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Kolonial",
-    "nomor_peraturan":"STB732",
-    "tahun_peraturan":"1915",
-    "tentang":"KITAB UNDANG-UNDANG HUKUM PIDANA",
-    "tgl_ditetapkan":"1915",
-    "tgl_diundangkan":null,
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
-    "ditafsirkan":null,
-    "instansi":null,
-    "diubah_oleh":null,
-    "dicabut_oleh":[
-      "11e44c4ebd430b10a590313231363139",
-      "11e44c4e3fc05e908852313231323438"
     ],
     "mengubah":null,
     "menafsirkan":null,
@@ -14399,38 +12622,6 @@
     "dilaksanakan_oleh_peraturan_pelaksana":[
       "11e6f739c78adde8ac54313335373031"
     ],
-    "ditafsirkan":null,
-    "instansi":"Kementerian Komunikasi dan Informatika",
-    "diubah_oleh":null,
-    "dicabut_oleh":[
-      "11e6f739c78adde8ac54313335373031"
-    ],
-    "mengubah":null,
-    "menafsirkan":null,
-    "peraturan_pelaksana_dari":null,
-    "daerah_id":null
-  },
-  "11e57ac75d457f5a90c9313032303338":{
-    "source":"https:\/\/peraturan.go.id\/peraturan\/view.html?id=11e57ac75d457f5a90c9313032303338",
-    "document":[
-      "https:\/\/peraturan.go.id\/common\/dokumen\/bn\/2015\/BN 210-2015.pdf"
-    ],
-    "document_status":[
-      404
-    ],
-    "jenis_peraturan":"Peraturan Menteri",
-    "nomor_peraturan":"6",
-    "tahun_peraturan":"2015",
-    "tentang":"PERUBAHAN KETIGA ATAS PERATURAN MENTERI KOMUNIKASI DAN INFORMATIKA NOMOR 21 TAHUN 2013 TENTANG PENYELENGGARAAN JASA PENYEDIAAN KONTEN PADA JARINGAN BERGERAK SELULER DAN JARINGAN TETAP LOKAL TANPA KABEL DENGAN MOBILITAS TERBATAS",
-    "tgl_ditetapkan":"2015-02-06",
-    "tgl_diundangkan":"2015-02-06",
-    "category":[
-      "Uncategorized"
-    ],
-    "memiliki_dasar_hukum":null,
-    "dasar_hukum_dari":null,
-    "mencabut":null,
-    "dilaksanakan_oleh_peraturan_pelaksana":null,
     "ditafsirkan":null,
     "instansi":"Kementerian Komunikasi dan Informatika",
     "diubah_oleh":null,
