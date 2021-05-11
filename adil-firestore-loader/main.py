@@ -88,6 +88,7 @@ if __name__ == '__main__':
         )
         # db.collections('legislation').document(key).set(doc)
         print(f"Document {key} loaded")
+        print(doc)
 
     # Load legislation
     print(f"{len(docs)} documents loaded")
@@ -99,10 +100,10 @@ if __name__ == '__main__':
             db.collection('category').document(key),
             cat
         )
-        print(f"Document {key} loaded")
+        # print(f"Document {key} loaded")
     print(f"{len(categories)} documents loaded")
 
     print(f"Commit batch...")
-    batch.commit()
+    # batch.commit()
     print(f"Batch committed")
 
