@@ -15,7 +15,9 @@ We're trying to solve Indonesian hyper-regulation problems causing disharmonious
 * adil-android - Android application project
 * adil-crawler - Scrapy project to extract dataset 
 * adil-data-exploration - Raw data exploration, and processor
-* adil-firestore-loader - Data model formation and Firestore loader
+* adil-data-formalization - Set of formalization process to conform data to the final data model 
+* adil-firestore-loader - Load data to Firestore
+* adil-mongodb-loader - Load data to MongoDb
 
 ## Open Law Specification Initiative
 
