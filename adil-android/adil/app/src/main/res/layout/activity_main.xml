@@ -37,18 +37,25 @@
                     app:layout_constraintTop_toTopOf="parent"
                     android:contentDescription="@string/menu_button" />
 
-                <com.mancj.materialsearchbar.MaterialSearchBar
-                    android:id="@+id/searchBar"
-                    style="@style/SearchBar.Light"
+                <androidx.cardview.widget.CardView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="8dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/menuButton"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintWidth_percent="0.85"
-                    app:mt_hint="Cari disini..."
-                    app:mt_maxSuggestionsCount="5"
-                    app:mt_placeholder="Cari disini..." />
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.appcompat.widget.SearchView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:queryHint="Cari Peraturan ..."
+                        app:iconifiedByDefault="false"
+                        app:queryBackground="@android:color/transparent"
+                        />
+
+                </androidx.cardview.widget.CardView>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
