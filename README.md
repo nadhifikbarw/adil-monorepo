@@ -18,6 +18,7 @@ We're trying to solve Indonesian hyper-regulation problems causing disharmonious
 * adil-data-formalization - Set of formalization process to conform data to the final data model 
 * adil-firestore-loader - Load data to Firestore
 * adil-mongodb-loader - Load data to MongoDb
+* adil-elasticsearch-loader - Load data to localhost elasticsearch
 
 ## Open Law Specification Initiative
 
