@@ -1,7 +1,7 @@
 const functions = require("firebase-functions");
 const {Client} = require("@elastic/elasticsearch");
 
-const createESClient = () => {
+async function createESClient() {
   const client = new Client({
     cloud: {
       id: functions.config().elasticsearch.cloudid,
@@ -11,11 +11,11 @@ const createESClient = () => {
       password: functions.config().elasticsearch.password,
     },
   });
-  if (!client && !client.ping()) {
+  if ((await client.ping()).body === false) {
     throw new Error("ES Error: client does not respond to ping");
   }
   return client;
-};
+}
 
 const getFields = () => [
   "jenis_peraturan",
