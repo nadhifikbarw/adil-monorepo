@@ -12,7 +12,7 @@ def convert_pdf_pages_to_image():
     else:
         os.mkdir(IMAGE_DIR)
         print("Image folder created")
-        
+
     for filename in os.listdir(DATASET_DIR):
         if filename.endswith(".pdf"):
             with tempfile.TemporaryDirectory() as path:
