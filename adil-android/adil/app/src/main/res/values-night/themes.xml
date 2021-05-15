@@ -2,12 +2,12 @@
     <!-- Base application theme. -->
     <style name="Theme.Adil" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/blue_01</item>
-        <item name="colorPrimaryVariant">@color/blue_02</item>
+        <item name="colorPrimary">@color/cerulean</item>
+        <item name="colorPrimaryVariant">@color/curious_blue</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/orange_01</item>
-        <item name="colorSecondaryVariant">@color/orange_02</item>
+        <item name="colorSecondary">@color/safety_orange</item>
+        <item name="colorSecondaryVariant">@color/burnt_orange</item>
         <item name="colorOnSecondary">@color/white</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>

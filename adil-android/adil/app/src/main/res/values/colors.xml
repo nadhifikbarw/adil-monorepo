@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="blue_01">#0278AE</color>
-    <color name="blue_02">#2F8DB8</color>
-    <color name="blue_03">#5AA1C1</color>
+    <color name="cerulean">#0278AE</color>
+    <color name="curious_blue">#2F8DB8</color>
+    <color name="shakespeare">#5AA1C1</color>
 
-    <color name="orange_01">#FF6900</color>
-    <color name="orange_02">#F9802D</color>
-    <color name="orange_03">#F29859</color>
+    <color name="safety_orange">#FF6900</color>
+    <color name="burnt_orange">#F9802D</color>
+    <color name="sandy_brown">#F29859</color>
 
-    <color name="grey_01">#484848</color>
-    <color name="grey_02">#6A6A6A</color>
+    <color name="charcoal">#484848</color>
+    <color name="dim_gray">#6A6A6A</color>
+    <color name="white_smoke">#f7f7f7</color>
 
 
     <color name="black">#FF000000</color>

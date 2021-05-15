@@ -43,13 +43,8 @@ class MainActivity : AppCompatActivity() {
 
         navigationView = findViewById<View>(R.id.nv) as NavigationView
         navigationView!!.setNavigationItemSelectedListener(NavigationView.OnNavigationItemSelectedListener { item ->
-            val id = item.itemId
-            when (id) {
+            when (item.itemId) {
                 R.id.drawerAbout -> Toast.makeText(this@MainActivity, R.string.drawer_menu_01, Toast.LENGTH_SHORT)
-                    .show()
-                R.id.drawerPrivacyPolicy -> Toast.makeText(this@MainActivity, R.string.drawer_menu_02, Toast.LENGTH_SHORT)
-                    .show()
-                R.id.drawerSettings -> Toast.makeText(this@MainActivity, R.string.drawer_menu_03, Toast.LENGTH_SHORT)
                     .show()
                 else -> return@OnNavigationItemSelectedListener true
             }
@@ -59,14 +54,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setBottomNav(){
         val navView = findViewById<BottomNavigationView>(R.id.nav_view)
-        val appBarConfiguration = AppBarConfiguration.Builder(
-            R.id.navigation_home,
-            R.id.navigation_category,
-            R.id.navigation_bookmark
-        )
-            .build()
         val navController = Navigation.findNavController(this, R.id.nav_host_fragment)
-        //NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration)
         NavigationUI.setupWithNavController(navView, navController)
     }
 

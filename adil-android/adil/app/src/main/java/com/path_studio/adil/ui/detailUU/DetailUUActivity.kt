@@ -1,8 +1,10 @@
 package com.path_studio.adil.ui.detailUU
 
+import android.graphics.Color
 import android.os.Bundle
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
@@ -18,6 +20,11 @@ class DetailUUActivity : AppCompatActivity() {
         private val TAB_TITLES = intArrayOf(
             R.string.detailTab01,
             R.string.detailTab02
+        )
+
+        private val TAB_ICONS = intArrayOf(
+            R.drawable.ic_information_blue,
+            R.drawable.ic_timeline
         )
 
     }
@@ -37,12 +44,16 @@ class DetailUUActivity : AppCompatActivity() {
     }
 
     private fun setTab(){
+        binding.detailTab.setSelectedTabIndicatorColor(this.getColor(R.color.cerulean))
+        binding.detailTab.setTabTextColors(this.getColor(R.color.white), this.getColor(R.color.cerulean))
+
         val sectionsPagerAdapter = DetailTabsAdapter(this)
         val viewPager: ViewPager2 = binding.detailViewPager
         viewPager.adapter = sectionsPagerAdapter
         val tabs: TabLayout = binding.detailTab
         TabLayoutMediator(tabs, viewPager) { tab, position ->
             tab.text = resources.getString(TAB_TITLES[position])
+            tab.icon = ContextCompat.getDrawable(this, TAB_ICONS[position])
         }.attach()
         supportActionBar?.elevation = 0f
     }
