@@ -9,11 +9,11 @@ const db = admin.firestore();
 async function createESClient() {
   const client = new _es.Client({
     cloud: {
-      id: functions.config().elasticsearch.cloudid
+      id: functions.config().elasticsearch.cloudid,
     },
     auth: {
       username: functions.config().elasticsearch.username,
-      password: functions.config().elasticsearch.password
+      password: functions.config().elasticsearch.password,
     },
   });
   if ((await client.ping()).body === false) {
@@ -42,7 +42,7 @@ const createBody = (data) => {
     body[field] = data[field];
   }
   return body;
-}
+};
 
 function upsertIndex(client, id, body) {
   return client.index({
