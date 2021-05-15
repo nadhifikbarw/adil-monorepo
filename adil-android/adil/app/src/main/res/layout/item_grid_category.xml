@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="105dp"
+    android:layout_height="105dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="8dp"
+    android:layout_marginTop="26dp"
+    android:layout_marginBottom="13dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/iv_category_item_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_keuangan"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="27dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_category_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keuangan"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="25dp"
+            android:layout_below="@+id/iv_category_item_icon"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
