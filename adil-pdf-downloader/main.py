@@ -10,6 +10,10 @@ import os
 if __name__ == '__main__':
     dry_run = False
     credential = './serviceAccountKey.json'
+    if os.path.exists(credential) is not True:
+        print("Please provide serviceAccountKey.json")
+        exit(1)
+
     # Authenticate service account
     credential = credentials.Certificate(credential)
     firebase_admin.initialize_app(credential)
@@ -41,4 +45,6 @@ if __name__ == '__main__':
                 print(f"Downloading {filename} OK")
             except HTTPError as e:
                 print(f"Downloading {filename} FAIL {e.code} - {url}")
+        else:
+            print(f"Downloading {filename} OK - Dry Run")
 
