@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.text.Html
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,6 +12,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.viewpager.widget.ViewPager
@@ -20,6 +22,7 @@ import com.path_studio.adil.ui.detailUU.DetailUUActivity
 import com.path_studio.adil.ui.main.MainActivity
 import com.path_studio.adil.ui.searchResult.SearchResultActivity
 import com.path_studio.adil.utils.DataDummy
+import com.path_studio.adil.viewModel.ViewModelFactory
 import java.util.*
 
 class HomeFragment : Fragment() {
@@ -55,6 +58,13 @@ class HomeFragment : Fragment() {
         //set rv for categories & announcement
         setCategories()
         setAnnouncement()
+
+        val factory = ViewModelFactory.getInstance(requireActivity())
+        val viewModel = ViewModelProvider(this, factory)[HomeViewModel::class.java]
+
+        /*viewModel.getAllCategories().observe(requireActivity(), { category ->
+            Log.e("Category Result", category.toString())
+        })*/
 
         binding.btnDetailUU.setOnClickListener {
             val intent = Intent(activity as MainActivity, DetailUUActivity::class.java)
