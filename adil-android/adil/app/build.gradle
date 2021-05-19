@@ -3,6 +3,7 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'kotlin-parcelize'
+    id 'com.google.gms.google-services'  // Google Services plugin
 }
 
 android {
@@ -54,6 +55,11 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
     implementation 'com.github.mancj:MaterialSearchBar:0.8.5'
     implementation 'com.github.vipulasri:timelineview:1.1.5'
+    implementation "androidx.paging:paging-runtime-ktx:$pagingVersion"
+    // Firebase & Firestore
+    implementation 'com.google.firebase:firebase-firestore:23.0.0'
+    implementation platform('com.google.firebase:firebase-bom:28.0.1')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
 
     //testing
     implementation 'androidx.test.espresso:espresso-idling-resource:3.3.0'
