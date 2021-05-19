@@ -8,7 +8,9 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+        >
 
         <TextView
             android:id="@+id/tv_bookmark_fragment_title"
@@ -20,6 +22,20 @@
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@+id/guideline6"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_list_bookmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:overScrollMode="never"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toStartOf="@+id/guideline7"
+            app:layout_constraintStart_toStartOf="@+id/guideline6"
+            app:layout_constraintTop_toBottomOf="@id/tv_bookmark_fragment_title"
+            app:spanCount="3"
+            tools:listitem="@layout/item_list_bookmark" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline6"
@@ -35,18 +51,7 @@
             android:orientation="vertical"
             app:layout_constraintGuide_end="21dp" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_list_bookmark"
-            app:spanCount="3"
-            tools:listitem="@layout/item_list_bookmark"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:overScrollMode="never"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            app:layout_constrainedWidth="true"
-            app:layout_constraintTop_toBottomOf="@id/tv_bookmark_fragment_title"
-            />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
