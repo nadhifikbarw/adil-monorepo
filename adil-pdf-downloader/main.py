@@ -9,7 +9,7 @@ import os
 
 if __name__ == '__main__':
     dry_run = False
-    credential = './serviceAccountKey.json'
+    credential = '../serviceAccountKey.json'
     if os.path.exists(credential) is not True:
         print("Please provide serviceAccountKey.json")
         exit(1)
