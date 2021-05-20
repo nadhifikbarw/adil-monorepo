@@ -3,7 +3,6 @@ const functions = require("firebase-functions");
 const {getESClient} = require("./elasticsearch");
 const {createBody} = require("./utils");
 
-admin.initializeApp();
 const db = admin.firestore();
 
 exports.rebuildIndex = functions
