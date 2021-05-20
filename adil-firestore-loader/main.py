@@ -14,7 +14,7 @@ def snakeify(text:str):
 
 
 if __name__ == '__main__':
-    credential = './serviceAccountKey.json'
+    credential = '../serviceAccountKey.json'
     # Authenticate service account
     credential = credentials.Certificate(credential)
     firebase_admin.initialize_app(credential)
