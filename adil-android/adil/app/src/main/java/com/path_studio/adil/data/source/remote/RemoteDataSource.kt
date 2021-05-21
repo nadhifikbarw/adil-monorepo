@@ -5,8 +5,11 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.firestore.QuerySnapshot
+import com.google.firebase.firestore.ktx.toObjects
 import com.path_studio.adil.data.source.remote.firestore.FirestoreConfig
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
+import com.path_studio.adil.data.source.remote.response.LegislationResponse
+import com.path_studio.adil.data.source.remote.response.RelationshipItem
 
 
 class RemoteDataSource {
@@ -27,22 +30,11 @@ class RemoteDataSource {
             .get()
             .addOnCompleteListener(OnCompleteListener<QuerySnapshot?> { task ->
                 if (task.isSuccessful) {
-                    val categoryList = ArrayList<CategoryResponse>()
-                    for (document in task.result!!) {
-                        val category = CategoryResponse(
-                            document.id,
-                            document.data["count"].toString().toInt(),
-                            document.data["icon"].toString(),
-                            document.data["is_front_category"].toString().toBoolean(),
-                            document.data["name"].toString()
-                            )
-                        categoryList.add(category)
-                    }
+                    val categoryList = task.getResult()?.toObjects<CategoryResponse>()
                     categoryResult.postValue(categoryList)
                 } else {
                     Log.w("Category Result", "Error getting documents.", task.exception)
                 }
-
             })
         return categoryResult
     }
@@ -54,17 +46,7 @@ class RemoteDataSource {
             .get()
             .addOnCompleteListener(OnCompleteListener<QuerySnapshot?> { task ->
                 if (task.isSuccessful) {
-                    val categoryList = ArrayList<CategoryResponse>()
-                    for (document in task.result!!) {
-                        val category = CategoryResponse(
-                            document.id,
-                            document.data["count"].toString().toInt(),
-                            document.data["icon"].toString(),
-                            document.data["is_front_category"].toString().toBoolean(),
-                            document.data["name"].toString()
-                        )
-                        categoryList.add(category)
-                    }
+                    val categoryList = task.getResult()?.toObjects<CategoryResponse>()
                     categoryResult.postValue(categoryList)
                 } else {
                     Log.w("Category Result", "Error getting documents.", task.exception)
@@ -77,22 +59,11 @@ class RemoteDataSource {
     fun getLegislationByCategory(categoryId: String): LiveData<List<LegislationResponse>>{
         val legislationResult = MutableLiveData<List<LegislationResponse>>()
         FirestoreConfig.getFirestoreService().collection("legislation")
-            .whereEqualTo("category", categoryId)
+            .whereArrayContains("category", categoryId)
             .get()
             .addOnCompleteListener(OnCompleteListener<QuerySnapshot?> { task ->
                 if (task.isSuccessful) {
-                    val legislationList = ArrayList<LegislationResponse>()
-                    for (document in task.result!!) {
-                        val legislation = LegislationResponse(
-                            //NEED TO CHANGE BASE ON ENTITY
-                            document.id,
-                            document.data["count"].toString().toInt(),
-                            document.data["icon"].toString(),
-                            document.data["is_front_category"].toString().toBoolean(),
-                            document.data["name"].toString()
-                        )
-                        legislationList.add(legislation)
-                    }
+                    val legislationList = task.getResult()?.toObjects<LegislationResponse>()
                     legislationResult.postValue(legislationList)
                 } else {
                     Log.w("Category Result", "Error getting documents.", task.exception)
