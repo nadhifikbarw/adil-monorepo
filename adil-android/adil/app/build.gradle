@@ -55,6 +55,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
     implementation 'com.github.mancj:MaterialSearchBar:0.8.5'
     implementation 'com.github.vipulasri:timelineview:1.1.5'
+    implementation 'com.github.corouteam:GlideToVectorYou:v2.0.0'
     implementation "androidx.paging:paging-runtime-ktx:$pagingVersion"
     // Firebase & Firestore
     implementation 'com.google.firebase:firebase-firestore:23.0.0'

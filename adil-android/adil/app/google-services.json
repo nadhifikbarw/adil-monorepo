@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "274149778923",
-    "project_id": "adil-proof-of-concept",
-    "storage_bucket": "adil-proof-of-concept.appspot.com"
+    "project_number": "699065056935",
+    "firebase_url": "https://adil-gcp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "adil-gcp",
+    "storage_bucket": "adil-gcp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:274149778923:android:fccc3e32ef9e343b0825ae",
+        "mobilesdk_app_id": "1:699065056935:android:3223661adca5fc1d2ee582",
         "android_client_info": {
           "package_name": "com.path_studio.adil"
         }
       },
       "oauth_client": [
         {
-          "client_id": "274149778923-jaghne3j3raj3t29cp058q5amprdb4vq.apps.googleusercontent.com",
+          "client_id": "699065056935-35a3ic28pp7vs7sbc66r0ictj1mkrnnk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAQkot5k6ITpFieif8XeBJJ3BDdQZlGils"
+          "current_key": "AIzaSyCNYnXn3gDpeB4OWbPeOB9aCvNxHVqog2I"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "274149778923-jaghne3j3raj3t29cp058q5amprdb4vq.apps.googleusercontent.com",
+              "client_id": "699065056935-35a3ic28pp7vs7sbc66r0ictj1mkrnnk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
