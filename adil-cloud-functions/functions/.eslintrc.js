@@ -11,8 +11,9 @@ module.exports = {
   rules: {
     "quotes": ["error", "double"],
     "require-jsdoc": 0,
+    "max-len": 0,
   },
   parserOptions: {
-    "ecmaVersion": 8,
+    ecmaVersion: 8,
   },
 };
