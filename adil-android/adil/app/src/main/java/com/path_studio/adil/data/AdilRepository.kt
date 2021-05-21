@@ -1,7 +1,6 @@
 package com.path_studio.adil.data
 
 import androidx.lifecycle.LiveData
-import com.google.firebase.firestore.QueryDocumentSnapshot
 import com.path_studio.adil.data.source.remote.RemoteDataSource
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
 
@@ -21,5 +20,13 @@ class AdilRepository(private val remoteDataSource: RemoteDataSource): AdilDataSo
 
     override fun getAllCategories(): LiveData<List<CategoryResponse>>{
         return remoteDataSource.getCategories()
+    }
+
+    override fun getHomeCategories(): LiveData<List<CategoryResponse>>{
+        return remoteDataSource.getHomeCategories()
+    }
+
+    override fun getLegislationByCategoryId(categoryId: String): LiveData<List<LegislationResponse>>{
+        return remoteDataSource.getLegislationByCategory(categoryId)
     }
 }
