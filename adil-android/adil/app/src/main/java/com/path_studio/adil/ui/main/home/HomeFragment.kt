@@ -20,6 +20,7 @@ import com.path_studio.adil.R
 import com.path_studio.adil.databinding.FragmentHomeBinding
 import com.path_studio.adil.ui.detailUU.DetailUUActivity
 import com.path_studio.adil.ui.main.MainActivity
+import com.path_studio.adil.ui.main.category.CategoryViewModel
 import com.path_studio.adil.ui.searchResult.SearchResultActivity
 import com.path_studio.adil.utils.DataDummy
 import com.path_studio.adil.viewModel.ViewModelFactory
@@ -56,15 +57,29 @@ class HomeFragment : Fragment() {
         showHomeBanner()
 
         //set rv for categories & announcement
-        setCategories()
         setAnnouncement()
 
-        val factory = ViewModelFactory.getInstance(requireActivity())
-        val viewModel = ViewModelProvider(this, factory)[HomeViewModel::class.java]
+        if(activity!= null){
+            val categoryAdapter = HomeCategoriesAdapter(activity as MainActivity)
 
-        /*viewModel.getAllCategories().observe(requireActivity(), { category ->
-            Log.e("Category Result", category.toString())
-        })*/
+            val factory = ViewModelFactory.getInstance(requireActivity())
+            val viewModel = ViewModelProvider(this, factory)[HomeViewModel::class.java]
+
+            binding.progressBar.visibility = View.VISIBLE
+            viewModel.getHomeCategories().observe(requireActivity(), { category ->
+                binding.progressBar.visibility = View.GONE
+                categoryAdapter.setCategories(category)
+                categoryAdapter.notifyDataSetChanged()
+            })
+
+            with(binding.rvCategories){
+                layoutManager = GridLayoutManager(context,4,
+                    LinearLayoutManager.VERTICAL,false)
+                setHasFixedSize(true)
+                adapter = categoryAdapter
+            }
+
+        }
 
         binding.btnDetailUU.setOnClickListener {
             val intent = Intent(activity as MainActivity, DetailUUActivity::class.java)
@@ -74,15 +89,6 @@ class HomeFragment : Fragment() {
         binding.btnSearchResult.setOnClickListener{
             val intent = Intent(activity as MainActivity, SearchResultActivity::class.java)
             startActivity(intent)
-        }
-    }
-
-    private fun setCategories(){
-        val categoriesAdapter = CategoriesAdapter(requireContext(), DataDummy.getAllCategories())
-        with(binding.rvCategories) {
-            binding.rvCategories.layoutManager = GridLayoutManager(activity, 4)
-            setHasFixedSize(true)
-            adapter = categoriesAdapter
         }
     }
 

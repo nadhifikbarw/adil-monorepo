@@ -58,34 +58,4 @@ class CategoryFragment : Fragment() {
 
     }
 
-    //For Test
-    class Icon(
-        var mIcon : Int = 0,
-        var mTitle : String  =""
-    )
-
-    //Dummy Data
-    private fun dummyData() : ArrayList<Icon>{
-        var items : ArrayList<Icon> = ArrayList()
-
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-        items.add(Icon(R.drawable.ic_keuangan,"Keuangan"))
-
-        return items
-    }
-
 }
