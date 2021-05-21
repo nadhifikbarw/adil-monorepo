@@ -42,6 +42,7 @@ allprojects {
         google()
         mavenCentral()
         maven { url "https://jitpack.io" }
+        maven { url "http://jcenter.bintray.com" }
     }
 }
 
