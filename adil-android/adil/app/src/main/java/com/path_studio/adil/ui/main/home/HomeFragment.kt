@@ -20,6 +20,7 @@ import com.path_studio.adil.R
 import com.path_studio.adil.databinding.FragmentHomeBinding
 import com.path_studio.adil.ui.detailUU.DetailUUActivity
 import com.path_studio.adil.ui.main.MainActivity
+import com.path_studio.adil.ui.pdfView.PdfViewActivity
 import com.path_studio.adil.ui.searchResult.SearchResultActivity
 import com.path_studio.adil.utils.DataDummy
 import com.path_studio.adil.viewModel.ViewModelFactory
@@ -72,7 +73,7 @@ class HomeFragment : Fragment() {
         }
 
         binding.btnSearchResult.setOnClickListener{
-            val intent = Intent(activity as MainActivity, SearchResultActivity::class.java)
+            val intent = Intent(activity as MainActivity, PdfViewActivity::class.java)
             startActivity(intent)
         }
     }
