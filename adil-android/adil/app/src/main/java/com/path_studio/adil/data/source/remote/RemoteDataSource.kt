@@ -5,11 +5,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.firestore.QuerySnapshot
-import com.google.firebase.firestore.ktx.toObjects
+import com.google.firebase.firestore.ktx.toObject
 import com.path_studio.adil.data.source.remote.firestore.FirestoreConfig
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
-import com.path_studio.adil.data.source.remote.response.RelationshipItem
 
 
 class RemoteDataSource {
@@ -30,7 +29,16 @@ class RemoteDataSource {
             .get()
             .addOnCompleteListener(OnCompleteListener<QuerySnapshot?> { task ->
                 if (task.isSuccessful) {
-                    val categoryList = task.getResult()?.toObjects<CategoryResponse>()
+                    val categoryList = ArrayList<CategoryResponse>()
+                    for (category in task.result!!)
+                    {
+                        // Automap fields to object properties
+                        val obj = category.toObject<CategoryResponse>()
+                        // Inject document id into object
+                        obj.id = category.id
+                        categoryList.add(obj)
+                    }
+                    // Post value back
                     categoryResult.postValue(categoryList)
                 } else {
                     Log.w("Category Result", "Error getting documents.", task.exception)
@@ -42,11 +50,20 @@ class RemoteDataSource {
     fun getHomeCategories(): LiveData<List<CategoryResponse>>{
         val categoryResult = MutableLiveData<List<CategoryResponse>>()
         FirestoreConfig.getFirestoreService().collection("category")
-            .whereEqualTo("is_front_category", true)
+            .whereEqualTo("isFrontCategory", true)
             .get()
             .addOnCompleteListener(OnCompleteListener<QuerySnapshot?> { task ->
                 if (task.isSuccessful) {
-                    val categoryList = task.getResult()?.toObjects<CategoryResponse>()
+                    val categoryList = ArrayList<CategoryResponse>()
+                    for (category in task.result!!)
+                    {
+                        // Automap fields to object properties
+                        val obj = category.toObject<CategoryResponse>()
+                        // Inject document id into object
+                        obj.id = category.id
+                        categoryList.add(obj)
+                    }
+                    // Post value back
                     categoryResult.postValue(categoryList)
                 } else {
                     Log.w("Category Result", "Error getting documents.", task.exception)
@@ -63,7 +80,16 @@ class RemoteDataSource {
             .get()
             .addOnCompleteListener(OnCompleteListener<QuerySnapshot?> { task ->
                 if (task.isSuccessful) {
-                    val legislationList = task.getResult()?.toObjects<LegislationResponse>()
+                    val legislationList = ArrayList<LegislationResponse>()
+                    for (legislation in task.result!!)
+                    {
+                        // Automap fields to object properties
+                        val obj = legislation.toObject<LegislationResponse>()
+                        // Inject document id into object
+                        obj.id = legislation.id
+                        legislationList.add(obj)
+                    }
+                    // Post value back
                     legislationResult.postValue(legislationList)
                 } else {
                     Log.w("Category Result", "Error getting documents.", task.exception)
