@@ -4,9 +4,6 @@ import com.google.gson.annotations.SerializedName
 
 data class LegislationResponse(
 
-	@field:SerializedName("id")
-	val id: String? = null,
-
 	@field:SerializedName("peraturan_pelaksana_dari")
 	val peraturanPelaksanaDari: List<RelationshipItem?>? = null,
 
@@ -72,4 +69,6 @@ data class LegislationResponse(
 
 	@field:SerializedName("instansi")
 	val instansi: String? = null
-)
+) {
+	var id: String = ""
+}
