@@ -17,7 +17,6 @@ def generate_txt_file():
         if filename.endswith(".pdf"):
             f = os.path.join(DATASET_DIR, filename)
             txt_filename = os.path.join(TXT_DATASET, re.sub(r"\.pdf$", ".txt", filename))
-            print(txt_filename)
             raw = parser.from_file(f)
             content = normalize_content(raw["content"])
             with open(txt_filename, "w+") as txt:
