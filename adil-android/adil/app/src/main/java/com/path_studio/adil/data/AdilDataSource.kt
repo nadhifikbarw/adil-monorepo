@@ -8,6 +8,6 @@ import java.io.File
 interface AdilDataSource {
     fun getAllCategories(): LiveData<List<CategoryResponse>>
     fun getHomeCategories(): LiveData<List<CategoryResponse>>
-    fun getLegislationByCategoryId(categoryId: String): LiveData<List<LegislationResponse>>
+    fun getLegislationByCategoryName(categoryId: String): LiveData<List<LegislationResponse>>
     fun getLegislationDocument(legislationId : String): LiveData<List<String>>
 }
