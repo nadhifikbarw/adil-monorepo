@@ -1,6 +1,35 @@
-const functions = require("firebase-functions");
 const {getESClient} = require("./elasticsearch");
+const functions = require("firebase-functions");
+const admin = require("firebase-admin");
 const {createBody} = require("./utils");
+
+const bucket = admin.storage().bucket("adil-plaintext");
+
+const handleUpsert = async (data, context, client) => {
+  // Rebuild index
+  const doc = createBody(data);
+
+  // Insert content plaintext if exists
+  const file = bucket.file(`${context.params.docId}.0.txt`);
+  if (await file.exists()) {
+    doc["content"] = (await file.download()).toString();
+  }
+
+  await client.update({
+    id: context.params.docId,
+    index: "legislation",
+    body: {
+      doc: doc,
+      doc_as_upsert: true,
+    },
+  });
+  functions.logger.log(`Document ${context.params.docId} index rebuilt`);
+
+  return {
+    documents: [context.params.docId],
+    status: "INDEX_REBUILT",
+  };
+};
 
 exports.handleCreate = functions
     .region("asia-southeast2")
@@ -13,17 +42,7 @@ exports.handleCreate = functions
       const data = await snapshot.data();
 
       // Rebuild index
-      await client.index({
-        id: context.params.docId,
-        index: "legislation",
-        body: createBody(data),
-      });
-      functions.logger.log(`Document ${context.params.docId} index rebuilt`);
-
-      return {
-        documents: [context.params.docId],
-        status: "INDEX_REBUILT",
-      };
+      return await handleUpsert(data, context, client);
     });
 
 exports.handleUpdate = functions
@@ -36,18 +55,10 @@ exports.handleUpdate = functions
       // Get new document data
       const data = await change.after.data();
 
-      // Rebuild index
-      await client.index({
-        id: context.params.docId,
-        index: "legislation",
-        body: createBody(data),
-      });
-      functions.logger.log(`Document ${context.params.docId} index rebuilt`);
+      // TODO: check diff, if in fields then rebuild index else skip
 
-      return {
-        documents: [context.params.docId],
-        status: "INDEX_REBUILT",
-      };
+      // Rebuild Index
+      return await handleUpsert(data, context, client);
     });
 
 exports.handleDelete = functions
