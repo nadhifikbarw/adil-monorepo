@@ -31,7 +31,7 @@ class InformationFragment : Fragment() {
 
         binding.button.setOnClickListener {
             val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)
-            intent.putExtra(PdfViewActivity.EXTRA_ID,"11e44c4e281ce9d0947a313231323039")
+            intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID,"11e44c4e281ce9d0947a313231323039")
             startActivity(intent)
         }
     }

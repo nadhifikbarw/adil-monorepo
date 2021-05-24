@@ -10,7 +10,6 @@ import com.path_studio.adil.data.source.remote.firestore.FirestoreConfig
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
 
-
 class RemoteDataSource {
 
     companion object {
@@ -99,4 +98,19 @@ class RemoteDataSource {
         return legislationResult
     }
 
+    fun getLegislationDocument(legislationId : String) : LiveData<List<String>>{
+        val legisDocList = MutableLiveData<List<String>>()
+        FirestoreConfig.getFirestoreService().collection("legislation").document(legislationId)
+            .get().addOnSuccessListener { doc ->
+                if(doc != null){
+                    val groupLink = doc["document"] as List<String>?
+                    legisDocList.postValue(groupLink)
+                }else{
+                    Log.e("Legislation Info", "Error getting Pdf documents.")
+                }
+            }.addOnFailureListener {
+                //Failed to access Firestore
+            }
+        return legisDocList
+    }
 }
