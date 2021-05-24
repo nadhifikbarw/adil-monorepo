@@ -12,9 +12,12 @@ if __name__ == '__main__':
             "document": "document",
             "document_status": "documentStatus",
             "jenis_peraturan": "jenisPeraturan",
+            "nomor_peraturan": "nomorPeraturan",
+            "tahun_peraturan": "tahunPeraturan",
             "tentang": "tentang",
             "tgl_ditetapkan": "tglDitetapkan",
             "tgl_diundangkan": "tglDiundangkan",
+            "category": "category",
             "memiliki_dasar_hukum": "memilikiDasarHukum",
             "dasar_hukum_dari": "dasarHukumDari",
             "mencabut": "mencabut",
@@ -26,8 +29,7 @@ if __name__ == '__main__':
             "mengubah": "mengubah",
             "menafsirkan": "menafsirkan",
             "peraturan_pelaksana_dari": "peraturanPelaksanaDari",
-            "daerah_id": "daerahId",
-
+            "daerah_id": "daerahId"
         }
         newDoc = dict()
 
