@@ -10,7 +10,6 @@ import com.path_studio.adil.data.source.remote.firestore.FirestoreConfig
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
 
-
 class RemoteDataSource {
 
     companion object {
@@ -73,10 +72,10 @@ class RemoteDataSource {
         return categoryResult
     }
 
-    fun getLegislationByCategory(categoryId: String): LiveData<List<LegislationResponse>>{
+    fun getLegislationByCategory(categoryName: String): LiveData<List<LegislationResponse>>{
         val legislationResult = MutableLiveData<List<LegislationResponse>>()
         FirestoreConfig.getFirestoreService().collection("legislation")
-            .whereArrayContains("category", categoryId)
+            .whereArrayContains("category", categoryName)
             .get()
             .addOnCompleteListener(OnCompleteListener<QuerySnapshot?> { task ->
                 if (task.isSuccessful) {
@@ -92,11 +91,26 @@ class RemoteDataSource {
                     // Post value back
                     legislationResult.postValue(legislationList)
                 } else {
-                    Log.w("Category Result", "Error getting documents.", task.exception)
+                    Log.w("Legislation Result", "Error getting documents.", task.exception)
                 }
 
             })
         return legislationResult
     }
 
+    fun getLegislationDocument(legislationId : String) : LiveData<List<String>>{
+        val legisDocList = MutableLiveData<List<String>>()
+        FirestoreConfig.getFirestoreService().collection("legislation").document(legislationId)
+            .get().addOnSuccessListener { doc ->
+                if(doc != null){
+                    val groupLink = doc["document"] as List<String>?
+                    legisDocList.postValue(groupLink)
+                }else{
+                    Log.e("Legislation Info", "Error getting Pdf documents.")
+                }
+            }.addOnFailureListener {
+                //Failed to access Firestore
+            }
+        return legisDocList
+    }
 }
