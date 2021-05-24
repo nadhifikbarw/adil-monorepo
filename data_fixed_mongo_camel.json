@@ -8,9 +8,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "23",
+    "tahunPeraturan": 2014,
     "tentang": "PENDIRIAN UNIVERSITAS TIDAR",
     "tglDitetapkan": "2014-04-01",
     "tglDiundangkan": "2014-04-01",
+    "category": [
+      "HAM",
+      "Pendidikan & Kebudayaan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ebd49cfc093ae313231363139",
@@ -88,9 +94,18 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "15",
+    "tahunPeraturan": 2009,
     "tentang": "Pengesahan Protocol Against The Smuggling of Migrants By Land, Sea and Air, Supplementing The United Nations Convention Against Transnational Organized Crime (Protokol Menentang Penyelundupan Migran Melalui Darat, Laut, dan Udara, Melengkapi Konvensi Perserikatan Bangsa-Bangsa Menentang Tindak Pidana Transnasional yang Terorganisasi)",
     "tglDitetapkan": "2009-03-16",
     "tglDiundangkan": "2009-03-16",
+    "category": [
+      "HAM",
+      "Hukum Internasional",
+      "Pidana",
+      "Tenaga Kerja",
+      "Transportasi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4f06a5e860bd8d313231383232",
@@ -147,9 +162,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 2009,
     "tentang": "Pengesahan United Nations Convention Against Transnational Organized Crime (Konvensi Perserikatan Bangsa-Bangsa Menentang Tindak Pidana Transnasional Yang Terorganisasi)",
     "tglDitetapkan": "2009-01-12",
     "tglDiundangkan": "2009-01-12",
+    "category": [
+      "Hukum Internasional",
+      "HAM",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -237,9 +259,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "14",
+    "tahunPeraturan": 2009,
     "tentang": "Pengesahan Protocol To Prevent, Suppress and Punish Trafficking In Persons, Especially Women and Children, Supplementing The United Nations Convention Against Transnational Organized Crime (Protokol Untuk Mencegah, Menindak, dan Menghukum Perdagangan Orang, Terutama Perempuan dan Anak-Anak, Melengkapi Konvensi Perserikatan Bangsa-Bangsa Menentang Tindak Pidana Transnasional yang Terorganisasi)",
     "tglDitetapkan": "2009-03-05",
     "tglDiundangkan": "2009-03-05",
+    "category": [
+      "Hukum Internasional",
+      "HAM",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -324,9 +353,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "23",
+    "tahunPeraturan": 2011,
     "tentang": "RENCANA AKSI NASIONAL HAK ASASI MANUSIA INDONESIA TAHUN 2011-2014",
     "tglDitetapkan": "2011-04-11",
     "tglDiundangkan": "2011-04-11",
+    "category": [
+      "HAM"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e6fbe56808064313231343039",
@@ -562,9 +596,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "40",
+    "tahunPeraturan": 2008,
     "tentang": "PENGHAPUSAN DISKRIMINASI RAS DAN ETNIS",
     "tglDitetapkan": "2008-11-10",
     "tglDiundangkan": "2008-11-10",
+    "category": [
+      "HAM"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -691,9 +730,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 1998,
     "tentang": "PENGESAHAN CONVENTION AGAINST TORTURE AND OTHER CRUEL, INHUMAN, OR DEGRADING TREATMENT OR PUNISHMENT (KONVENSI MENENTANG PENYIKSAAN DAN PERLAKUAN ATAU PENGHUKUMAN LAIN YANG KEJAM, TIDAK MANUSIAWI, ATAU MERENDAHKAN MARTABAT MANUSIA",
     "tglDitetapkan": "1998-09-28",
     "tglDiundangkan": "1998-09-28",
+    "category": [
+      "HAM",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -738,9 +783,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "12",
+    "tahunPeraturan": 2005,
     "tentang": "PENGESAHAN INTERNATIONAL COVENANT ON CIVIL AND POLITICAL RIGHTS (KOVENAN INTERNASIONAL TENTANG HAK-HAK SIPIL DAN POLITIK)",
     "tglDitetapkan": "2005-10-28",
     "tglDiundangkan": "2005-10-28",
+    "category": [
+      "HAM",
+      "Hukum Internasional",
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -866,9 +918,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "26",
+    "tahunPeraturan": 2000,
     "tentang": "PENGADILAN HAK ASASI MANUSIA",
     "tglDitetapkan": "2000-11-23",
     "tglDiundangkan": "2000-11-23",
+    "category": [
+      "HAM"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -1066,9 +1123,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "29",
+    "tahunPeraturan": 2006,
     "tentang": "HAK KEUANGAN KEDUDUKAN PROTOKOL DAN PERLINDUNGAN KEAMANAN PIMPINAN KOMISI PEMBERANTASAN KORUPSI",
     "tglDitetapkan": "2006-08-16",
     "tglDiundangkan": "2006-08-16",
+    "category": [
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -1103,9 +1165,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "19",
+    "tahunPeraturan": 2000,
     "tentang": "TIM GABUNGAN PEMBERANTASAN TINDAK PIDANA KORUPSI",
     "tglDitetapkan": "2000-05-04",
     "tglDiundangkan": "2000-05-04",
+    "category": [
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -1129,9 +1196,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "41/PMK.05/2015",
+    "tahunPeraturan": 2015,
     "tentang": "TARIF LAYANAN BADAN LAYANAN UMUM UNIVERSITAS NEGERI SURABAYA",
     "tglDitetapkan": "2015-03-09",
     "tglDiundangkan": "2015-03-09",
+    "category": [
+      "Pelayanan Publik",
+      "Riset dan Teknologi",
+      "Keuangan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4eac3c2ea0ba7c313231353530",
@@ -1196,9 +1270,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "11",
+    "tahunPeraturan": 2005,
     "tentang": "PENGESAHAN INTERNATIONAL COVENANT ON ECONOMIC, SOCIAL, AND CULTURAL RIGHTS (KOVENAN INTERNASIONAL TENTANG HAK-HAK EKONOMI, SOSIAL, DAN BUDAYA)",
     "tglDitetapkan": "2005-10-28",
     "tglDiundangkan": "2005-10-28",
+    "category": [
+      "HAM",
+      "Hukum Internasional"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -1324,9 +1404,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "27/PMK.05/2015",
+    "tahunPeraturan": 2015,
     "tentang": "TARIF LAYANAN BADAN LAYANAN UMUM UNIVERSITAS SULTAN AGENG TIRTAYASA",
     "tglDitetapkan": "2015-02-13",
     "tglDiundangkan": "2015-02-13",
+    "category": [
+      "Pendidikan & Kebudayaan",
+      "Riset dan Teknologi",
+      "Keuangan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4eac3c2ea0ba7c313231353530",
@@ -1391,9 +1478,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "71",
+    "tahunPeraturan": 2000,
     "tentang": "TATA CARA PELAKSANAAN PERAN SERTA MASYARAKAT DAN PEMBERIAN PENGHARGAAN DALAM PENCEGAHAN DAN PEMBERANTASAN TINDAK PIDANA KORUPSI",
     "tglDitetapkan": "2000-08-21",
     "tglDiundangkan": "2000-08-21",
+    "category": [
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -1468,9 +1560,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "39",
+    "tahunPeraturan": 1999,
     "tentang": "HAK ASASI MANUSIA",
     "tglDitetapkan": "1999-09-23",
     "tglDiundangkan": "1999-09-23",
+    "category": [
+      "HAM"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -1857,9 +1954,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "63",
+    "tahunPeraturan": 2005,
     "tentang": "SISTEM MANAJEMEN SUMBER DAYA MANUSIA KOMISI PEMBERANTASAN KORUPSI",
     "tglDitetapkan": "2005-12-22",
     "tglDiundangkan": "2005-12-22",
+    "category": [
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -1975,9 +2077,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "1",
+    "tahunPeraturan": 1987,
     "tentang": "KAMAR DAGANG DAN INDUSTRI",
     "tglDitetapkan": "1987-01-28",
     "tglDiundangkan": "1987-01-28",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -2012,9 +2119,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "2",
+    "tahunPeraturan": 2005,
     "tentang": "PENETAPAN PERPU 1-2005 TENTANG PENANGGUHAN MULAI BERLAKUNYA UU 2-2004 TENTANG PENYELESAIAN PERSELISIHAN HUBUNGAN INDUSTRIAL MENJADI UU",
     "tglDitetapkan": "2005-03-08",
     "tglDiundangkan": "2005-03-08",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -2061,9 +2173,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "16",
+    "tahunPeraturan": 2012,
     "tentang": "INDUSTRI PERTAHANAN",
     "tglDitetapkan": "2012-10-05",
     "tglDiundangkan": "2012-10-05",
+    "category": [
+      "Perdagangan & Industri",
+      "Pertahanan & Keamanan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -2202,9 +2320,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "19",
+    "tahunPeraturan": 2014,
     "tentang": "PENGESAHAN PERSETUJUAN TENTANG KERJA SAMA INDUSTRI PERTAHANAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN PEMERINTAH REPUBLIK TURKI (AGREEMENT ON DEFENSE INDUSTRY COOPERATION BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE GOVERNMENT OF THE REPUBLIC OF TURKEY)",
     "tglDitetapkan": "2014-08-07",
     "tglDiundangkan": "2014-08-07",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -2228,9 +2351,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "64",
+    "tahunPeraturan": 2012,
     "tentang": "PENYEDIAAN, PENDISTRIBUSIAN DAN PENETAPAN HARGA BAHAN BAKAR GAS UNTUK TRANSPORTASI JALAN",
     "tglDitetapkan": "2012-06-14",
     "tglDiundangkan": "2012-06-22",
+    "category": [
+      "Pelayanan Publik",
+      "Perdagangan & Industri",
+      "Transportasi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ece5c4fd0a75f313231363438",
@@ -2348,9 +2478,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "31",
+    "tahunPeraturan": 2000,
     "tentang": "DESAIN INDUSTRI",
     "tglDitetapkan": "2000-12-20",
     "tglDiundangkan": "2000-12-20",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -2427,9 +2562,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 1984,
     "tentang": "PERINDUSTRIAN",
     "tglDitetapkan": "1984-06-29",
     "tglDiundangkan": "1984-06-29",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ff74917509d05313232353036",
@@ -2677,9 +2817,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "2",
+    "tahunPeraturan": 2004,
     "tentang": "PENYELESAIAN PERSELISIHAN HUBUNGAN INDUSTRIAL",
     "tglDitetapkan": "2004-01-14",
     "tglDiundangkan": "2004-01-14",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -2828,9 +2973,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "22",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN KETUJUH ATAS PERATURAN KOMISI PEMILIHAN UMUM NOMOR 07 TAHUN 2012 TENTANG TAHAPAN, PROGRAM, DAN JADUAL PENYELENGGARAAN PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH TAHUN 2014 SEBAGAIMANA TELAH BEBERAPA KALI DIUBAH, TERAKHIR DENGAN PERATURAN KOMISI PEMILIHAN UMUM NOMOR 21 TAHUN 2013",
     "tglDitetapkan": "2014-05-05",
     "tglDiundangkan": "2014-05-05",
+    "category": [
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -2854,9 +3004,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "15",
+    "tahunPeraturan": 2014,
     "tentang": "PENCALONAN DALAM PEMILIHAN UMUM PRESIDEN DAN WAKIL PRESIDEN TAHUN 2014",
     "tglDitetapkan": "2014-04-16",
     "tglDiundangkan": "2014-04-16",
+    "category": [
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -2901,9 +3056,14 @@
       200
     ],
     "jenisPeraturan": "Keputusan Presiden",
+    "nomorPeraturan": "40",
+    "tahunPeraturan": 2004,
     "tentang": "RENCANA AKSI NASIONAL HAK ASASI MANUSIA INDONESIA TAHUN 2004-2009",
     "tglDitetapkan": "2004-05-11",
     "tglDiundangkan": "2004-05-11",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -2938,9 +3098,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "20",
+    "tahunPeraturan": 2004,
     "tentang": "PENETAPAN PERPU 2-2004 TENTANG PERUBAHAN UU 12-2003 TENTANG PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH MENJADI UU",
     "tglDitetapkan": "2004-08-13",
     "tglDiundangkan": "2004-08-13",
+    "category": [
+      "Konstitusional & Tata Negara",
+      "Pemda",
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -3009,9 +3176,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "18",
+    "tahunPeraturan": 2013,
     "tentang": "TATA CARA PENGUNDURAN DIRI KEPALA DAERAH, WAKIL KEPALA DAERAH, DAN PEGAWAI NEGERI YANG AKAN MENJADI BAKAL CALON ANGGOTA DPR, DPD, DPRD PROVINSI, DAN DPRD KABUPATEN/KOTA, SERTA PELAKSANAAN CUTI PEJABAT NEGARA DALAM KAMPANYE PEMILU",
     "tglDitetapkan": "2013-03-01",
     "tglDiundangkan": "2013-03-01",
+    "category": [
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -3129,9 +3301,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "16",
+    "tahunPeraturan": 2014,
     "tentang": "KAMPANYE PEMILIHAN UMUM PRESIDEN DAN WAKIL PRESIDEN",
     "tglDitetapkan": "2014-04-16",
     "tglDiundangkan": "2014-04-16",
+    "category": [
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -3179,9 +3356,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah Pengganti Undang-undang",
+    "nomorPeraturan": "1",
+    "tahunPeraturan": 2014,
     "tentang": "PEMILIHAN GUBERNUR, BUPATI DAN WALIKOTA",
     "tglDitetapkan": "2014-10-02",
     "tglDiundangkan": "2014-10-02",
+    "category": [
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -3238,9 +3420,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "10",
+    "tahunPeraturan": 2006,
     "tentang": "PENETAPAN PERPU 1-2006 TENTANG PERUBAHAN KEDUA UU 12-2003 TENTANG PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH MENJADI UU",
     "tglDitetapkan": "2006-07-20",
     "tglDiundangkan": "2006-07-20",
+    "category": [
+      "Konstitusional & Tata Negara",
+      "Pemda",
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -3307,9 +3496,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "22",
+    "tahunPeraturan": 2007,
     "tentang": "PENYELENGGARA PEMILIHAN UMUM",
     "tglDitetapkan": "2007-04-19",
     "tglDiundangkan": "2007-04-19",
+    "category": [
+      "Konstitusional & Tata Negara",
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e8cd3e350b690313231343538",
@@ -3788,9 +3983,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "15",
+    "tahunPeraturan": 2011,
     "tentang": "PENYELENGGARA PEMILIHAN UMUM",
     "tglDitetapkan": "2011-10-16",
     "tglDiundangkan": "2011-10-16",
+    "category": [
+      "Politik dan Pemilu",
+      "Konstitusional & Tata Negara"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -4692,9 +4893,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "17",
+    "tahunPeraturan": 2009,
     "tentang": "Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2009 tentang Perubahan Atas Undang-Undang Nomor 10 Tahun 2008 tentang Pemilihan Umum Anggota Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah Menjadi Undang-Undang",
     "tglDitetapkan": "2009-05-29",
     "tglDiundangkan": "2009-05-29",
+    "category": [
+      "Konstitusional & Tata Negara",
+      "Pemda",
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -4754,9 +4962,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "8",
+    "tahunPeraturan": 2012,
     "tentang": "PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH",
     "tglDitetapkan": "2012-05-11",
     "tglDiundangkan": "2012-05-11",
+    "category": [
+      "Konstitusional & Tata Negara",
+      "Pemda",
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -5164,9 +5379,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "22",
+    "tahunPeraturan": 2003,
     "tentang": "SUSUNAN DAN KEDUDUKAN MAJELIS PERMUSYAWARATAN RAKYAT, DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH",
     "tglDitetapkan": "2003-07-31",
     "tglDiundangkan": "2003-07-31",
+    "category": [
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -5825,9 +6045,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "12",
+    "tahunPeraturan": 2003,
     "tentang": "PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH",
     "tglDitetapkan": "2003-03-11",
     "tglDiundangkan": "2003-03-11",
+    "category": [
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -6294,9 +6519,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "10",
+    "tahunPeraturan": 2008,
     "tentang": "PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH",
     "tglDitetapkan": "2008-03-31",
     "tglDiundangkan": "2008-03-31",
+    "category": [
+      "Politik dan Pemilu",
+      "Konstitusional & Tata Negara",
+      "Pemda"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ee4faff30bfd0313231373236",
@@ -6795,9 +7027,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "32/PMK.05/2014",
+    "tahunPeraturan": 2014,
     "tentang": "SISTEM PENERIMAAN NEGARA SECARA ELEKTRONIK",
     "tglDitetapkan": "2014-02-10",
     "tglDiundangkan": "2014-02-10",
+    "category": [
+      "Administrasi Kepemerintahan",
+      "Keuangan",
+      "Pengawasan & Pengendalian"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e2c8a98408d4e313231323136",
@@ -6943,9 +7182,17 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "37",
+    "tahunPeraturan": 1958,
     "tentang": "KEDUDUKAN KEUANGAN KETUA, WAKIL KETUA DAN ANGGOTA DEWAN PERWAKILAN RAKYAT DAERAH SERTA WAKIL KETUA DAN ANGGOTA DEWAN PEMERINTAH DAERAH",
     "tglDitetapkan": "1958-07-06",
     "tglDiundangkan": "1958-07-06",
+    "category": [
+      "Administrasi Kepemerintahan",
+      "Konstitusional & Tata Negara",
+      "Pemda",
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -6969,9 +7216,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "P.43/MENHUT-II/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PENILAIAN KINERJA PENGELOLAAN HUTAN PRODUKSI LESTARI DAN VERIFIKASI LEGALITAS KAYU PADA PEMEGANG IZIN ATAU PADA HUTAN HAK",
     "tglDitetapkan": "2014-06-19",
     "tglDiundangkan": "2014-06-27",
+    "category": [
+      "Perizinan",
+      "Kehutanan",
+      "Pengawasan & Pengendalian"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e53174ca09909313231333231",
@@ -7188,9 +7442,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "14",
+    "tahunPeraturan": 2017,
     "tentang": "Perubahan Kedua Atas Peraturan Pemerintah Nomor 63 Tahun 2005 tentang Sistem Manajemen Sumber Daya Manusia Komisi Pemberantasan Korupsi",
     "tglDitetapkan": "2017-04-11",
     "tglDiundangkan": "2017-04-12",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -7256,9 +7515,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "42",
+    "tahunPeraturan": 2008,
     "tentang": "PEMILIHAN UMUM PRESIDEN DAN WAKIL PRESIDEN",
     "tglDitetapkan": "2008-11-13",
     "tglDiundangkan": "2008-11-14",
+    "category": [
+      "Politik dan Pemilu",
+      "Konstitusional & Tata Negara"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -7559,9 +7824,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "17",
+    "tahunPeraturan": 2014,
     "tentang": "MAJELIS PERMUSYAWARATAN RAKYAT, DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH",
     "tglDitetapkan": "2014-08-05",
     "tglDiundangkan": "2014-08-05",
+    "category": [
+      "Konstitusional & Tata Negara",
+      "Pemda",
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -7781,9 +8053,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "22",
+    "tahunPeraturan": 2014,
     "tentang": "PEMILIHAN GUBERNUR, BUPATI DAN WALIKOTA",
     "tglDitetapkan": "2014-09-30",
     "tglDiundangkan": "2014-10-02",
+    "category": [
+      "Pemda",
+      "Politik dan Pemilu",
+      "Konstitusional & Tata Negara"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -7818,9 +8097,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "23",
+    "tahunPeraturan": 2003,
     "tentang": "PEMILIHAN UMUM PRESIDEN DAN WAKIL PRESIDEN",
     "tglDitetapkan": "2003-07-31",
     "tglDiundangkan": "2003-07-31",
+    "category": [
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -7917,9 +8201,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "58/PERMEN-KP/2014",
+    "tahunPeraturan": 2014,
     "tentang": "DISIPLIN PEGAWAI APARATUR SIPIL NEGARA DI LINGKUNGAN KEMENTERIAN KELAUTAN DAN PERIKANAN DALAM PELAKSANAAN KEBIJAKAN PENGHENTIAN SEMENTARA (MORATORIUM) PERIZINAN USAHA PERIKANAN TANGKAP, ALIH MUATAN (TRANSHIPMENT) DI LAUT, DAN PENGGUNAAN NAKHODA DAN ANAK BUAH KAPAL (ABK) ASING",
     "tglDitetapkan": "2014-11-17",
     "tglDiundangkan": "2014-11-17",
+    "category": [
+      "Perizinan",
+      "Sumber Daya Air & Kelautan",
+      "Pengawasan & Pengendalian"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ef52c8e40b966313231373533",
@@ -7994,9 +8285,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "29/PERMEN-KP/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PEDOMAN PENGAWASAN INTERN DI LINGKUNGAN KEMENTERIAN KELAUTAN DAN PERIKANAN",
     "tglDitetapkan": "2014-08-11",
     "tglDiundangkan": "2014-08-13",
+    "category": [
+      "Pengawasan & Pengendalian",
+      "Petunjuk Pelaksanaan & Tata Kerja"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ee763adc0b9ba313231373330",
@@ -8161,9 +8458,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "P.35/MENHUT-II/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN ATAS PERATURAN MENTERI KEHUTANAN NOMOR P.5/MENHUT-II/2013 TENTANG PEDOMAN KEHADIRAN PEGAWAI NEGERI SIPIL DI LINGKUNGAN KEMENTERIAN KEHUTANAN",
     "tglDitetapkan": "2014-05-28",
     "tglDiundangkan": "2014-06-04",
+    "category": [
+      "Kehutanan",
+      "Aparatur Negara",
+      "Pengawasan & Pengendalian"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e549d994087cc313231333233",
@@ -8279,9 +8583,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "12",
+    "tahunPeraturan": 1964,
     "tentang": "PEMUTUSAN HUBUNGAN KERJA DI PERUSAHAAN SWASTA",
     "tglDitetapkan": "1964-09-23",
     "tglDiundangkan": "1964-09-23",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -8316,9 +8625,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "22",
+    "tahunPeraturan": 1957,
     "tentang": "PENYELESAIAN PERSELISIHAN PERBURUHAN",
     "tglDitetapkan": "1957-08-04",
     "tglDiundangkan": "1957-08-04",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -8353,9 +8667,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "125",
+    "tahunPeraturan": 2015,
     "tentang": "PERUBAHAN ATAS PERATURAN PRESIDEN NOMOR 64 TAHUN 2012 TENTANG PENYEDIAAN, PENDISTRIBUSIAN, DAN PENETAPAN HARGA BAHAN BAKAR GAS UNTUK TRANSPORTASI JALAN",
     "tglDitetapkan": "2015-11-02",
     "tglDiundangkan": "2015-11-09",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -8441,9 +8760,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "27/PERMEN-KP/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PEDOMAN TEKNIS PENGENDALIAN GRATIFIKASI DI LINGKUNGAN KEMENTERIAN KELAUTAN DAN PERIKANAN",
     "tglDitetapkan": "2014-06-26",
     "tglDiundangkan": "2014-06-26",
+    "category": [
+      "Pengawasan & Pengendalian",
+      "Petunjuk Pelaksanaan & Tata Kerja"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ee763adc0b9ba313231373330",
@@ -8558,9 +8883,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "PK.12",
+    "tahunPeraturan": 2014,
     "tentang": "PENANGANAN BENTURAN KEPENTINGAN DI LINGKUNGAN BADAN SAR NASIONAL",
     "tglDitetapkan": "2014-02-21",
     "tglDiundangkan": "2014-03-14",
+    "category": [
+      "Pengawasan & Pengendalian",
+      "Petunjuk Pelaksanaan & Tata Kerja"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ee763adc0b9ba313231373330",
@@ -8655,9 +8986,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "PK.10",
+    "tahunPeraturan": 2014,
     "tentang": "PENGENDALIAN GRATIFIKASI BADAN SAR NASIONAL",
     "tglDitetapkan": "2014-02-21",
     "tglDiundangkan": "2014-03-14",
+    "category": [
+      "Pengawasan & Pengendalian"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ee763adc0b9ba313231373330",
@@ -8752,9 +9088,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "21/PERMEN-KP/2014",
+    "tahunPeraturan": 2014,
     "tentang": "LARANGAN PENGELUARAN IKAN HIAS ANAK IKAN ARWANA, BENIH IKAN BOTIA HIDUP, DAN IKAN BOTIA HIDUP DARI WILAYAH NEGARA REPUBLIK INDONESIA KE LUAR WILAYAH NEGARA REPUBLIK INDONESIA",
     "tglDitetapkan": "2014-05-28",
     "tglDiundangkan": "2014-06-03",
+    "category": [
+      "Sumber Daya Air & Kelautan",
+      "Pengawasan & Pengendalian",
+      "Pertanian, Perkebunan & Perikanan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ef52c8e40b966313231373533",
@@ -8839,9 +9182,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "PK.09",
+    "tahunPeraturan": 2014,
     "tentang": "PAKTA INTEGRITAS DI LINGKUNGAN BADAN SAR NASIONAL",
     "tglDitetapkan": "2014-02-21",
     "tglDiundangkan": "2014-03-14",
+    "category": [
+      "Organisasi Kelembagaan & Profesi",
+      "Pengawasan & Pengendalian"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ee763adc0b9ba313231373330",
@@ -8936,9 +9285,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "3",
+    "tahunPeraturan": 2014,
     "tentang": "PEDOMAN BENTURAN KEPENTINGAN DI LINGKUNGAN BADAN PENGAWASAN KEUANGAN DAN PEMBANGUNAN",
     "tglDitetapkan": "2014-02-28",
     "tglDiundangkan": "2014-03-10",
+    "category": [
+      "Pengawasan & Pengendalian",
+      "Pelayanan Publik",
+      "Petunjuk Pelaksanaan & Tata Kerja"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ee763adc0b9ba313231373330",
@@ -9073,9 +9429,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "27",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN ATAS PERATURAN KOMISI PEMILIHAN UMUM NOMOR 16 TAHUN 2014 TENTANG KAMPANYE PEMILIHAN UMUM PRESIDEN DAN WAKIL PRESIDEN",
     "tglDitetapkan": "2014-06-05",
     "tglDiundangkan": "2014-06-06",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4f137334f0a5f3313231383433",
@@ -9173,9 +9534,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "14",
+    "tahunPeraturan": 2009,
     "tentang": "Tata Cara Bagi Pejabat Negara Dalam Melaksanakan Kampanye Pemilihan Umum",
     "tglDitetapkan": "2009-02-05",
     "tglDiundangkan": "2009-02-05",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -9210,9 +9576,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "9/PUU-VII/2009",
+    "tahunPeraturan": 2009,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 10 TAHUN 2008 TENTANG PEMILIHAN UMUM",
     "tglDitetapkan": "2009-02-25",
     "tglDiundangkan": "2009-02-25",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -9287,9 +9658,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "22-24/PUU-VI/2008",
+    "tahunPeraturan": 2008,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 10 TAHUN 2008 TENTANG PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN",
     "tglDitetapkan": "2008-12-19",
     "tglDiundangkan": "2008-12-19",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -9324,9 +9700,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "32/PUU-VI/2008",
+    "tahunPeraturan": 2008,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 10 TAHUN 2008 TENTANG PEMILIHAN UMUM",
     "tglDitetapkan": "2009-02-19",
     "tglDiundangkan": "2009-02-19",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -9401,9 +9782,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "12/PUU-VI/2008",
+    "tahunPeraturan": 2008,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 10 TAHUN 2008 TENTANG PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH",
     "tglDitetapkan": "2008-07-10",
     "tglDiundangkan": "2008-07-10",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -9438,9 +9824,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "011-017/PUU-I/2003",
+    "tahunPeraturan": 2003,
     "tentang": "PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 12 TAHUN 2003 TENTANG PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH",
     "tglDitetapkan": "2004-02-24",
     "tglDiundangkan": "2004-02-24",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -9477,9 +9868,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "27",
+    "tahunPeraturan": 2009,
     "tentang": "Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah",
     "tglDitetapkan": "2009-08-29",
     "tglDiundangkan": "2009-08-29",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -9859,9 +10255,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "52/PUU-X/2012",
+    "tahunPeraturan": 2012,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 8 TAHUN 2012 TENTANG PEMILIHAN UMUM ANGGOTA DEWAN PERWAKILAN RAKYAT, DEWAN",
     "tglDitetapkan": "2012-08-29",
     "tglDiundangkan": "2012-08-29",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -9898,9 +10299,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "7",
+    "tahunPeraturan": 2017,
     "tentang": "Pemilihan Umum",
     "tglDitetapkan": "2017-08-15",
     "tglDiundangkan": "2017-08-16",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -10268,9 +10674,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "15/PERMEN-KP/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PEDOMAN UMUM MONITORING, EVALUASI, DAN PELAPORAN MINAPOLITAN",
     "tglDitetapkan": "2014-04-01",
     "tglDiundangkan": "2014-04-02",
+    "category": [
+      "Administrasi Kepemerintahan",
+      "Pengawasan & Pengendalian",
+      "Petunjuk Pelaksanaan & Tata Kerja"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ef52c8e40b966313231373533",
@@ -10365,9 +10778,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "2/PERMEN-KP/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PENGEMBANGAN DAN PENGELOLAAN SISTEM INFORMASI AKSES DATA DALAM RANGKA PEMERIKSAAN PENGELOLAAN DAN TANGGUNG JAWAB KEUANGAN NEGARA",
     "tglDitetapkan": "2014-01-09",
     "tglDiundangkan": "2014-01-13",
+    "category": [
+      "Administrasi Kepemerintahan",
+      "Keuangan",
+      "Pengawasan & Pengendalian"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4eac3c2ea0ba7c313231353530",
@@ -10444,9 +10864,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "42",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 17 TAHUN 2014 TENTANG MAJELIS PERMUSYAWARATAN RAKYAT, DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH",
     "tglDitetapkan": "2014-12-15",
     "tglDiundangkan": "2014-12-15",
+    "category": [
+      "Administrasi Kepemerintahan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -10481,9 +10906,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "80/PUU-IX/2011",
+    "tahunPeraturan": 2011,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 15 TAHUN 2011 TENTANG PENYELENGGARA PEMILIHAN UMUM TERHADAP UNDANG-UNDANG DASAR",
     "tglDitetapkan": "2011-11-17",
     "tglDiundangkan": "2011-11-17",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -10518,9 +10948,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "11/PUU-VIII/2010",
+    "tahunPeraturan": 2010,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 22 TAHUN 2007 TENTANG PENYELENGGARA",
     "tglDitetapkan": "2010-03-17",
     "tglDiundangkan": "2010-03-17",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -10585,9 +11020,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "29",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN ATAS PERATURAN PEMERINTAH NOMOR 18 TAHUN 2013 TENTANG TATA CARA PENGUNDURAN DIRI KEPALA DAERAH, WAKIL KEPALA DAERAH, DAN PEGAWAI NEGERI YANG AKAN MENJADI BAKAL CALON ANGGOTA DPR, DPD, DPRD PROVINSI, DAN DPRD KABUPATEN/KOTA, SERTA PELAKSANAAN CUT",
     "tglDitetapkan": "2014-05-14",
     "tglDiundangkan": "2014-05-14",
+    "category": [
+      "Administrasi Kepemerintahan",
+      "Pemda",
+      "Politik dan Pemilu"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ef958c210c02c313231383030",
@@ -10694,9 +11136,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "32",
+    "tahunPeraturan": 2004,
     "tentang": "PEMERINTAHAN DAERAH",
     "tglDitetapkan": "2004-10-15",
     "tglDiundangkan": "2004-10-15",
+    "category": [
+      "Pertanian, Perkebunan & Perikanan",
+      "Pertanian, Perkebunan & Perikanan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -13767,9 +14215,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "4",
+    "tahunPeraturan": 1999,
     "tentang": "SUSUNAN DAN KEDUDUKAN MAJELIS PERMUSYAWARATAN RAKYAT, DEWAN PERWAKILAN RAKYAT, DAN DEWAN PERWAKILAN RAKYAT DAERAH",
     "tglDitetapkan": "1999-02-01",
     "tglDiundangkan": "1999-02-01",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e458ca6d03ce8a97bc323233313536",
@@ -14497,9 +14950,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "3",
+    "tahunPeraturan": 2014,
     "tentang": "PEDOMAN PELAKSANAAN SISTEM AKUNTABILITAS KINERJA INSTANSI PEMERINTAH DI LINGKUNGAN BADAN KEPEGAWAIAN NEGARA",
     "tglDitetapkan": "2014-02-17",
     "tglDiundangkan": "2014-02-21",
+    "category": [
+      "Administrasi Kepemerintahan",
+      "Akuntabilitas",
+      "Pengawasan & Pengendalian"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4eac3c2ea0ba7c313231353530",
@@ -14594,9 +15054,17 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "2",
+    "tahunPeraturan": 2014,
     "tentang": "PEMBINAAN TEKNIS KEPOLISIAN KHUSUS",
     "tglDitetapkan": "2014-01-30",
     "tglDiundangkan": "2014-02-06",
+    "category": [
+      "Organisasi Kelembagaan & Profesi",
+      "Aparatur Negara",
+      "Pengawasan & Pengendalian",
+      "Penegakan Hukum & Profesi Hukum"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e34abcfb08b36313231323330",
@@ -14643,9 +15111,17 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "4",
+    "tahunPeraturan": 2014,
     "tentang": "PERATURAN KEPALA KEPOLISIAN NEGARA REPUBLIK INDONESIA NOMOR 22 TAHUN 2011 TENTANG ADMINISTRASI PERTANGGUNGJAWABAN KEUANGAN DI LINGKUNGAN KEPOLISIAN NEGARA REPUBLIK INDONESIA",
     "tglDitetapkan": "2014-02-06",
     "tglDiundangkan": "2014-02-17",
+    "category": [
+      "Administrasi Kepemerintahan",
+      "Aparatur Negara",
+      "Pengawasan & Pengendalian",
+      "Penegakan Hukum & Profesi Hukum"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e34abcfb08b36313231323330",
@@ -14730,9 +15206,17 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "15",
+    "tahunPeraturan": 2013,
     "tentang": "PENGENDALIAN GRATIFIKASI DI LINGKUNGAN BADAN PERTANAHAN NASIONAL REPUBLIK INDONESIA",
     "tglDitetapkan": "2013-12-31",
     "tglDiundangkan": "2014-01-17",
+    "category": [
+      "Korupsi",
+      "Pengawasan & Pengendalian",
+      "Organisasi Kelembagaan & Profesi",
+      "Aparatur Negara"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ee763adc0b9ba313231373330",
@@ -14797,9 +15281,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "P.5/MENHUT-II/2013",
+    "tahunPeraturan": 2013,
     "tentang": "PEDOMAN KEHADIRAN PEGAWAI NEGERI SIPIL DI LINGKUNGAN KEMENTERIAN KEHUTANAN",
     "tglDitetapkan": "2013-01-17",
     "tglDiundangkan": "2013-01-21",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -14845,9 +15334,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "98/PUU-VII/2009",
+    "tahunPeraturan": 2009,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 42 TAHUN 2008 TENTANG PEMILIHAN UMUM PRESIDEN DAN WAKIL PRESIDEN TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945",
     "tglDitetapkan": "2009-07-03",
     "tglDiundangkan": "2009-07-03",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -14882,9 +15376,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "1",
+    "tahunPeraturan": 2014,
     "tentang": "KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN BADAN PENGAWAS OBAT DAN MAKANAN",
     "tglDitetapkan": "2014-01-10",
     "tglDiundangkan": "2014-02-04",
+    "category": [
+      "Organisasi Kelembagaan & Profesi",
+      "Aparatur Negara",
+      "Pengawasan & Pengendalian"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e6fb0f7709284313231343039",
@@ -15002,9 +15503,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "3",
+    "tahunPeraturan": 2014,
     "tentang": "PERINDUSTRIAN",
     "tglDitetapkan": "2014-01-15",
     "tglDiundangkan": "2014-01-15",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -15912,9 +16418,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "3",
+    "tahunPeraturan": 1970,
     "tentang": "KETENTUAN-KETENTUAN POKOK DAERAH PERDAGANGAN BEBAS DAN PELABUHAN BEBAS",
     "tglDitetapkan": "1970-03-27",
     "tglDiundangkan": "1970-03-27",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -15970,9 +16481,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "7",
+    "tahunPeraturan": 1994,
     "tentang": "PENGESAHAN AGREEMENT ESTABLISHING THE WORLD TRADE ORGANIZATION (PERSETUJUAN PEMBENTUKAN ORGANISASI PERDAGANGAN DUNIA)",
     "tglDitetapkan": "1994-11-02",
     "tglDiundangkan": "1994-11-02",
+    "category": [
+      "Perdagangan & Industri",
+      "Hukum Internasional"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -16557,9 +17074,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "37",
+    "tahunPeraturan": 2000,
     "tentang": "PENETAPAN PERPU 2-2000 TENTANG KAWASAN PERDAGANGAN BEBAS DAN PELABUHAN BEBAS SABANG MENJADI UU",
     "tglDitetapkan": "2000-12-21",
     "tglDiundangkan": "2000-12-21",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ffd03c640a21f313232353135",
@@ -16665,9 +17187,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "21",
+    "tahunPeraturan": 2003,
     "tentang": "PENGESAHAN ILO CONVENTION NO. 81 CONCERNING LABOUR INSPECTION IN INDUSTRY AND COMMERCE (KONVENSI ILO NO. 81 MENGENAI PENGAWASAN KETENAGAKERJAAN DALAM INDUSTRI DAN PERDAGANGAN)",
     "tglDitetapkan": "2003-07-25",
     "tglDiundangkan": "2003-07-25",
+    "category": [
+      "Perdagangan & Industri",
+      "Hukum Internasional"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -16763,9 +17291,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "4",
+    "tahunPeraturan": 1970,
     "tentang": "PEMBENTUKAN DAERAH PERDAGANGAN BEBAS DENGAN PELABUHAN BEBAS SABANG",
     "tglDitetapkan": "1970-03-27",
     "tglDiundangkan": "1970-03-27",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -16800,9 +17333,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "10",
+    "tahunPeraturan": 1985,
     "tentang": "PENCABUTAN UU 4-1970 TENTANG PEMBENTUKAN DAERAH PERDAGANGAN BEBAS DENGAN PELABUHAN BEBAS SABANG",
     "tglDitetapkan": "1985-10-02",
     "tglDiundangkan": "1985-10-02",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4fefb85120972e313232343533",
@@ -16858,9 +17396,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "32",
+    "tahunPeraturan": 1997,
     "tentang": "PERDAGANGAN BERJANGKA KOMODITI",
     "tglDitetapkan": "1997-12-05",
     "tglDiundangkan": "1997-12-05",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -17066,9 +17609,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "36",
+    "tahunPeraturan": 2000,
     "tentang": "PENETAPAN PERPU 1-2000 TENTANG KAWASAN PERDAGANGAN BEBAS DAN PELABUHAN BEBAS MENJADI UU",
     "tglDitetapkan": "2000-12-21",
     "tglDiundangkan": "2000-12-21",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -17276,9 +17824,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "49",
+    "tahunPeraturan": 2013,
     "tentang": "PENGESAHAN AGREEMENT FOR THE ESTABLISHMENT OF THE INTERNATIONAL ANTI-CORRUPTION ACADEMY AS AN INTERNATIONAL ORGANIZATION PERSETUJUAN PENDIRIAN AKADEMI ANTIKORUPSI INTERNASIONAL EBAGAI ORGANISASI INTERNASIONAL)",
     "tglDitetapkan": "2013-07-30",
     "tglDiundangkan": "2013-08-06",
+    "category": [
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ed7192c70995c313231373032",
@@ -17323,9 +17876,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "92/PUU-X/2012",
+    "tahunPeraturan": 2012,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 27 TAHUN 2009 TENTANG MAJELIS PERMUSYAWARATAN RAKYAT, DEWAN PERWAKILAN RAKYAT, DEWAN PERWAKILAN DAERAH, DAN DEWAN PERWAKILAN RAKYAT DAERAH DAN UNDANG-UNDANG NOMOR 12 TAHUN 2011 TENTANG PEMBENTUKAN PERATURAN PERUNDANG-UNDANGAN TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945",
     "tglDitetapkan": "2013-03-27",
     "tglDiundangkan": "2013-03-27",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -17381,9 +17939,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "117/PUU-VII/2009",
+    "tahunPeraturan": 2009,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 27 TAHUN 2009 TENTANG MAJELIS",
     "tglDitetapkan": "2009-09-30",
     "tglDiundangkan": "2009-09-30",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -17458,9 +18021,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "21",
+    "tahunPeraturan": 2007,
     "tentang": "PEMBERANTASAN TINDAK PIDANA PERDAGANGAN ORANG",
     "tglDitetapkan": "2007-04-19",
     "tglDiundangkan": "2007-04-19",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e666b1fa0a51d313231333533",
@@ -17628,9 +18196,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "10",
+    "tahunPeraturan": 2011,
     "tentang": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 32 TAHUN 1997 TENTANG PERDAGANGAN BERJANGKA KOMODITI",
     "tglDitetapkan": "2011-08-08",
     "tglDiundangkan": "2011-08-08",
+    "category": [
+      "Perdagangan & Industri",
+      "Pelayanan Publik"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -17699,9 +18273,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "7",
+    "tahunPeraturan": 2014,
     "tentang": "PERDAGANGAN",
     "tglDitetapkan": "2014-03-11",
     "tglDiundangkan": "2014-03-11",
+    "category": [
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -18899,9 +19478,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "39",
+    "tahunPeraturan": 2004,
     "tentang": "PENEMPATAN DAN PERLINDUNGAN TENAGA KERJA INDONESIA DI LUAR NEGERI",
     "tglDitetapkan": "2004-10-18",
     "tglDiundangkan": "2004-10-18",
+    "category": [
+      "Korupsi",
+      "Tenaga Kerja"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -19259,9 +19844,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah Pengganti Undang-undang",
+    "nomorPeraturan": "4",
+    "tahunPeraturan": 2009,
     "tentang": "PERUBAHAN UU 30-2002 TENTANG KOMISI PEMBERANTASAN TINDAK PIDANA KORUPSI",
     "tglDitetapkan": "2009-09-21",
     "tglDiundangkan": "2009-09-22",
+    "category": [
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -19298,9 +19888,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "55",
+    "tahunPeraturan": 2012,
     "tentang": "STRATEGI NASIONAL PENCEGAHAN DAN PEMBERANTASAN KORUPSI JANGKA PANJANG TAHUN 2012-2025 DAN JANGKA MENENGAH TAHUN 2012-2014",
     "tglDitetapkan": "2012-05-23",
     "tglDiundangkan": "2012-05-23",
+    "category": [
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e67012f109ff3313231333534",
@@ -19526,9 +20121,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "11",
+    "tahunPeraturan": 1980,
     "tentang": "TINDAK PIDANA SUAP",
     "tglDitetapkan": "1980-10-27",
     "tglDiundangkan": "1980-10-27",
+    "category": [
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e45a6cfa6be87289e0303032383033",
@@ -19594,9 +20194,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "P.34/MENHUT-II/2013",
+    "tahunPeraturan": 2013,
     "tentang": "PEDOMAN PENANGANAN PENGADUAN INTERNAL (WHISTLEBLOWER SYSTEM) DAN EKSTERNAL (PENGADUAN MASYARAKAT) ATAS TINDAK PIDANA KORUPSI DI LINGKUNGAN KEMENTERIAN KEHUTANAN",
     "tglDitetapkan": "2013-06-25",
     "tglDiundangkan": "2013-07-05",
+    "category": [
+      "Kehutanan",
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -19620,9 +20226,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "16",
+    "tahunPeraturan": 1969,
     "tentang": "SUSUNAN DAN KEDUDUKAN MAJELIS PERMUSYAWARATAN RAKYAT, DEWAN PERWAKILAN RAKYAT DAN DEWAN PERWAKILAN RAKYAT DAERAH",
     "tglDitetapkan": "1969-12-17",
     "tglDiundangkan": "1969-12-17",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4eededd800992d313231373431",
@@ -19830,9 +20441,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "22",
+    "tahunPeraturan": 1999,
     "tentang": "PEMERINTAHAN DAERAH",
     "tglDitetapkan": "1999-05-07",
     "tglDiundangkan": "1999-05-07",
+    "category": [
+      "Administrasi Kepemerintahan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e4580046d3591c9816323232343533",
@@ -20890,9 +21506,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "28",
+    "tahunPeraturan": 1999,
     "tentang": "PENYELENGGARA NEGARA YANG BERSIH DAN BEBAS DARI KORUPSI, KOLUSI, DAN NEPOTISME",
     "tglDitetapkan": "1999-05-19",
     "tglDiundangkan": "1999-05-19",
+    "category": [
+      "Administrasi Kepemerintahan",
+      "Korupsi",
+      "Pelayanan Publik"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -22352,9 +22975,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "103",
+    "tahunPeraturan": 2012,
     "tentang": "PERUBAHAN ATAS PERATURAN PEMERINTAH NOMOR 63 TAHUN 2005 TENTANG SISTEM MANAJEMEN SUMBER DAYA MANUSIA KOMISI PEMBERANTASAN KORUPSI",
     "tglDitetapkan": "2012-12-10",
     "tglDiundangkan": "2012-12-10",
+    "category": [
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -22471,9 +23099,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "22",
+    "tahunPeraturan": 2004,
     "tentang": "KOMISI YUDISIAL",
     "tglDitetapkan": "2004-08-13",
     "tglDiundangkan": "2004-08-13",
+    "category": [
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -22823,9 +23456,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "8",
+    "tahunPeraturan": 1981,
     "tentang": "HUKUM ACARA PIDANA",
     "tglDitetapkan": "1981-12-31",
     "tglDiundangkan": "1981-12-31",
+    "category": [
+      "Perdata",
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -23181,9 +23820,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "3",
+    "tahunPeraturan": 2017,
     "tentang": "Kode Etik dan Kode Perilaku Aparatur Sipil Negara Badan Pengawas Obat dan Makanan",
     "tglDitetapkan": "2017-03-24",
     "tglDiundangkan": "2017-03-24",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ee763adc0b9ba313231373330",
@@ -23340,9 +23984,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "12",
+    "tahunPeraturan": 2008,
     "tentang": "PERUBAHAN KEDUA UU 32-2004 TENTANG PEMERINTAHAN DAERAH",
     "tglDitetapkan": "2008-04-28",
     "tglDiundangkan": "2008-04-28",
+    "category": [
+      "Administrasi Kepemerintahan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -23481,9 +24130,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "8",
+    "tahunPeraturan": 2005,
     "tentang": "PENETAPAN PERPU 3-2005 TENTANG PERUBAHAN UU 32-2004 TENTANG PEMERINTAHAN DAERAH MENJADI UU",
     "tglDitetapkan": "2005-10-19",
     "tglDiundangkan": "2005-10-19",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -23550,9 +24204,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "072-073/PUU-II/2004",
+    "tahunPeraturan": 2004,
     "tentang": "PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 32 TAHUN 2004 TENTANG PEMERINTAHAN DAERAH (SELANJUTNYA DISEBUT UU PEMERINTAHAN DAERAH)",
     "tglDitetapkan": "2005-03-21",
     "tglDiundangkan": "2005-03-21",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -23619,9 +24278,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "6",
+    "tahunPeraturan": 2014,
     "tentang": "DESA",
     "tglDitetapkan": "2014-01-15",
     "tglDiundangkan": "2014-01-15",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -24169,9 +24833,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "39",
+    "tahunPeraturan": 2009,
     "tentang": "KAWASAN EKONOMI KHUSUS",
     "tglDitetapkan": "2009-10-14",
     "tglDiundangkan": "2009-10-14",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -24609,9 +25278,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "32",
+    "tahunPeraturan": 2002,
     "tentang": "PENYIARAN",
     "tglDitetapkan": "2002-12-28",
     "tglDiundangkan": "2002-12-28",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e6fdee70083cb313231343039",
@@ -24899,9 +25573,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "38",
+    "tahunPeraturan": 2009,
     "tentang": "POS",
     "tglDitetapkan": "2009-10-14",
     "tglDiundangkan": "2009-10-14",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -25031,9 +25710,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "11",
+    "tahunPeraturan": 2009,
     "tentang": "KESEJAHTERAAN SOSIAL",
     "tglDitetapkan": "2009-01-16",
     "tglDiundangkan": "2009-01-16",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -25623,9 +26307,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "6",
+    "tahunPeraturan": 2011,
     "tentang": "KEIMIGRASIAN",
     "tglDitetapkan": "2011-05-05",
     "tglDiundangkan": "2011-05-05",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -26315,9 +27004,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 1997,
     "tentang": "PSIKOTROPIKA",
     "tglDitetapkan": "1997-03-11",
     "tglDiundangkan": "1997-03-11",
+    "category": [
+      "Rehabilitasi",
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ed2e9fa4081e4313231363535",
@@ -26628,9 +27323,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "23",
+    "tahunPeraturan": 2014,
     "tentang": "PEMERINTAHAN DAERAH",
     "tglDitetapkan": "2014-09-30",
     "tglDiundangkan": "2014-10-02",
+    "category": [
+      "Pemda"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -34001,9 +34701,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 2014,
     "tentang": "APARATUR SIPIL NEGARA",
     "tglDitetapkan": "2014-01-15",
     "tglDiundangkan": "2014-01-15",
+    "category": [
+      "Pelayanan Publik",
+      "Organisasi Kelembagaan & Profesi",
+      "Aparatur Negara"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -41823,9 +42530,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "25",
+    "tahunPeraturan": 2003,
     "tentang": "PERUBAHAN UU 15-2002 TENTANG TINDAK PIDANA PENCUCIAN UANG",
     "tglDitetapkan": "2003-10-13",
     "tglDiundangkan": "2003-10-13",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -41883,9 +42595,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "36",
+    "tahunPeraturan": 2009,
     "tentang": "KESEHATAN",
     "tglDitetapkan": "2009-10-13",
     "tglDiundangkan": "2009-10-13",
+    "category": [
+      "Pelayanan Publik",
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -44145,9 +44863,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "10",
+    "tahunPeraturan": 1961,
     "tentang": "PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 1 TAHUN 1961 TENTANG BARANG MENJADI UNDANG-UNDANG ",
     "tglDitetapkan": "1961-04-10",
     "tglDiundangkan": "1961-04-10",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -44184,9 +44907,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "18",
+    "tahunPeraturan": 2017,
     "tentang": "Pelindungan Pekerja Migran Indonesia",
     "tglDitetapkan": "2017-11-22",
     "tglDiundangkan": "2017-11-22",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e9798f0f0bb40313231353136",
@@ -44265,9 +44993,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "8",
+    "tahunPeraturan": 2009,
     "tentang": "Pertanggungjawaban Atas Pelaksanaan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2006",
     "tglDitetapkan": "2009-01-13",
     "tglDiundangkan": "2009-01-13",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -44362,9 +45095,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "4",
+    "tahunPeraturan": 1984,
     "tentang": "WABAH PENYAKIT MENULAR",
     "tglDitetapkan": "1984-06-22",
     "tglDiundangkan": "1984-06-22",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e457fd72a4d10493cf323230343338",
@@ -44540,9 +45278,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "40",
+    "tahunPeraturan": 2009,
     "tentang": "KEPEMUDAAN",
     "tglDitetapkan": "2009-10-14",
     "tglDiundangkan": "2009-10-14",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -44859,9 +45602,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "005/PUU-IV/2006",
+    "tahunPeraturan": 2006,
     "tentang": "PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 22 TAHUN 2004 TENTANG KOMISI YUDISIAL (SELANJUTNYA DISEBUT UU KY) DAN PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 4 TAHUN 2004 TENTANG KEKUASAAN KEHAKIMAN (SELANJUTNYA DISEBUT UU KK)",
     "tglDitetapkan": "2006-08-03",
     "tglDiundangkan": "2006-08-03",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -45006,9 +45754,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 1974,
     "tentang": "POKOK-POKOK PEMERINTAHAN DI DAERAH",
     "tglDitetapkan": "2036-02-05",
     "tglDiundangkan": "2036-02-05",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -45424,9 +46177,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "1",
+    "tahunPeraturan": 1946,
     "tentang": "PERATURAN HUKUM PIDANA",
     "tglDitetapkan": "1946-02-26",
     "tglDiundangkan": "1946-02-26",
+    "category": [
+      "Perdata"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -45552,9 +46310,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "6",
+    "tahunPeraturan": 1974,
     "tentang": "KETENTUAN-KETENTUAN POKOK KESEJAHTERAAN SOSIAL",
     "tglDitetapkan": "1974-06-11",
     "tglDiundangkan": "1974-06-11",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -45610,9 +46373,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "17/PUU-VI/2008",
+    "tahunPeraturan": 2008,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 32 TAHUN 2004 TENTANG PEMERINTAHAN DAERAH DAN UNDANG-UNDANG NOMOR 12 TAHUN 2008 TENTANG PERUBAHAN KEDUA ATAS UNDANG-UNDANG NOMOR 32 TAHUN 2004 TENTANG PEMERINTAHAN DAERAH",
     "tglDitetapkan": "2008-08-04",
     "tglDiundangkan": "2008-08-04",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -45647,9 +46415,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "18",
+    "tahunPeraturan": 2011,
     "tentang": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 22 TAHUN 2004 TENTANG KOMISI YUDISIAL",
     "tglDitetapkan": "2011-11-09",
     "tglDiundangkan": "2011-11-09",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -45746,9 +46519,14 @@
       403
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "73/PUU-IX/2011",
+    "tahunPeraturan": 2011,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 32 TAHUN 2004 TENTANG PEMERINTAHAN DAERAH SEBAGAIMANA TELAH DIUBAH TERAKHIR DENGAN UNDANG-UNDANG NOMOR 12 TAHUN 2008 TENTANG PERUBAHAN KEDUA ATAS UNDANG-UNDANG NOMOR 32 TAHUN 2004 TENTANG PEMERINTAHAN DAERAH TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945",
     "tglDitetapkan": "2012-09-25",
     "tglDiundangkan": "2012-09-25",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -45794,9 +46572,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 1979,
     "tentang": "PEMERINTAHAN DESA",
     "tglDitetapkan": "1979-12-01",
     "tglDiundangkan": "1979-12-01",
+    "category": [
+      "Administrasi Kepemerintahan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e458137d1ec49ea9b1303034323235",
@@ -45884,9 +46667,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 1975,
     "tentang": "PERUBAHAN UNDANG-UNDANG NOMOR 16 TAHUN 1969 TENTANG SUSUNAN DAN KEDUDUKAN MAJELIS PERMUSYAWARATAN RAKYAT, DEWAN PERWAKILAN RAKYAT DAN DEWAN PERWAKILAN RAKYAT DAERAH",
     "tglDitetapkan": "1975-11-24",
     "tglDiundangkan": "1975-11-24",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e45a70add187528203303035343332",
@@ -45992,9 +46780,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "2",
+    "tahunPeraturan": 1985,
     "tentang": "PERUBAHAN UU 16-1969 TENTANG SUSUNAN DAN KEDUDUKAN MAJELIS PERMUSYAWARATAN RAKYAT, DEWAN PERWAKILAN RAKYAT, DAN DEWAN PERWAKILAN RAKYAT DAERAH SEBAGAIMANA TELAH DIUBAH DENGAN UU 5-1975",
     "tglDitetapkan": "1985-01-07",
     "tglDiundangkan": "1985-01-07",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e45da5920519e8a85a303235303432",
@@ -46071,9 +46864,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 1995,
     "tentang": "PERUBAHAN UU 16-1969 TENTANG SUSUNAN DAN KEDUDUKAN MAJELIS PERMUSYAWARATAN RAKYAT, DEWAN PERWAKILAN RAKYAT, DAN DEWAN PERWAKILAN RAKYAT DAERAH SEBAGAIMANA TELAH BEBERAPA KALI DIUBAH TERAKHIR DENGAN UU 2-1985",
     "tglDitetapkan": "1995-07-03",
     "tglDiundangkan": "1995-07-03",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -46139,9 +46937,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "7",
+    "tahunPeraturan": 1997,
     "tentang": "PENGESAHAN UNITED NATIONS CONVENTION AGAINST ILLICIT TRAFFIC IN NARCOTIC DRUGS AND PSYCHOTROPIC SUBSTANCES, 1988 (KONVENSI PBB TENTANG PEMBERANTASAN PEREDARAN GELAP NARKOTIKA DAN PSIKOTROPIKA 1988)",
     "tglDitetapkan": "1997-03-24",
     "tglDiundangkan": "1997-03-24",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -46196,9 +46999,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "8",
+    "tahunPeraturan": 1976,
     "tentang": "PENGESAHAN KONVENSI TUNGGAL NARKOTIKA 1961 BESERTA PROTOKOL YANG MENGUBAHNYA",
     "tglDitetapkan": "1976-07-26",
     "tglDiundangkan": "1976-07-26",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -46253,9 +47061,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "8",
+    "tahunPeraturan": 1974,
     "tentang": "POKOK-POKOK KEPEGAWAIAN",
     "tglDitetapkan": "1974-06-11",
     "tglDiundangkan": "1974-06-11",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -48322,9 +49135,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 1962,
     "tentang": "PERUSAHAAN DAERAH",
     "tglDitetapkan": "2036-02-05",
     "tglDiundangkan": "2036-02-05",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -48390,9 +49208,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "9",
+    "tahunPeraturan": 1992,
     "tentang": "KEIMIGRASIAN",
     "tglDitetapkan": "1992-03-31",
     "tglDiundangkan": "1992-03-31",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -48489,9 +49312,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "6",
+    "tahunPeraturan": 1984,
     "tentang": "POS",
     "tglDitetapkan": "1984-07-21",
     "tglDiundangkan": "1984-07-21",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c50029d0c808a2e313232353235",
@@ -48547,9 +49375,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "24",
+    "tahunPeraturan": 1997,
     "tentang": "PENYIARAN",
     "tglDitetapkan": "1997-09-29",
     "tglDiundangkan": "1997-09-29",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e3fa43d609b07313231323438",
@@ -48605,9 +49438,14 @@
       302
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "57/PUU-IX/2011",
+    "tahunPeraturan": 2011,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 36 TAHUN 2009 TENTANG KESEHATAN TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945",
     "tglDitetapkan": "2012-04-17",
     "tglDiundangkan": "2012-04-17",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -48642,9 +49480,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "15",
+    "tahunPeraturan": 2002,
     "tentang": "TINDAK PIDANA PENCUCIAN UANG",
     "tglDitetapkan": "2002-04-17",
     "tglDiundangkan": "2002-04-17",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -48701,9 +49544,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "3",
+    "tahunPeraturan": 2017,
     "tentang": "Pegawai Pemerintah Dengan Perjanjian Kerja Di Lingkungan Badan Ekonomi Kreatif",
     "tglDitetapkan": "2017-02-08",
     "tglDiundangkan": "2017-02-08",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e549d994087cc313231333233",
@@ -48770,9 +49618,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "19",
+    "tahunPeraturan": 2017,
     "tentang": "Tata Cara Pelaksanaan Pengubahan dan/atau Penambahan Nomenklatur Jabatan Pelaksana Pegawai Negeri Sipil di Lingkungan Instansi Pemerintah",
     "tglDitetapkan": "2017-09-15",
     "tglDiundangkan": "2017-10-03",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4f3b1ffb80991b313231393530",
@@ -48838,9 +49691,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "9",
+    "tahunPeraturan": 2017,
     "tentang": "Pedoman dan Tata Cara Pelaksanaan Kegiatan Pengembangan Iklim Penanaman Modal",
     "tglDitetapkan": "2017-08-29",
     "tglDiundangkan": "2017-08-30",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4edd764fa08014313231373133",
@@ -48916,9 +49774,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "23",
+    "tahunPeraturan": 1992,
     "tentang": "KESEHATAN",
     "tglDitetapkan": "1992-09-17",
     "tglDiundangkan": "1992-09-17",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -49026,9 +49889,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "27",
+    "tahunPeraturan": 2016,
     "tentang": "PEMINDAHAN IBUKOTA KABUPATEN PASURUAN DARI WILAYAH KOTA PASURUAN KE WILAYAH KECAMATAN BANGIL KABUPATEN PASURUAN PROVINSI JAWA TIMUR",
     "tglDitetapkan": "2016-06-29",
     "tglDiundangkan": "2016-06-29",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -49117,9 +49985,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "9",
+    "tahunPeraturan": 2015,
     "tentang": "PERUBAHAN KEDUA ATAS UNDANG-UNDANG NOMOR 23 TAHUN 2014 TENTANG PEMERINTAHAN DAERAH",
     "tglDitetapkan": "2015-03-18",
     "tglDiundangkan": "2015-03-18",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -49323,9 +50196,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "37",
+    "tahunPeraturan": 2009,
     "tentang": "PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 3 TAHUN 2009 TENTANG PERUBAHAN ATAS UNDANG-UNDANG NOMOR 9 TAHUN 1992 TENTANG KEIMIGRASIAN MENJADI UNDANG-UNDANG",
     "tglDitetapkan": "2009-10-14",
     "tglDiundangkan": "2009-10-14",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -49404,9 +50282,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah Pengganti Undang-undang",
+    "nomorPeraturan": "2",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 23 TAHUN 2014 TENTANG PEMERINTAHAN DAERAH",
     "tglDitetapkan": "2014-10-02",
     "tglDiundangkan": "2014-10-02",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -49441,9 +50324,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah Pengganti Undang-undang",
+    "nomorPeraturan": "3",
+    "tahunPeraturan": 2005,
     "tentang": "PERUBAHAN UU 32-2004 TENTANG PEMERINTAHAN DAERAH",
     "tglDitetapkan": "2005-04-27",
     "tglDiundangkan": "2005-04-27",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -49478,9 +50366,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "20",
+    "tahunPeraturan": 2016,
     "tentang": "PERUBAHAN ATAS PERATURAN KEPALA BADAN PENGAWAS OBAT DAN MAKANAN NOMOR 32 TAHUN 2013 TENTANG PERSYARATAN DAN TATA CARA PERMOHONAN ANALISA HASIL PENGAWASAN DALAM RANGKA IMPOR DAN EKSPOR NARKOTIKA PSIKOTROPIKA DAN PREKURSOR FARMASI",
     "tglDitetapkan": "2016-05-24",
     "tglDiundangkan": "2016-08-04",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4f002da2c09450313231383131",
@@ -49586,9 +50479,14 @@
       302
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "64/PUU-IX/2011",
+    "tahunPeraturan": 2011,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 6 TAHUN 2011 TENTANG KEIMIGRASIAN TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK",
     "tglDitetapkan": "2012-06-20",
     "tglDiundangkan": "2012-06-20",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -49623,9 +50521,14 @@
       302
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "005/PUU-I/2003",
+    "tahunPeraturan": 2003,
     "tentang": "PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 32 TAHUN 2002 TENTANG PENYIARAN",
     "tglDitetapkan": "2004-07-28",
     "tglDiundangkan": "2004-07-28",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -49680,9 +50583,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "13",
+    "tahunPeraturan": 2006,
     "tentang": "PERLINDUNGAN SAKSI DAN KORBAN",
     "tglDitetapkan": "2006-08-11",
     "tglDiundangkan": "2006-08-11",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -49939,9 +50847,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "9",
+    "tahunPeraturan": 1976,
     "tentang": "NARKOTIKA",
     "tglDitetapkan": "1976-07-26",
     "tglDiundangkan": "1976-07-26",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ffabb05d0a5cb313232353132",
@@ -50067,9 +50980,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "19",
+    "tahunPeraturan": 1965,
     "tentang": "Desapraja Sebagai Bentuk Peralihan Untuk Mempercepat Terwujudnya Daerah Tingkat III Di Seluruh Wilayah Republik Indonesia",
     "tglDitetapkan": "1965-09-01",
     "tglDiundangkan": "1965-09-01",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -50104,9 +51022,14 @@
       302
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "6/PUU-V/2007",
+    "tahunPeraturan": 2007,
     "tentang": "PENGUJIAN KITAB UNDANG-UNDANG HUKUM PIDANA",
     "tglDitetapkan": "2007-07-17",
     "tglDiundangkan": "2007-07-17",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -50141,9 +51064,14 @@
       302
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "013-022/PUU-IV/2006",
+    "tahunPeraturan": 2006,
     "tentang": "PENGUJIAN KITAB UNDANG-UNDANG HUKUM PIDANA (SELANJUTNYA DISEBUT KUHPIDANA) TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945 (SELANJUTNYA DISEBUT UUD 1945)",
     "tglDitetapkan": "2006-12-06",
     "tglDiundangkan": "2006-12-06",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -50178,9 +51106,14 @@
       302
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "1/PUU-XI/2013",
+    "tahunPeraturan": 2013,
     "tentang": "UNDANG-UNDANG NOMOR 1 TAHUN",
     "tglDitetapkan": "2014-01-16",
     "tglDiundangkan": "2014-01-16",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -50215,9 +51148,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "4",
+    "tahunPeraturan": 2004,
     "tentang": "KEKUASAAN KEHAKIMAN",
     "tglDitetapkan": "2004-01-15",
     "tglDiundangkan": "2004-01-15",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -50497,9 +51435,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "35",
+    "tahunPeraturan": 2009,
     "tentang": "NARKOTIKA",
     "tglDitetapkan": "2009-10-12",
     "tglDiundangkan": "2009-10-12",
+    "category": [
+      "Narkotika"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -51340,9 +52283,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "1",
+    "tahunPeraturan": 2014,
     "tentang": "PEDOMAN PENYUSUNAN RANCANA UMUM ENERGI NASIONAL",
     "tglDitetapkan": "2014-01-02",
     "tglDiundangkan": "2014-01-22",
+    "category": [
+      "Energi, Migas & Tambang"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ef1faac2081b1313231373437",
@@ -51399,9 +52347,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "79/M-IND/PER/9/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN ATAS PERATURAN MENTERI PERINDUSTRIAN NOMOR 19/M-IND/PER/3/2013 TENTANG PENUNJUKAN LEMBAGA PENILAIAN KESESUAIAN DALAM RANGKA PEMBERLAKUAN DAN PENGAWASAN STANDAR NASIONAL INDONESIA (SNI) KOREK API GAS SECARA WAJIB",
     "tglDitetapkan": "2014-10-15",
     "tglDiundangkan": "2014-09-24",
+    "category": [
+      "Energi, Migas & Tambang",
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -51425,9 +52379,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "59/M-IND/PER/6/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PENUNJUKAN LEMBAGA PENILAIAN KESESUAIAN DALAM RANGKA  PEMBERLAKUAN DAN PENGAWASAN STANDAR NASIONAL INDONESIA  (SNI)  BAJA BATANGAN UNTUK KEPERLUAN UMUM (BJKU)  SECARA WAJIB",
     "tglDitetapkan": "2014-06-20",
     "tglDiundangkan": "2014-06-24",
+    "category": [
+      "Energi, Migas & Tambang"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -51451,9 +52410,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "194",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN KEDUA ATAS PERATURAN PRESIDEN",
     "tglDitetapkan": "2014-12-31",
     "tglDiundangkan": "2014-12-31",
+    "category": [
+      "Energi, Migas & Tambang",
+      "BUMN"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -51488,9 +52453,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "67/M-IND/PER/8/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN ATAS PERATURAN MENTERI PERINDUSTRIAN  NOMOR 18/M-IND/PER/2/2012 TENTANG PEMBERLAKUAN STANDAR NASIONAL INDONESIA (SNI) SEMEN SECARA WAJIB",
     "tglDitetapkan": "2014-08-08",
     "tglDiundangkan": "2014-08-11",
+    "category": [
+      "Energi, Migas & Tambang",
+      "Perdagangan & Industri"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -51514,9 +52485,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "11",
+    "tahunPeraturan": 2014,
     "tentang": "TATA CARA PENANGANAN TERSANGKA DAN/ATAU TERDAKWA PECANDU NARKOTIKA DAN KORBAN PENYALAHGUNAAN NARKOTIKA KE DALAM LEMBAGA REHABILITASI",
     "tglDitetapkan": "2014-06-17",
     "tglDiundangkan": "2014-06-19",
+    "category": [
+      "Narkotika",
+      "Rehabilitasi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4f002da2c09450313231383131",
@@ -51593,9 +52570,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "57/M-IND/PER/6/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PENUNJUKAN LEMBAGA PENILAIAN KESESUAIAN  DALAM RANGKA PEMBERLAKUAN DAN PENGAWASAN STANDAR  NASIONAL INDONESIA (SNI) ALUMINIUM SULFAT SECARA WAJIB",
     "tglDitetapkan": "2014-06-20",
     "tglDiundangkan": "2014-06-24",
+    "category": [
+      "Energi, Migas & Tambang"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -51630,9 +52612,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "193",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN KEEMPAT ATAS PERATURAN PRESIDEN",
     "tglDitetapkan": "2014-12-31",
     "tglDiundangkan": "2014-12-31",
+    "category": [
+      "Energi, Migas & Tambang",
+      "Perdata",
+      "BUMN"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -51678,9 +52667,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "19",
+    "tahunPeraturan": 2010,
     "tentang": "PEMANFAATAN GAS BUMI UNTUK BAHAN BAKAR GAS YANG DIGUNAKAN UNTUK TRANSPORTASI",
     "tglDitetapkan": "2010-12-13",
     "tglDiundangkan": "2010-12-13",
+    "category": [
+      "Energi, Migas & Tambang",
+      "Transportasi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ece5c4fd0a75f313231363438",
@@ -51776,9 +52771,14 @@
       200
     ],
     "jenisPeraturan": "Instruksi Presiden",
+    "nomorPeraturan": "9",
+    "tahunPeraturan": 1982,
     "tentang": "KONSERVASI ENERGI",
     "tglDitetapkan": "1982-04-07",
     "tglDiundangkan": "1982-04-07",
+    "category": [
+      "Energi, Migas & Tambang"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -51802,9 +52802,14 @@
       200
     ],
     "jenisPeraturan": "Keputusan Presiden",
+    "nomorPeraturan": "6",
+    "tahunPeraturan": 2003,
     "tentang": "PENGESAHAN PERSETUJUAN ANTARA PEMERINTAH RI DAN PEMERINTAH REPUBLIK KOREA TENTANG KERJASAMA DALAM BIDANG-BIDANG ENERGI DAN SUMBER-SUMBER MINERAL",
     "tglDitetapkan": "2003-01-23",
     "tglDiundangkan": "2003-01-23",
+    "category": [
+      "Energi, Migas & Tambang"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -51828,9 +52833,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "43",
+    "tahunPeraturan": 1999,
     "tentang": "PERUBAHAN UU 8-1974 TENTANG POKOK-POKOK KEPEGAWAIAN",
     "tglDitetapkan": "1999-09-30",
     "tglDiundangkan": "1999-09-30",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -51938,9 +52948,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "29",
+    "tahunPeraturan": 2004,
     "tentang": "PRAKTIK KEDOKTERAN",
     "tglDitetapkan": "2004-10-06",
     "tglDiundangkan": "2004-10-06",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -52709,9 +53724,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "P.65/MENHUT-II/2013",
+    "tahunPeraturan": 2013,
     "tentang": "POLICY ADVISOR BIDANG KEHUTANAN PADA IZIN PINJAM PAKAI KAWASAN HUTAN UNTUK KEGIATAN PERTAMBANGAN OPERASI PRODUKSI",
     "tglDitetapkan": "2013-12-11",
     "tglDiundangkan": "2013-12-12",
+    "category": [
+      "Energi, Migas & Tambang",
+      "Kehutanan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -52746,9 +53767,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Daerah",
+    "nomorPeraturan": "6",
+    "tahunPeraturan": 2012,
     "tentang": "KETENAGALISTRIKAN DAN PEMANFAATAN ENERGI",
     "tglDitetapkan": "2012-02-15",
     "tglDiundangkan": "2017-09-25",
+    "category": [
+      "Energi, Migas & Tambang"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -52774,9 +53800,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "2",
+    "tahunPeraturan": 2014,
     "tentang": "PELIMPAHAN SEBAGIAN URUSAN PEMERINTAHAN DI BIDANG ENERGI DAN SUMBER DAYA MINERAL KEPADA GUBERNUR SEBAGAI WAKIL PEMERINTAH DALAM RANGKA PENYELENGGARAAN DEKONSENTRASI TAHUN ANGGARAN 2014",
     "tglDitetapkan": "2014-01-17",
     "tglDiundangkan": "2014-01-17",
+    "category": [
+      "Energi, Migas & Tambang"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -52802,9 +53833,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "1",
+    "tahunPeraturan": 2018,
     "tentang": "Kepalangmerahan",
     "tglDitetapkan": "2018-01-09",
     "tglDiundangkan": "2018-01-09",
+    "category": [
+      "Energi, Migas & Tambang",
+      "Sumber Daya Air & Kelautan",
+      "Lingkungan Hidup"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -52849,9 +53887,14 @@
       200
     ],
     "jenisPeraturan": "Keputusan Presiden",
+    "nomorPeraturan": "22",
+    "tahunPeraturan": 2008,
     "tentang": "HARI JADI PERTAMBANGAN DAN ENERGI",
     "tglDitetapkan": "2008-09-27",
     "tglDiundangkan": "2008-09-27",
+    "category": [
+      "Energi, Migas & Tambang"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -52877,9 +53920,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "18",
+    "tahunPeraturan": 2016,
     "tentang": "PERANGKAT DAERAH",
     "tglDitetapkan": "2016-06-19",
     "tglDiundangkan": "2016-06-19",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -54098,9 +55146,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Daerah",
+    "nomorPeraturan": "13",
+    "tahunPeraturan": 2009,
     "tentang": "PENYEDIAAN DAN PENYERAHAN PRASARANA, SARANA, UTILITAS PERUMAHAN DAN PERMUKIMAN",
     "tglDitetapkan": "2009-12-31",
     "tglDiundangkan": "2009-12-31",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -54124,9 +55177,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "41",
+    "tahunPeraturan": 2017,
     "tentang": "Perubahan Penggolongan Narkotika",
     "tglDitetapkan": "2017-07-26",
     "tglDiundangkan": "2017-08-07",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4f002da2c09450313231383131",
@@ -54205,9 +55263,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "48",
+    "tahunPeraturan": 2009,
     "tentang": "KEKUASAAN KEHAKIMAN",
     "tglDitetapkan": "2009-10-29",
     "tglDiundangkan": "2009-10-29",
+    "category": [
+      "Penegakan Hukum & Profesi Hukum"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -54554,9 +55617,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "14",
+    "tahunPeraturan": 1970,
     "tentang": "KETENTUAN-KETENTUAN POKOK KEKUASAAN KEHAKIMAN",
     "tglDitetapkan": "1970-12-17",
     "tglDiundangkan": "1970-12-17",
+    "category": [
+      "Adat"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -54913,9 +55981,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "22",
+    "tahunPeraturan": 1997,
     "tentang": "NARKOTIKA",
     "tglDitetapkan": "1997-09-01",
     "tglDiundangkan": "1997-09-01",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e6fb7ecf08bb2313231343039",
@@ -55003,9 +56076,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "8",
+    "tahunPeraturan": 2013,
     "tentang": "PERUBAHAN KEDUA ATAS PERATURAN MENTEI NEGARA PERUMAHAN RAKYAT NOMOR 21 TAHUN 2010 TENTANG ORGANISASI DAN TATA KERJA KEMENTERIAN PERUMAHAN RAKYAT",
     "tglDitetapkan": "2013-12-17",
     "tglDiundangkan": "2013-12-18",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -55031,9 +56109,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "4",
+    "tahunPeraturan": 2013,
     "tentang": "PETUNJUK PELAKSANAAN BANTUAN PRASARANA, SARANA, DAN UTILITAS UMUM PERUMAHAN TAPAK YANG DIBANGUN OLEH PENGEMBANG",
     "tglDitetapkan": "2013-04-10",
     "tglDiundangkan": "2013-05-03",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -55057,9 +56140,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Lembaga Pemerintah Non Kementerian",
+    "nomorPeraturan": "2",
+    "tahunPeraturan": 2011,
     "tentang": "TATA CARA PENANGANAN TERSANGKA ATAU TERDAKWA PENYALAH GUNA, KORBAN PENYALAHGUNAAN, DAN PECANDU NARKOTIKA",
     "tglDitetapkan": "2011-05-18",
     "tglDiundangkan": "2011-09-12",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -55094,9 +56182,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "46/M-IND/PER/12/2017",
+    "tahunPeraturan": 2017,
     "tentang": "Lembaga Penilaian Kesesuaian Dalam Rangka Pemberlakuan dan Pengawasan Standar Nasional Indonesia Bahan dan Produk Kimia Secara Wajib",
     "tglDitetapkan": "2017-12-21",
     "tglDiundangkan": "2017-12-27",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e40afe090bc65313231323530",
@@ -55292,9 +56385,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "45",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN KETIGA ATAS PERATURAN PRESIDEN NOMOR 71 TAHUN 2006 TENTANG PENUGASAN KEPADA PT PERUSAHAAN LISTRIK NEGARA (PERSERO) UNTUK MELAKUKAN PERCEPATAN PEMBANGUNAN PEMBANGKIT TENAGA LISTRIK YANG MENGGUNAKAN BATUBARA",
     "tglDitetapkan": "2014-05-19",
     "tglDiundangkan": "2014-05-20",
+    "category": [
+      "Kesehatan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -55392,9 +56490,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 2013,
     "tentang": "PEDOMAN BANTUAN STIMULAN PENINGKATAN KUALITAS PERUMAHAN KUMUH DAN PERMUKIMAN KUMUH",
     "tglDitetapkan": "2013-04-10",
     "tglDiundangkan": "2013-05-03",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -55418,9 +56521,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "40",
+    "tahunPeraturan": 2012,
     "tentang": "PETUNJUK TEKNIS PENGGUNAAN DANA ALOKASI KHUSUS BIDANG PERUMAHAN DAN KAWASAN PERMUKIMAN TAHUN ANGGARAN 2013",
     "tglDitetapkan": "2012-12-21",
     "tglDiundangkan": "2013-01-14",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -55444,9 +56552,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "7",
+    "tahunPeraturan": 2013,
     "tentang": "PERUBAHAN ATAS PERATURAN MENTERI PERUMAHAN RAKYAT NOMOR 10 TAHUN 2012 TENTANG PENYELENGGARAAN PERUMAHAN DAN KAWASAN PERMUKIMAN DENGAN HUNIAN BERIMBANG",
     "tglDitetapkan": "2013-10-30",
     "tglDiundangkan": "2013-11-04",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -55472,9 +56585,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "88",
+    "tahunPeraturan": 2014,
     "tentang": "PEMBINAAN PENYELENGGARAAN PERUMAHAN DAN KAWASAN PEMUKIMAN",
     "tglDitetapkan": "2014-10-17",
     "tglDiundangkan": "2014-10-17",
+    "category": [
+      "Perumahan",
+      "Pelayanan Publik"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -55542,9 +56661,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "6",
+    "tahunPeraturan": 2013,
     "tentang": "PEDOMAN PELAKSANAAN BANTUAN STIMULAN PERUMAHAN SWADAYA",
     "tglDitetapkan": "2013-06-11",
     "tglDiundangkan": "2013-07-05",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -55579,9 +56703,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "4/PUU-V/2007",
+    "tahunPeraturan": 2007,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 29 TAHUN 2004 TENTANG PRAKTIK KEDOKTERAN (LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2004 NOMOR 116, TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4431, SELANJUTNYA DISEBUT UU PRAKTIK KEDOKTERAN) TERHADAP UNDANG-UNDANG DASAR NEGARA REPUBLIK INDONESIA TAHUN 1945 (SELANJUTNYA DISEBUT UUD 1945)",
     "tglDitetapkan": "2007-06-19",
     "tglDiundangkan": "2007-06-19",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -55616,9 +56745,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "75",
+    "tahunPeraturan": 2011,
     "tentang": "PERUBAHAN ATAS PERATURAN PEMERINTAH NOMOR 5 TAHUN 2005 TENTANG  PENYERTAAN MODAL NEGARA REPUBLIK INDONESIA UNTUK PENDIRIAN PERUSAHAAN PERSEROAN (PERSERO) DI BIDANG PEMBIAYAAN SEKUNDER PERUMAHAN",
     "tglDitetapkan": "2011-12-29",
     "tglDiundangkan": "2011-12-29",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -55684,9 +56818,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "P.61/MENLHK/SETJEN/KUM.1/6/2016",
+    "tahunPeraturan": 2016,
     "tentang": "PENCABUTAN PERATURAN MENTERI KEHUTANAN NOMOR P65MENHUTII2013 TENTANG POLICY ADVISOR BIDANG KEHUTANAN PADA IZIN PINJAM PAKAI KAWASAN HUTAN UNTUK KEGIATAN PERTAMBANGAN OPERASI PRODUKSI",
     "tglDitetapkan": "2016-07-14",
     "tglDiundangkan": "2016-07-29",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4f11bc34d0983f313231383431",
@@ -55862,9 +57001,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "20",
+    "tahunPeraturan": 1954,
     "tentang": "PENETAPAN UNDANG-UNDANG DARURAT NO. 8 TAHUN 1953 (LEMBARAN-NEGARA NO. 54 TAHUN 1953) TENTANG MEMPERPANJANG WAKTU BERLAKUNYA PERATURAN-PERATURAN MILITER TERMAKSUD DALAM PASAL 34 AYAT 5 STAATSBLAD 1939 NO. 582, SEBAGAIMANA TELAH DIUBAH DAN/ATAU DITAMBAH KEMUDIAN, SEPANJANG MENGENAI URUSAN PERUMAHAN SEBAGAI UNDANG-UNDANG",
     "tglDitetapkan": "1954-12-06",
     "tglDiundangkan": "1954-12-06",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -55890,9 +57034,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "1",
+    "tahunPeraturan": 1964,
     "tentang": "PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG UNDANG NOMOR 6 TAHUN 1962 TENTANG POKOK POKOK PERUMAHAN",
     "tglDitetapkan": "1964-01-20",
     "tglDiundangkan": "1964-01-20",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -55927,9 +57076,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "41",
+    "tahunPeraturan": 2007,
     "tentang": "ORGANISASI PERANGKAT DAERAH",
     "tglDitetapkan": "2007-07-23",
     "tglDiundangkan": "2007-07-23",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ef958c210c02c313231383030",
@@ -56187,9 +57341,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "4",
+    "tahunPeraturan": 1992,
     "tentang": "PERUMAHAN DAN PEMUKIMAN",
     "tglDitetapkan": "1992-10-03",
     "tglDiundangkan": "1992-10-03",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -56247,9 +57406,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "1",
+    "tahunPeraturan": 2011,
     "tentang": "PERUMAHAN DAN KAWASAN PEMUKIMAN",
     "tglDitetapkan": "2011-01-12",
     "tglDiundangkan": "2011-01-12",
+    "category": [
+      "Perumahan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -56438,9 +57602,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "6",
+    "tahunPeraturan": 2012,
     "tentang": "KOMITE KOORDINASI NASIONAL PENCEGAHAN DAN PEMBERANTASAN TINDAK PIDANA PENCUCIAN UANG",
     "tglDitetapkan": "2012-01-11",
     "tglDiundangkan": "2012-01-11",
+    "category": [
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e7044eec0bfc3313231343130",
@@ -56518,9 +57687,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "9",
+    "tahunPeraturan": 2012,
     "tentang": "PENUGASAN KEPADA MENTERI HUKUM DAN HAK ASASI MANUSIA, MENTERI SEKRETARIS NEGARA, MENTERI KEUANGAN, DAN JAKSA AGUNG UNTUK MELAKUKAN PENANGANAN PENGEMBALIAN ASET HASIL TINDAK PIDANA TERKAIT KASUS PT BANK CENTURY, TBK., YANG BERADA DI LUAR NEGERI",
     "tglDitetapkan": "2012-01-20",
     "tglDiundangkan": "2012-01-20",
+    "category": [
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4f2ea83490a2c0313231393239",
@@ -56555,9 +57729,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "15",
+    "tahunPeraturan": 2008,
     "tentang": "PENGESAHAN TREATY ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS (PERJANJIAN TENTANG BANTUAN TIMBAL-BALIK DALAM MASALAH PIDANA)",
     "tglDitetapkan": "2008-04-30",
     "tglDiundangkan": "2008-04-30",
+    "category": [
+      "Hukum Internasional",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -56581,9 +57761,14 @@
       200
     ],
     "jenisPeraturan": "Instruksi Presiden",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 2014,
     "tentang": "GERAKAN NASIONAL ANTI KEJAHATAN SEKSUAL TERHADAP ANAK",
     "tglDitetapkan": "2014-06-11",
     "tglDiundangkan": "2014-06-11",
+    "category": [
+      "Pidana"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -56607,9 +57792,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "35",
+    "tahunPeraturan": 1999,
     "tentang": "PERUBAHAN UU 14-1970 TENTANG KETENTUAN-KETENTUAN POKOK KEKUASAAN KEHAKIMAN",
     "tglDitetapkan": "1999-08-31",
     "tglDiundangkan": "1999-08-31",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -56675,9 +57865,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "58",
+    "tahunPeraturan": 2017,
     "tentang": "Perubahan Penggolongan Narkotika",
     "tglDitetapkan": "2017-12-18",
     "tglDiundangkan": "2017-12-28",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4f002da2c09450313231383131",
@@ -56745,9 +57940,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "8",
+    "tahunPeraturan": 2010,
     "tentang": "PENCEGAHAN DAN PEMBERANTASAN TINDAK PIDANA PENCUCIAN UANG",
     "tglDitetapkan": "2010-10-22",
     "tglDiundangkan": "2010-10-22",
+    "category": [
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -57197,9 +58397,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "11",
+    "tahunPeraturan": 2012,
     "tentang": "SISTEM PERADILAN PIDANA ANAK",
     "tglDitetapkan": "2012-07-30",
     "tglDiundangkan": "2012-07-30",
+    "category": [
+      "Narkotika",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -57490,9 +58696,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "9",
+    "tahunPeraturan": 2013,
     "tentang": "PENCEGAHAN DAN PEMBERANTASAN TINDAK PIDANA PENDANAAN TERORISME",
     "tglDitetapkan": "2013-03-13",
     "tglDiundangkan": "2013-03-13",
+    "category": [
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -57701,9 +58912,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "8",
+    "tahunPeraturan": 2014,
     "tentang": "PENGESAHAN PERJANJIAN ANTARA REPUBLIK INDONESIA DAN REPUBLIK KOREA TENTANG BANTUAN HUKUM TIMBAL BALIK DALAM MASALAH PIDANA (TREATY BETWEEN THE REPUBLIC OF INDONESIA AND THE REPUBLIC OF KOREA ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS)",
     "tglDitetapkan": "2014-03-11",
     "tglDiundangkan": "2014-03-11",
+    "category": [
+      "Hukum Internasional",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -57768,9 +58985,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "7",
+    "tahunPeraturan": 2006,
     "tentang": "PENGESAHAN UNITED NATIONS CONVENTION AGAINST CORRUPTION, 2003 (KONVENSI PBB MENENTANG KORUPSI, 2003)",
     "tglDitetapkan": "2006-04-18",
     "tglDiundangkan": "2006-04-18",
+    "category": [
+      "Korupsi",
+      "Hukum Internasional",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -57836,9 +59060,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "30",
+    "tahunPeraturan": 2002,
     "tentang": "KOMISI PEMBERANTASAN TINDAK PIDANA KORUPSI",
     "tglDitetapkan": "2002-12-27",
     "tglDiundangkan": "2002-12-27",
+    "category": [
+      "Korupsi",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -58538,9 +59768,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "71",
+    "tahunPeraturan": 2006,
     "tentang": "PENUGASAN KEPADA PT PERUSAHAAN LISTRIK NEGARA (PERSERO) UNTUK MELAKUKAN PERCEPATAN PEMBANGUNAN PEMBANGKIT TENAGA LISTRIK YANG MENGGUNAKAN BATUBARA",
     "tglDitetapkan": "2006-07-05",
     "tglDiundangkan": "2006-07-05",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -58718,9 +59953,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "54/M-IND/PER/6/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PENUNJUKAN LEMBAGA PENILAIAN KESESUAIAN DALAM RANGKA PEMBERLAKUAN DAN PENGAWASAN STANDAR NASIONAL INDONESIA (SNI) KALSIUM KARBIDA (CAC2) SECARA WAJIB",
     "tglDitetapkan": "2014-06-20",
     "tglDiundangkan": "2014-06-24",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -58755,9 +59995,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "3",
+    "tahunPeraturan": 1971,
     "tentang": "PEMBERANTASAN TINDAK PIDANA KORUPSI",
     "tglDitetapkan": "1971-03-29",
     "tglDiundangkan": "1971-03-29",
+    "category": [
+      "Korupsi",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -58792,9 +60038,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "31",
+    "tahunPeraturan": 1999,
     "tentang": "PEMBERANTASAN TINDAK PIDANA KORUPSI",
     "tglDitetapkan": "1999-08-16",
     "tglDiundangkan": "1999-08-16",
+    "category": [
+      "Korupsi",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -59664,9 +60916,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "20",
+    "tahunPeraturan": 2001,
     "tentang": "PERUBAHAN UU 31-1999 TENTANG PEMBERANTASAN TINDAK PIDANA KORUPSI",
     "tglDitetapkan": "2001-11-21",
     "tglDiundangkan": "2001-11-21",
+    "category": [
+      "Korupsi",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e6fbe56808064313231343039",
@@ -59815,9 +61073,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "12",
+    "tahunPeraturan": 2014,
     "tentang": "PEDOMAN PENANGANAN PERKARA DI LINGKUNGAN KEMENTERIAN DALAM NEGERI DAN PEMERINTAH DAERAH",
     "tglDitetapkan": "2014-02-07",
     "tglDiundangkan": "2014-02-13",
+    "category": [
+      "Administrasi Kepemerintahan",
+      "Pemda",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -59841,9 +61106,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 2005,
     "tentang": "PENYERTAAN MODAL NEGARA RI UNTUK PENDIRIAN PERUSAHAAN PERSEROAN (PERSERO) DI BIDANG PEMBIAYAAN SEKUNDER PERUMAHAN",
     "tglDitetapkan": "2005-07-02",
     "tglDiundangkan": "2005-07-02",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -59889,9 +61159,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "58/M-IND/PER/6/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PENUNJUKAN LEMBAGA PENILAIAN KESESUAIAN DALAM RANGKA PEMBERLAKUAN DAN PENGAWASAN STANDAR NASIONAL INDONESIA (SNI) SENG OKSIDA SECARA WAJIB",
     "tglDitetapkan": "2014-06-20",
     "tglDiundangkan": "2014-06-24",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -59926,9 +61201,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "56/M-IND/PER/6/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PENUNJUKAN LEMBAGA PENILAIAN KESESUAIAN DALAM RANGKA PEMBERLAKUAN DAN PENGAWASAN STANDAR NASIONAL INDONESIA (SNI) ASAM SULFAT TEKNIS SECARA WAJIB",
     "tglDitetapkan": "2014-06-20",
     "tglDiundangkan": "2014-06-24",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -59965,9 +61245,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "46",
+    "tahunPeraturan": 2009,
     "tentang": "PENGADILAN TINDAK PIDANA KORUPSI",
     "tglDitetapkan": "2009-10-29",
     "tglDiundangkan": "2009-10-29",
+    "category": [
+      "Korupsi",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -60104,9 +61390,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "55/M-IND/PER/6/2014",
+    "tahunPeraturan": 2014,
     "tentang": "PENUNJUKAN LEMBAGA PENILAIAN KESESUAIAN DALAM RANGKA PEMBERLAKUAN DAN PENGAWASAN STANDAR NASIONAL INDONESIA (SNI) SODIUM TRIPOLIFOSFAT (STPP) MUTU TEKNIS SECARA WAJIB",
     "tglDitetapkan": "2014-06-20",
     "tglDiundangkan": "2014-06-24",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -60141,9 +61432,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "3",
+    "tahunPeraturan": 2010,
     "tentang": "PENCABUTAN PERATURAN PEMERINTAH PENGGANTI UU NO. 4 TAHUN 2009 TENTANG PERUBAHAN ATAS UU NO. 30 TAHUN 2002 TENTANG KOMISI PEMBERANTASAN TINDAK PIDANA KORUPSI",
     "tglDitetapkan": "2010-06-15",
     "tglDiundangkan": "2010-06-15",
+    "category": [
+      "Korupsi",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -60212,9 +61509,15 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "3",
+    "tahunPeraturan": 2012,
     "tentang": "PENGESAHAN PERSETUJUAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN PEMERINTAH DAERAH ADMINISTRASI KHUSUS HONGKONG REPUBLIK RAKYAT CHINA TENTANG BANTUAN HUKUM TIMBAL BALIK DALAM MASALAH PIDANA (AGREEMENT BETWEEN THE GOVERNMENT OF THE HONGKONG SPECIAL ADMINISTRATIVE REGION OF THE PEOPLE'S REPUBLIC OF CHINA CONCERNING MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS)",
     "tglDitetapkan": "2012-03-28",
     "tglDiundangkan": "2012-03-28",
+    "category": [
+      "Hukum Internasional",
+      "Pidana"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -60279,9 +61582,17 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "11/PMK.05/2011",
+    "tahunPeraturan": 2011,
     "tentang": "TARIF LAYANAN BADAN LAYANAN UMUM BALAI RISET DAN STANDARDISASI INDUSTRI LAMPUNG PADA KEMENTERIAN PERINDUSTRIAN ",
     "tglDitetapkan": "2015-01-14",
     "tglDiundangkan": "2015-01-14",
+    "category": [
+      "Perdagangan & Industri",
+      "Administrasi Kepemerintahan",
+      "Riset dan Teknologi",
+      "Keuangan"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4eac3c2ea0ba7c313231353530",
@@ -60336,9 +61647,14 @@
       200
     ],
     "jenisPeraturan": "Keputusan Presiden",
+    "nomorPeraturan": "1",
+    "tahunPeraturan": 2004,
     "tentang": "KOMITE KOORDINASI NASIONAL PENCEGAHAN DAN PEMBERANTASAN TINDAK PIDANA PENCUCIAN UANG",
     "tglDitetapkan": "2004-01-05",
     "tglDiundangkan": "2004-01-05",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -60373,9 +61689,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "49",
+    "tahunPeraturan": 2005,
     "tentang": "UANG KEHORMATAN BAGI HAKIM PADA PENGADILAN TINDAK PIDANA KORUPSI",
     "tglDitetapkan": "2005-07-27",
     "tglDiundangkan": "2005-07-27",
+    "category": [
+      "Pidana",
+      "Korupsi"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -60434,9 +61756,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "94",
+    "tahunPeraturan": 2012,
     "tentang": "HAK KEUANGAN DAN FASILITAS HAKIM YANG BERADA  DI BAWAH MAHKAMAH AGUNG",
     "tglDitetapkan": "2012-10-29",
     "tglDiundangkan": "2012-10-30",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -60645,9 +61972,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "8",
+    "tahunPeraturan": 2003,
     "tentang": "PEDOMAN ORGANISASI PERANGKAT DAERAH",
     "tglDitetapkan": "2003-02-17",
     "tglDiundangkan": "2003-02-17",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -60682,9 +62014,17 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "14/PERMEN-KP/2013",
+    "tahunPeraturan": 2013,
     "tentang": "PERUBAHAN ATAS PERATURAN MENTERI KELAUTAN DAN PERIKANAN NOMOR PER.04/MEN/2012 TENTANG OBAT IKAN",
     "tglDitetapkan": "2013-07-01",
     "tglDiundangkan": "2013-07-05",
+    "category": [
+      "Sumber Daya Air & Kelautan",
+      "Pertanian, Perkebunan & Perikanan",
+      "Perizinan",
+      "Riset dan Teknologi"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -60719,9 +62059,16 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "17",
+    "tahunPeraturan": 2008,
     "tentang": "PELAYARAN",
     "tglDitetapkan": "2008-05-07",
     "tglDiundangkan": "2008-05-07",
+    "category": [
+      "Pertahanan & Keamanan",
+      "Riset dan Teknologi",
+      "Transportasi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -61879,9 +63226,15 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "182",
+    "tahunPeraturan": 2014,
     "tentang": "PENGESAHAN PERSETUJUAN ANTARA PEMERINTAH REPUBLIK",
     "tglDitetapkan": "2014-12-22",
     "tglDiundangkan": "2014-12-22",
+    "category": [
+      "Hukum Internasional",
+      "Riset dan Teknologi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ed7192c70995c313231373032",
@@ -61916,9 +63269,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "24/PERMEN-KP/2014",
+    "tahunPeraturan": 2014,
     "tentang": "CARA PEMBUATAN OBAT IKAN YANG BAIK",
     "tglDitetapkan": "2014-06-11",
     "tglDiundangkan": "2014-06-13",
+    "category": [
+      "Sumber Daya Air & Kelautan",
+      "Pertanian, Perkebunan & Perikanan",
+      "Riset dan Teknologi"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4ef52c8e40b966313231373533",
@@ -61973,9 +63333,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "83",
+    "tahunPeraturan": 2014,
     "tentang": "MAJELIS PERTIMBANGAN TENAGA NUKLIR",
     "tglDitetapkan": "2014-08-22",
     "tglDiundangkan": "2014-08-25",
+    "category": [
+      "Riset dan Teknologi"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -62010,9 +63375,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "3",
+    "tahunPeraturan": 1997,
     "tentang": "PENGADILAN ANAK",
     "tglDitetapkan": "1997-01-03",
     "tglDiundangkan": "1997-01-03",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e9a3e2ec09153313231353230",
@@ -62100,9 +63470,16 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "10",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN ATAS PERATURAN MENTERI KOMUNIKASI DAN INFORMATIKA NOMOR 21 TAHUN 2013 TENTANG PENYELENGGARAAN JASA PENYEDIAAN KONTEN PADA JARINGAN BERGERAK SELULER DAN JARINGAN TETAP LOKAL TANPA KABEL DENGAN MOBILITAS TERBATAS",
     "tglDitetapkan": "2014-02-05",
     "tglDiundangkan": "2014-02-06",
+    "category": [
+      "Infrastruktur",
+      "Riset dan Teknologi",
+      "Pers, Telekomunikasi & Informatika"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -62137,9 +63514,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah Pengganti Undang-undang",
+    "nomorPeraturan": "1",
+    "tahunPeraturan": 2002,
     "tentang": "PEMBERANTASAN TINDAK PIDANA TERORISME",
     "tglDitetapkan": "2002-10-18",
     "tglDiundangkan": "2002-10-18",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -62174,9 +63556,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "110/PUU-X/2012",
+    "tahunPeraturan": 2012,
     "tentang": "PENGUJIAN UNDANG-UNDANG NOMOR 11 TAHUN",
     "tglDitetapkan": "2013-03-26",
     "tglDiundangkan": "2013-03-26",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -62211,9 +63598,14 @@
       200
     ],
     "jenisPeraturan": "Putusan Mahkamah Konstitusi",
+    "nomorPeraturan": "012-016-019/PUU-IV/2006",
+    "tahunPeraturan": 2006,
     "tentang": "PENGUJIAN UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 30 TAHUN 2002 TENTANG KOMISI PEMBERANTASAN TINDAK PIDANA KORUPSI (LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2002 NOMOR 137, TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4250, SELANJUTNYA DISEBUT UU KPK)",
     "tglDitetapkan": "2006-12-18",
     "tglDiundangkan": "2006-12-18",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [
@@ -62248,9 +63640,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "39/PRT/M/2015",
+    "tahunPeraturan": 2015,
     "tentang": "PERUBAHAN ATAS PERATURAN MENTERI PERUMAHAN RAKYAT NOMOR 06 TAHUN 2013 TENTANG PEDOMAN PELAKSANAAN BANTUAN STIMULAN PERUMAHAN SWADAYA",
     "tglDitetapkan": "2015-09-03",
     "tglDiundangkan": "2015-09-07",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -62285,9 +63682,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "47",
+    "tahunPeraturan": 2011,
     "tentang": "PERUBAHAN KEDUA ATAS PERATURAN PRESIDEN NOMOR 71 TAHUN 2006 TENTANG PENUGASAN KEPADA PT PERUSAHAAN LISTRIK NEGARA (PERSERO) UNTUK MELAKUKAN PERCEPATAN PEMBANGUNAN PEMBANGKIT TENAGA LISTRIK YANG MENGGUNAKAN BATUBARA",
     "tglDitetapkan": "2011-07-27",
     "tglDiundangkan": "2011-07-27",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -62404,9 +63806,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "PER.04/MEN/2012",
+    "tahunPeraturan": 2012,
     "tentang": "OBAT IKAN",
     "tglDitetapkan": "2012-01-31",
     "tglDiundangkan": "2012-02-01",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -62454,9 +63861,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "5",
+    "tahunPeraturan": 2013,
     "tentang": "HAK KEUANGAN DAN FASILITAS HAKIM AD HOC",
     "tglDitetapkan": "2013-01-10",
     "tglDiundangkan": "2013-01-11",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e6fb0f7709284313231343039",
@@ -62614,9 +64026,14 @@
       200
     ],
     "jenisPeraturan": "Undang-Undang",
+    "nomorPeraturan": "21",
+    "tahunPeraturan": 1992,
     "tentang": "PELAYARAN",
     "tglDitetapkan": "1992-09-17",
     "tglDiundangkan": "1992-09-17",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e58ce1a826e0a0b379313131343132",
@@ -62784,9 +64201,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "19",
+    "tahunPeraturan": 2008,
     "tentang": "TUNJANGAN KHUSUS KINERJA HAKIM DAN PEGAWAI NEGERI DI LINGKUNGAN MAHKAMAH AGUNG DAN BADAN PERADILAN YANG BERADA DI BAWAHNYA",
     "tglDitetapkan": "2008-03-10",
     "tglDiundangkan": "2008-03-10",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e6fb0f7709284313231343039",
@@ -62952,9 +64374,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "9",
+    "tahunPeraturan": 2017,
     "tentang": "Penyelenggaraan Jasa Penyediaan Konten   pada Jaringan Bergerak Seluler",
     "tglDitetapkan": "2017-01-29",
     "tglDiundangkan": "2017-02-07",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e6ff2cad0b972313231343039",
@@ -63131,9 +64558,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Pemerintah",
+    "nomorPeraturan": "11",
+    "tahunPeraturan": 2008,
     "tentang": "PERUBAHAN KELIMA PP 8-2000 TENTANG PERATURAN GAJI HAKIM PERADILAN UMUM, PERADILAN TATA USAHA NEGARA, DAN PERADILAN AGAMA",
     "tglDitetapkan": "2008-04-02",
     "tglDiundangkan": "2008-04-02",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -63168,9 +64600,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "96",
+    "tahunPeraturan": 2006,
     "tentang": "TUNJANGAN DAN HAK-HAK LAINNYA BAGI HAKIM AD-HOC PADA PENGADILAN HUBUNGAN INDUSTRIAL",
     "tglDitetapkan": "2006-07-12",
     "tglDiundangkan": "2006-07-12",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [
       {
@@ -63227,9 +64664,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "23",
+    "tahunPeraturan": 2008,
     "tentang": "UANG KEHORMATAN DAN HAK-HAK LAINNYA BAGI HAKIM AD HOC PADA PENGADILAN PERIKANAN DI PENGADILAN NEGERI",
     "tglDitetapkan": "2008-04-04",
     "tglDiundangkan": "2008-04-04",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e9a448ab090ab313231353230",
@@ -63348,9 +64790,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "21",
+    "tahunPeraturan": 2013,
     "tentang": "PENYELENGGARAAN JASA PENYEDIAAN KONTEN PADA JARINGAN BERGERAK SELULER DAN JARINGAN TETAP LOKAL TANPA KABEL DENGAN MOBILITAS TERBATAS",
     "tglDitetapkan": "2013-07-26",
     "tglDiundangkan": "2013-08-06",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -63396,9 +64843,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "6",
+    "tahunPeraturan": 2015,
     "tentang": "PERUBAHAN KETIGA ATAS PERATURAN MENTERI KOMUNIKASI DAN INFORMATIKA NOMOR 21 TAHUN 2013 TENTANG PENYELENGGARAAN JASA PENYEDIAAN KONTEN PADA JARINGAN BERGERAK SELULER DAN JARINGAN TETAP LOKAL TANPA KABEL DENGAN MOBILITAS TERBATAS",
     "tglDitetapkan": "2015-02-06",
     "tglDiundangkan": "2015-02-06",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -63433,9 +64885,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Menteri",
+    "nomorPeraturan": "24",
+    "tahunPeraturan": 2014,
     "tentang": "PERUBAHAN KEDUA ATAS PERATURAN MENTERI KOMUNIKASI DAN INFORMATIKA NOMOR 21 TAHUN 2013 TENTANG PENYELENGGARAAN JASA PENYEDIAAN KONTEN PADA JARINGAN BERGERAK SELULER DAN JARINGAN TETAP LOKAL TANPA KABEL DENGAN MOBILITAS TERBATAS",
     "tglDitetapkan": "2014-08-06",
     "tglDiundangkan": "2014-08-07",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [],
     "dasarHukumDari": [],
     "mencabut": [],
@@ -63470,9 +64927,14 @@
       200
     ],
     "jenisPeraturan": "Peraturan Presiden",
+    "nomorPeraturan": "20",
+    "tahunPeraturan": 2011,
     "tentang": "PERUBAHAN ATAS PERATURAN PRESIDEN NOMOR 96 TAHUN 2006 TENTANG TUNJANGAN DAN HAK-HAK LAINNYA BAGI HAKIM AD HOC PADA PENGADILAN HUBUNGAN INDUSTRIAL",
     "tglDitetapkan": "2011-03-22",
     "tglDiundangkan": "2011-03-22",
+    "category": [
+      "Uncategorized"
+    ],
     "memilikiDasarHukum": [
       {
         "id": "11e44c4e34b7bea09d4d313231323330",
