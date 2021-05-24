@@ -1,18 +1,21 @@
 package com.path_studio.adil.ui.main.home
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.drawable.PictureDrawable
 import android.net.Uri
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.github.twocoffeesoneteam.glidetovectoryou.GlideToVectorYou
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners
+import com.bumptech.glide.request.RequestOptions
+import com.path_studio.adil.R
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
 import com.path_studio.adil.databinding.ItemGridCategoryBinding
+import com.path_studio.adil.ui.categoryResult.CategoryResultActivity
 import com.path_studio.adil.ui.main.MainActivity
-import java.io.InputStream
 import java.util.*
-
 
 class HomeCategoriesAdapter(val activity: MainActivity) :
     RecyclerView.Adapter<HomeCategoriesAdapter.CategoryViewHolder>() {
@@ -41,16 +44,22 @@ class HomeCategoriesAdapter(val activity: MainActivity) :
         @ExperimentalStdlibApi
         fun bind(category: CategoryResponse) {
             with(binding) {
-                /*val iconName = "ic_${category.id.lowercase()}"
-                try {
-                    imgCategory.setImageResource(
-                        context.resources.getIdentifier(iconName, "drawable", context.packageName)
+                Glide.with(activity)
+                    .load(category.icon)
+                    .transform(RoundedCorners(20))
+                    .apply(
+                        RequestOptions.placeholderOf(R.drawable.ic_loading)
+                            .error(R.drawable.ic_error)
                     )
-                } catch (e: Exception) {
-                    //do nothing first
-                }*/
+                    .into(imgCategory)
 
                 categoryName.text = category.name
+
+                itemView.setOnClickListener {
+                    val intent = Intent(itemView.context, CategoryResultActivity::class.java)
+                    intent.putExtra(CategoryResultActivity.EXTRA_CATEGORY, category.name)
+                    itemView.context.startActivity(intent)
+                }
             }
         }
     }

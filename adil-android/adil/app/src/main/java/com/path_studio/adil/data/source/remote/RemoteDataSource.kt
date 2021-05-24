@@ -73,10 +73,10 @@ class RemoteDataSource {
         return categoryResult
     }
 
-    fun getLegislationByCategory(categoryId: String): LiveData<List<LegislationResponse>>{
+    fun getLegislationByCategory(categoryName: String): LiveData<List<LegislationResponse>>{
         val legislationResult = MutableLiveData<List<LegislationResponse>>()
         FirestoreConfig.getFirestoreService().collection("legislation")
-            .whereArrayContains("category", categoryId)
+            .whereArrayContains("category", categoryName)
             .get()
             .addOnCompleteListener(OnCompleteListener<QuerySnapshot?> { task ->
                 if (task.isSuccessful) {
@@ -92,7 +92,7 @@ class RemoteDataSource {
                     // Post value back
                     legislationResult.postValue(legislationList)
                 } else {
-                    Log.w("Category Result", "Error getting documents.", task.exception)
+                    Log.w("Legislation Result", "Error getting documents.", task.exception)
                 }
 
             })

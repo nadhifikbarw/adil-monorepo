@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.path_studio.adil.R
 import com.path_studio.adil.databinding.FragmentCategoryBinding
+import com.path_studio.adil.ui.main.MainActivity
 import com.path_studio.adil.ui.main.home.HomeViewModel
 import com.path_studio.adil.viewModel.ViewModelFactory
 
@@ -36,14 +37,14 @@ class CategoryFragment : Fragment() {
 
         //Set Grid Layout & RecyclerView
         if(activity!= null){
-            val categoryAdapter = CategoryAdapter(requireContext())
+            val categoryAdapter = CategoryAdapter(activity as MainActivity)
 
             val factory = ViewModelFactory.getInstance(requireActivity())
             val viewModel = ViewModelProvider(this, factory)[CategoryViewModel::class.java]
 
-            binding.progressBar.visibility = View.VISIBLE
+            binding.skeletonLayout.showSkeleton()
             viewModel.getAllCategories().observe(requireActivity(), { category ->
-                binding.progressBar.visibility = View.GONE
+                binding.skeletonLayout.showOriginal()
                 categoryAdapter.setCategories(category)
                 categoryAdapter.notifyDataSetChanged()
             })
