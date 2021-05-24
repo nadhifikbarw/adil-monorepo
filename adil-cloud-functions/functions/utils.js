@@ -1,13 +1,13 @@
 const getFields = () => [
-  "jenis_peraturan",
-  "nomor_peraturan",
-  "tahun_peraturan",
+  "jenisPeraturan",
+  "nomorPeraturan",
+  "tahunPeraturan",
   "tentang",
-  "tgl_ditetapkan",
-  "tgl_diundangkan",
+  "tglDitetapkan",
+  "tglDiundangkan",
   "category",
   "instansi",
-  "daerah_id",
+  "daerahId",
 ];
 
 exports.createBody = (data) => {
