@@ -28,8 +28,8 @@ class AdilRepository(private val remoteDataSource: RemoteDataSource): AdilDataSo
         return remoteDataSource.getHomeCategories()
     }
 
-    override fun getLegislationByCategoryId(categoryId: String): LiveData<List<LegislationResponse>>{
-        return remoteDataSource.getLegislationByCategory(categoryId)
+    override fun getLegislationByCategoryName(categoryName: String): LiveData<List<LegislationResponse>>{
+        return remoteDataSource.getLegislationByCategory(categoryName)
     }
 
     override fun getLegislationDocument(legislationId: String): LiveData<List<String>> {
