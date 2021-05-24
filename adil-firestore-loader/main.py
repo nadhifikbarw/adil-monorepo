@@ -10,6 +10,9 @@ if __name__ == '__main__':
     firebase_admin.initialize_app(credential)
     db = firestore.client()
 
+    # Model
+    #
+
     # Load json data
     with open('../data_fixed_firestore_camel.json', 'r', encoding='utf-8') as fp:
         docs = json.load(fp)
