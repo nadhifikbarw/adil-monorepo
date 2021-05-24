@@ -2,6 +2,7 @@ package com.path_studio.adil.ui.detailUU
 
 import android.graphics.Color
 import android.os.Bundle
+import android.util.Log
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -10,6 +11,7 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import com.path_studio.adil.R
 import com.path_studio.adil.databinding.ActivityDetailUuActivityBinding
+import com.path_studio.adil.ui.categoryResult.CategoryResultActivity
 
 class DetailUUActivity : AppCompatActivity() {
 
@@ -27,6 +29,8 @@ class DetailUUActivity : AppCompatActivity() {
             R.drawable.ic_timeline
         )
 
+        const val EXTRA_LEGISLATION_ID = "extra_legislation_id"
+
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,6 +40,12 @@ class DetailUUActivity : AppCompatActivity() {
 
         //set Tab
         setTab()
+
+        val extras = intent.extras
+        if (extras != null) {
+            val legislationId = extras.getString(EXTRA_LEGISLATION_ID)
+            Log.e("Legislation ID", legislationId.toString())
+        }
 
         //set back button listener
         binding.backButton.setOnClickListener {

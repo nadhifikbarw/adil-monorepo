@@ -14,7 +14,7 @@
         android:padding="10dp">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/detailNomor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
@@ -28,7 +28,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/detailTentang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -39,57 +39,36 @@
             android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            app:layout_constraintTop_toBottomOf="@+id/detailNomor" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/detailDitetapkanBerlaku"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:ellipsize="end"
-            android:maxLines="1"
             android:text="@string/temp_search_details"
             android:textColor="@color/cerulean"
             android:textSize="12sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/detailTentang"
             tools:layout_editor_absoluteX="10dp" />
 
         <HorizontalScrollView
+            android:id="@+id/legislationTagsContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView4">
+            app:layout_constraintTop_toBottomOf="@+id/detailDitetapkanBerlaku">
 
             <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/legislationTags"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="10dp"
-                    android:text="@string/temp_year"
-                    android:textSize="12sp" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="10dp"
-                    android:text="@string/temp_hierarki_peraturan"
-                    android:textSize="12sp" />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="10dp"
-                    android:text="@string/temp_selected_category"
-                    android:textSize="12sp" />
-
+                <!-- Some Code here... -->
             </androidx.appcompat.widget.LinearLayoutCompat>
 
         </HorizontalScrollView>
