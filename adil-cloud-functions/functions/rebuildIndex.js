@@ -4,6 +4,7 @@ const {getESClient} = require("./elasticsearch");
 const {createBody} = require("./utils");
 
 const db = admin.firestore();
+const bucket = admin.storage().bucket("adil-plaintext");
 
 exports.rebuildIndex = functions
     .region("asia-southeast2")
@@ -23,48 +24,48 @@ exports.rebuildIndex = functions
       // Get ES Client;
       const client = await getESClient();
 
+      // List document that need to be processed
+      let documents = [];
       if (docId === "_all") {
-        // Get documents
         const docs = await db.collection("legislation").get();
-        functions.logger.debug(`Rebuilding ${docs.length} documents`);
-
-        // Rebuild documents
-        const documents = [];
-        for (const doc of docs) {
-          documents.push(doc.id);
-          await client.index({
-            id: doc.id,
-            index: "legislation",
-            body: createBody(await doc.data()),
-          });
-          functions.logger.log(`Document ${doc.id} index rebuilt`);
-        }
-
-        return {
-          documents,
-          status: "INDEX_REBUILT",
-        };
+        documents = docs.docs;
       } else {
-        // Get document
         const doc = await db.collection("legislation").doc(docId).get();
-
-        // Check existence
         if (!doc.exists) {
           throw new functions.https.HttpsError("aborted", `Document ${docId} does not exist in collection`);
+        } else {
+          documents.push(doc);
+        }
+      }
+
+      // Rebuild index
+      const success = [];
+      functions.logger.debug(`Rebuilding ${documents.length} documents`);
+      for (const doc of documents) {
+        // Create metadata body
+        const body = createBody(await doc.data());
+
+        // Insert content plaintext if exists
+        const file = bucket.file(`${doc.id}.0.txt`);
+        if (await file.exists()) {
+          body["content"] = (await file.download()).toString();
         }
 
-        // Rebuild documents
-        functions.logger.debug("Rebuilding 1 document");
-        await client.index({
+        await client.update({
           id: doc.id,
           index: "legislation",
-          body: createBody(await doc.data()),
+          body: {
+            doc: body,
+            doc_as_upsert: true,
+          },
         });
-        functions.logger.log(`Document ${doc.id} index rebuilt`);
 
-        return {
-          documents: [doc.id],
-          status: "INDEX_REBUILT",
-        };
+        success.push(doc.id);
+        functions.logger.log(`Document ${doc.id} index rebuilt`);
       }
+
+      return {
+        documents: success,
+        status: "INDEX_REBUILT",
+      };
     });

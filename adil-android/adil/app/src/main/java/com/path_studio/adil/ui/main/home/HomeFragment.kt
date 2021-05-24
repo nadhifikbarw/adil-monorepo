@@ -65,9 +65,9 @@ class HomeFragment : Fragment() {
             val factory = ViewModelFactory.getInstance(requireActivity())
             val viewModel = ViewModelProvider(this, factory)[HomeViewModel::class.java]
 
-            binding.progressBar.visibility = View.VISIBLE
+            binding.skeletonLayout.showSkeleton()
             viewModel.getHomeCategories().observe(requireActivity(), { category ->
-                binding.progressBar.visibility = View.GONE
+                binding.skeletonLayout.showOriginal()
                 categoryAdapter.setCategories(category)
                 categoryAdapter.notifyDataSetChanged()
             })
