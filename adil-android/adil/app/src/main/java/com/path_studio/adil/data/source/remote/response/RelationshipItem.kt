@@ -17,5 +17,7 @@ data class RelationshipItem(
 
 	val id: String? = null,
 
-	val tahunPeraturan: Int? = 0
+	val tahunPeraturan: Int? = 0,
+
+	val type: String? = null
 )
