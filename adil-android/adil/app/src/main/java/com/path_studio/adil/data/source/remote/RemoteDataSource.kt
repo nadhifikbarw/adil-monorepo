@@ -2,21 +2,20 @@ package com.path_studio.adil.data.source.remote
 
 import android.util.Log
 import androidx.lifecycle.LiveData
+import com.google.firebase.ktx.Firebase
 import androidx.lifecycle.MutableLiveData
-import com.google.android.gms.tasks.OnCompleteListener
-import com.google.android.gms.tasks.Task
 import com.google.firebase.firestore.QuerySnapshot
 import com.google.firebase.firestore.ktx.toObject
-import com.google.firebase.functions.FirebaseFunctions
 import com.google.firebase.functions.ktx.functions
-import com.google.firebase.ktx.Firebase
+import com.google.firebase.functions.FirebaseFunctions
+import com.google.android.gms.tasks.OnCompleteListener
 import com.path_studio.adil.data.source.remote.firestore.FirestoreConfig
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
 
 class RemoteDataSource {
 
-    private var functions : FirebaseFunctions = Firebase.functions
+    private var functions : FirebaseFunctions = Firebase.functions("asia-southeast2")
 
     companion object {
         @Volatile

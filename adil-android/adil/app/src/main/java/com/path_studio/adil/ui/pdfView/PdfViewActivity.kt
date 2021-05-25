@@ -1,25 +1,22 @@
 package com.path_studio.adil.ui.pdfView
 
+import java.io.File
 import android.os.Bundle
 import android.util.Log
-import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.ViewModelProvider
-import com.github.barteksc.pdfviewer.util.FitPolicy
-import com.google.android.gms.tasks.Task
-import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.functions.FirebaseFunctions
-import com.google.firebase.functions.FirebaseFunctionsException
-import com.google.firebase.functions.ktx.functions
 import com.google.firebase.ktx.Firebase
 import com.krishna.fileloader.FileLoader
-import com.krishna.fileloader.listener.FileRequestListener
+import com.google.android.gms.tasks.Task
+import androidx.lifecycle.ViewModelProvider
+import androidx.appcompat.app.AppCompatActivity
 import com.krishna.fileloader.pojo.FileResponse
+import com.google.firebase.functions.ktx.functions
+import com.github.barteksc.pdfviewer.util.FitPolicy
 import com.krishna.fileloader.request.FileLoadRequest
-import com.path_studio.adil.databinding.ActivityPdfViewBinding
-import com.path_studio.adil.ui.main.home.HomeViewModel
+import com.google.firebase.functions.FirebaseFunctions
+import com.google.firebase.ktx.initialize
 import com.path_studio.adil.viewModel.ViewModelFactory
-import java.io.File
+import com.krishna.fileloader.listener.FileRequestListener
+import com.path_studio.adil.databinding.ActivityPdfViewBinding
 
 
 class PdfViewActivity : AppCompatActivity() {
@@ -37,12 +34,12 @@ class PdfViewActivity : AppCompatActivity() {
 
         val factory = ViewModelFactory.getInstance(this)
         val viewModel = ViewModelProvider(this, factory)[PdfViewerViewModel::class.java]
-        functions = Firebase.functions
+        functions = FirebaseFunctions.getInstance("asia-southeast2")
 
         val extras = intent.extras
         if(extras != null) {
 
-            val docLegisId =extras.getString(EXTRA_LEGISLATION_ID) as String
+            val docLegisId = extras.getString(EXTRA_LEGISLATION_ID) as String
 
             // Show Document pakai Firebase biasa
 /*            viewModel.selectedLegislation(docLegisId)
@@ -55,6 +52,7 @@ class PdfViewActivity : AppCompatActivity() {
             // show document pakai cloud function
             getSignedUrl(docLegisId).addOnCompleteListener{ task ->
                 val url = task.result
+                Log.i("url", url.toString())
                 showDocument(url)
             }
 
@@ -77,11 +75,9 @@ class PdfViewActivity : AppCompatActivity() {
             .getHttpsCallable("getSignedUrl")
             .call(data)
             .continueWith { task ->
-                // This continuation runs on either success or failure, but if the task
-                // has failed then result will throw an Exception which will be
-                // propagated down.
-                val result = task.result?.data as Map<String,Any>
-                result["url"] as String
+                Log.d("urldump", task.result?.data.toString())
+                val result = task.result?.data as Map<*, *>
+                result["url"].toString()
             }
     }
 
