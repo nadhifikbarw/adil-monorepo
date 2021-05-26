@@ -1,26 +1,22 @@
 package com.path_studio.adil.ui.pdfView
 
+import java.io.File
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.github.barteksc.pdfviewer.util.FitPolicy
-import com.google.android.gms.tasks.Task
-import com.google.firebase.functions.FirebaseFunctions
-import com.google.firebase.functions.ktx.functions
-import com.google.firebase.ktx.Firebase
 import com.krishna.fileloader.FileLoader
-import com.krishna.fileloader.listener.FileRequestListener
 import com.krishna.fileloader.pojo.FileResponse
 import com.krishna.fileloader.request.FileLoadRequest
-import com.path_studio.adil.databinding.ActivityPdfViewBinding
 import com.path_studio.adil.viewModel.ViewModelFactory
-import java.io.File
+import com.krishna.fileloader.listener.FileRequestListener
+import com.path_studio.adil.databinding.ActivityPdfViewBinding
 
 
 class PdfViewActivity : AppCompatActivity() {
     private lateinit var binding: ActivityPdfViewBinding
 
-    companion object{
+    companion object {
         val EXTRA_LEGISLATION_ID = "extra_id"
     }
 
@@ -34,37 +30,41 @@ class PdfViewActivity : AppCompatActivity() {
 
 
         val extras = intent.extras
-        if(extras != null) {
-            val docLegisId =extras.getString(EXTRA_LEGISLATION_ID) as String
-            with(viewModel){
+        if (extras != null) {
+            val docLegisId = extras.getString(EXTRA_LEGISLATION_ID) as String
+            with(viewModel) {
                 selectedLegislation(docLegisId)
-                getSignedUrl(docLegisId).addOnCompleteListener{ task ->
+                getSignedUrl(docLegisId).addOnCompleteListener { task ->
                     val url = task.result
                     showDocument(url)
                 }
-            }
-        }
 
-        //set back button listener
-        binding.backButton.setOnClickListener {
-            super.onBackPressed()
+
+                //set back button listener
+                binding.backButton.setOnClickListener {
+                    super.onBackPressed()
+                }
+            }
+
         }
     }
 
     private fun showDocument(legisPdf: String?) {
         FileLoader.with(this)
-            .load(legisPdf,false)
+            .load(legisPdf, false)
             .fromDirectory("PDFFile", FileLoader.DIR_INTERNAL)
-            .asFile(object: FileRequestListener<File> {
-                override fun onLoad(request: FileLoadRequest?, response: FileResponse<File>?){
+            .asFile(object : FileRequestListener<File> {
+                override fun onLoad(
+                    request: FileLoadRequest?,
+                    response: FileResponse<File>?
+                ) {
                     val pdfFile = response!!.body
                     binding.pdfView.fromFile(pdfFile).pageFitPolicy(FitPolicy.WIDTH).load()
                 }
+
                 override fun onError(request: FileLoadRequest?, t: Throwable?) {
                     true
                 }
             })
     }
-
-
 }

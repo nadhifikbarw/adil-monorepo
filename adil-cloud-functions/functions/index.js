@@ -2,6 +2,7 @@ const admin = require("firebase-admin");
 admin.initializeApp();
 
 const syncIndex = require("./syncIndex");
+const getTimeline = require("./getTimeline");
 const getSignedUrl = require("./getSignedUrl");
 const {rebuildIndex} = require("./rebuildIndex");
 const queryLegislation = require("./queryLegislation");
@@ -11,6 +12,7 @@ exports.rebuildIndex = rebuildIndex;
 exports.handleCreate = syncIndex.handleCreate;
 exports.handleUpdate = syncIndex.handleUpdate;
 exports.handleDelete = syncIndex.handleDelete;
+exports.getTimeline = getTimeline.getTimeline;
 exports.getSignedUrl = getSignedUrl.getSignedUrl;
 exports.queryLegislation = queryLegislation.queryLegislation;
 exports.handleDeletePlaintext = syncPlaintextIndex.handleDeletePlaintext;

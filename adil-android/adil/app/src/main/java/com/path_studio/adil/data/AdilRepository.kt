@@ -1,11 +1,9 @@
 package com.path_studio.adil.data
 
 import androidx.lifecycle.LiveData
-import com.google.android.gms.tasks.Task
 import com.path_studio.adil.data.source.remote.RemoteDataSource
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
-import java.io.File
 
 class AdilRepository(private val remoteDataSource: RemoteDataSource): AdilDataSource {
 
