@@ -32,3 +32,33 @@ val data = hasMapOf (
    "query" to "Undang-Undang / Keyword yang dicari"
 )
 ```
+
+## Testing Functions
+
+Here are data parameters example to test the functions
+
+Test here: https://console.cloud.google.com/functions/list?project=adil-gcp&tab=logs
+
+```
+Function: getSignedUrl
+{
+  "data": {
+    "bucket": "adil-pdf",
+    "filename": "11e44c4ed09124909b9c313231363531.0.pdf"
+  }
+}
+
+Function: getTimeline
+{
+  "data": {
+    "docId": "11e44c4ed09124909b9c313231363531"
+  }
+}
+
+Function: queryLegislation
+{
+  "data": {
+    "query": "Perlindungan"
+  }
+}
+```
