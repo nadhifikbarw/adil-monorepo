@@ -1,8 +1,11 @@
 package com.path_studio.adil.data
 
 import androidx.lifecycle.LiveData
+import com.google.android.gms.tasks.Task
 import com.path_studio.adil.data.source.remote.RemoteDataSource
+import com.path_studio.adil.data.source.remote.response.QueryHitItem
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
+import com.path_studio.adil.data.source.remote.response.RelationshipItem
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
 
 class AdilRepository(private val remoteDataSource: RemoteDataSource): AdilDataSource {
@@ -43,8 +46,13 @@ class AdilRepository(private val remoteDataSource: RemoteDataSource): AdilDataSo
         return remoteDataSource.getSignedUrl(docId)
     }
 
-//    override fun queryLegislation(query: String): Task<Any> {
-//        return remoteDataSource.queryLegislation(query)
-//    }
+    override fun getTimeline(docId: String): Task<List<RelationshipItem?>> {
+        return remoteDataSource.getTimeline(docId)
+    }
+
+    override fun queryLegislation(query: String): Task<List<QueryHitItem?>> {
+        return remoteDataSource.queryLegislation(query)
+    }
+
 
 }

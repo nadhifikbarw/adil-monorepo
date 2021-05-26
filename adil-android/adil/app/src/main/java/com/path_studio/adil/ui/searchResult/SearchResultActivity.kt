@@ -1,27 +1,24 @@
 package com.path_studio.adil.ui.searchResult
 
-import android.os.Bundle
 import android.util.Log
+import android.os.Bundle
+import com.google.gson.Gson
 import android.view.Gravity
+import com.google.android.gms.tasks.Task
+import androidx.lifecycle.ViewModelProvider
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
-import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.android.gms.tasks.Task
-import com.google.firebase.functions.FirebaseFunctions
-import com.google.firebase.functions.FirebaseFunctionsException
-import com.google.gson.Gson
-import com.path_studio.adil.data.source.remote.response.LegislationResponse
-import com.path_studio.adil.databinding.ActivitySearchResultBinding
 import com.path_studio.adil.viewModel.ViewModelFactory
-import java.util.*
-import kotlin.collections.HashMap
-
+import com.google.firebase.functions.FirebaseFunctions
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.path_studio.adil.databinding.ActivitySearchResultBinding
+import com.path_studio.adil.data.source.remote.response.QueryHitItem
+import com.path_studio.adil.data.source.remote.response.QueryResponse
 
 class SearchResultActivity : AppCompatActivity() {
+    private var drawerLayout: DrawerLayout? = null
     private lateinit var binding: ActivitySearchResultBinding
     private var functions = FirebaseFunctions.getInstance("asia-southeast2")
-    private var drawerLayout: DrawerLayout? = null
 
     companion object{
         const val EXTRA_QUERY = "extra_query"
@@ -42,7 +39,8 @@ class SearchResultActivity : AppCompatActivity() {
             val rvSearchAdapter = SearchResultAdapter(this)
 
             queryLegislation(query.toString()).addOnCompleteListener {
-                    val temp = it.result
+                val hitItems = it.result
+                Log.d("TESTING", hitItems?.get(0)?.id.toString())
             }
 
             with(binding.rvListNotification){
@@ -52,7 +50,7 @@ class SearchResultActivity : AppCompatActivity() {
             }
         }
 
-        //set back button listener
+        // Set back button listener
         binding.backButton.setOnClickListener {
             super.onBackPressed()
         }
@@ -62,7 +60,7 @@ class SearchResultActivity : AppCompatActivity() {
         }
     }
 
-    private fun queryLegislation(query: String): Task<Map<*,*>> {
+    private fun queryLegislation(query: String): Task<List<QueryHitItem>> {
         val data = hashMapOf(
             "query" to query
         )
@@ -71,7 +69,15 @@ class SearchResultActivity : AppCompatActivity() {
             .getHttpsCallable("queryLegislation")
             .call(data)
             .continueWith { task ->
-                val result = task.result?.data as Map<*,*>
+                val resultMap = task.result?.data as Map<String,Any>
+
+                // Cast Map to JSON
+                val gson = Gson()
+                val json = gson.toJson(resultMap)
+
+                // Extract List of QueryHitItem
+                val queryResponse = gson.fromJson(json, QueryResponse::class.java)
+                val result = queryResponse.hits.hits
                 result
             }
     }
