@@ -43,24 +43,29 @@ class InformationFragment : Fragment() {
             viewModel.selectedLegislation(legisId.toString())
             viewModel.getLegislationDetail().observe(viewLifecycleOwner,{ data ->
                 populateDetail(data)
+
+                binding.button.setOnClickListener {
+                    val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)
+                    intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID,data.document?.get(0))
+                    startActivity(intent)
+                }
             })
         }
 
-        binding.button.setOnClickListener {
-            val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)
-            intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID,"11e44c4e281ce9d0947a313231323039")
-            startActivity(intent)
-        }
+
     }
 
-    private fun populateDetail(data: LegislationResponse?) {
+    private fun populateDetail(data: LegislationResponse?){
         with(binding){
             infoJenis.text = data?.jenisPeraturan
+            infoInstansi.text = data?.instansi
             infoJudul.text = data?.tentang
             infoNomor.text = data?.nomorPeraturan
             infoTahun.text = data?.tahunPeraturan.toString()
             infoDitetapkan.text = data?.tglDitetapkan
             infoDiundangkan.text = data?.tglDiundangkan
+            infoDaerah.text = data?.daerahId
+            //infoKategori.text = data?.category
         }
     }
 
