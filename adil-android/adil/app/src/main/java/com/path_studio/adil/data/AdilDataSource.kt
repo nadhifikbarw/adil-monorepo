@@ -12,4 +12,6 @@ interface AdilDataSource {
     fun getLegislationByCategoryName(categoryId: String): LiveData<List<LegislationResponse>>
     fun getLegislationDocument(legislationId : String): LiveData<List<String>>
     fun getLegislationDetail(legislationId : String) : LiveData<LegislationResponse>
+    fun getSignedUrl(docId: String): Task<String>
+//    fun queryLegislation(query: String): Task<Any>
 }

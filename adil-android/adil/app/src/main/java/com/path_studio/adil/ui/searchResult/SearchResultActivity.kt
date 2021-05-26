@@ -1,20 +1,56 @@
 package com.path_studio.adil.ui.searchResult
 
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.gms.tasks.Task
+import com.google.firebase.functions.FirebaseFunctions
+import com.google.firebase.functions.FirebaseFunctionsException
+import com.google.gson.Gson
+import com.path_studio.adil.data.source.remote.response.LegislationResponse
 import com.path_studio.adil.databinding.ActivitySearchResultBinding
+import com.path_studio.adil.viewModel.ViewModelFactory
+import java.util.*
+import kotlin.collections.HashMap
+
 
 class SearchResultActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySearchResultBinding
-
+    private var functions = FirebaseFunctions.getInstance("asia-southeast2")
     private var drawerLayout: DrawerLayout? = null
+
+    companion object{
+        const val EXTRA_QUERY = "extra_query"
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySearchResultBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val extras = intent.extras
+        if(extras != null) {
+            val query = extras.getString(EXTRA_QUERY)
+
+            val factory = ViewModelFactory.getInstance(this)
+            val viewModel = ViewModelProvider(this, factory)[SearchResultViewModel::class.java]
+
+            val rvSearchAdapter = SearchResultAdapter(this)
+
+            queryLegislation(query.toString()).addOnCompleteListener {
+                    val temp = it.result
+            }
+
+            with(binding.rvListNotification){
+                binding.rvListNotification.layoutManager = LinearLayoutManager(context)
+                setHasFixedSize(true)
+                adapter = rvSearchAdapter
+            }
+        }
 
         //set back button listener
         binding.backButton.setOnClickListener {
@@ -24,6 +60,19 @@ class SearchResultActivity : AppCompatActivity() {
         binding.filterButton.setOnClickListener {
             binding.fragmentSearchResult.openDrawer(Gravity.RIGHT)
         }
+    }
 
+    private fun queryLegislation(query: String): Task<Map<*,*>> {
+        val data = hashMapOf(
+            "query" to query
+        )
+
+        return functions
+            .getHttpsCallable("queryLegislation")
+            .call(data)
+            .continueWith { task ->
+                val result = task.result?.data as Map<*,*>
+                result
+            }
     }
 }

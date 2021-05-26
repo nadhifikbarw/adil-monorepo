@@ -15,5 +15,5 @@ class PdfViewerViewModel(private val adilRepository: AdilRepository) : ViewModel
         this.legislationId = legislationId
     }
 
-    fun getLegislationDoc(): LiveData<List<String>> = adilRepository.getLegislationDocument(legislationId)
+    fun getSignedUrl(docId: String): Task<String> = adilRepository.getSignedUrl(legislationId)
 }

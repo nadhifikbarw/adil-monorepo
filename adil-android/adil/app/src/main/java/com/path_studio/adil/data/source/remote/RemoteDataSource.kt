@@ -8,15 +8,13 @@ import com.google.android.gms.tasks.Task
 import com.google.firebase.firestore.QuerySnapshot
 import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.functions.FirebaseFunctions
-import com.google.firebase.functions.ktx.functions
-import com.google.firebase.ktx.Firebase
 import com.path_studio.adil.data.source.remote.firestore.FirestoreConfig
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
 
 class RemoteDataSource {
 
-    private var functions : FirebaseFunctions = Firebase.functions
+    private var functions = FirebaseFunctions.getInstance("asia-southeast2")
 
     companion object {
         @Volatile
@@ -104,6 +102,8 @@ class RemoteDataSource {
         return legislationResult
     }
 
+
+
     fun getLegislationDocument(legislationId : String) : LiveData<List<String>>{
         val legisDocList = MutableLiveData<List<String>>()
         FirestoreConfig.getFirestoreService().collection("legislation").document(legislationId)
@@ -131,5 +131,31 @@ class RemoteDataSource {
         return legislationResult
     }
 
+    fun getSignedUrl(docId: String): Task<String> {
+        val data = hashMapOf(
+            "filename" to "${docId}.0.pdf",
+            "bucket" to "adil-pdf"
+        )
+
+        return functions
+            .getHttpsCallable("getSignedUrl")
+            .call(data)
+            .continueWith { task ->
+                val result = task.result?.data as Map<*,*>
+                result["url"].toString()
+            }
+    }
+
+//    fun queryLegislation(query: String): Task<Any> {
+//        val data = "query" to query
+//
+//        return functions
+//            .getHttpsCallable("queryLegislation")
+//            .call(data)
+//            .continueWith { task ->
+//                val result = task.result?.data
+//                result
+//            }
+//    }
 
 }

@@ -33,14 +33,13 @@
     <string name="bookmark_button">bookmark button</string>
     <string name="jenis">Jenis</string>
     <string name="lorem_ipsum">lorem ipsum dolor si amet</string>
-    <string name="entitas">Entitas</string>
+    <string name="instansi">Instansi</string>
     <string name="nomor">Nomor</string>
     <string name="tahun">Tahun</string>
     <string name="judul">Judul</string>
     <string name="ditetapkan_tanggal">Ditetapkan Tanggal</string>
     <string name="diundangkan_tanggal">Diundangkan Tanggal</string>
-    <string name="berlaku_tanggal">Berlaku Tanggal</string>
-    <string name="perihal">Perihal</string>
+    <string name="daerah_id">Id Daerah</string>
     <string name="download_pdf">Download PDF</string>
     <string name="see_pdf">See PDF</string>
     <string name="filter_peraturan">Filter Peraturan</string>

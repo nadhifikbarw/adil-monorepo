@@ -41,4 +41,12 @@ class AdilRepository(private val remoteDataSource: RemoteDataSource): AdilDataSo
         return remoteDataSource.getLegislationDetail(legislationId)
     }
 
+    override fun getSignedUrl(docId: String): Task<String> {
+        return remoteDataSource.getSignedUrl(docId)
+    }
+
+//    override fun queryLegislation(query: String): Task<Any> {
+//        return remoteDataSource.queryLegislation(query)
+//    }
+
 }
