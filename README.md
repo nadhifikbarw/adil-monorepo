@@ -13,14 +13,15 @@ We're trying to solve Indonesian hyper-regulation problems causing disharmonious
 
 ## Project Structure
 * adil-android - Android application project
-* adil-crawler - Scrapy project to extract dataset
 * adil-cloud-functions - Firebase project for multiple cloud functions
+* adil-crawler - Scrapy project to extract dataset
 * adil-data-exploration - Raw data exploration, and processor
 * adil-data-formalization - Set of formalization process to conform data to the final data model 
 * adil-elasticsearch-loader - Load data to localhost elasticsearch
 * adil-firestore-loader - Load data to Firestore
 * adil-mongodb-loader - Load data to MongoDb
 * adil-pdf-downloader - Script to download legislation documents
+* adil-txt-cleansing - Script to perform text cleaning for plaintext
 
 ## Open Law Specification Initiative
 
