@@ -6,6 +6,7 @@ import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
 import com.path_studio.adil.data.AdilRepository
 import com.path_studio.adil.data.database.entity.Bookmark
+import com.path_studio.adil.data.source.remote.response.LegislationResponse
 import kotlinx.coroutines.launch
 
 class InformationViewModel(private val repository: AdilRepository): ViewModel() {
@@ -28,6 +29,6 @@ class InformationViewModel(private val repository: AdilRepository): ViewModel() 
         this.legislationId = legislationId
     }
 
-    fun getLegislationDetail(): LiveData<LegislationResponse> = adilRepository.getLegislationDetail(legislationId)
+    fun getLegislationDetail(): LiveData<LegislationResponse> = repository.getLegislationDetail(legislationId)
 
 }

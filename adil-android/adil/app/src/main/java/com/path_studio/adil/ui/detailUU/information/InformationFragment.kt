@@ -43,13 +43,13 @@ class InformationFragment : Fragment() {
             val extras = requireActivity().intent.extras?.getString(extras_id)
             var checked = false
             if(extras != null) {
-                val legisId =extras.getString(DetailUUActivity.EXTRA_LEGISLATION_ID)
+                val legisId =extras
                 viewModel.selectedLegislation(legisId.toString())
                 viewModel.getLegislationDetail().observe(viewLifecycleOwner,{ data ->
                 populateDetail(data)
                 binding.button.setOnClickListener {
                     val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)
-                    intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID,data.document?.get(0))
+                    intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID, data.document?.get(0))
                     startActivity(intent)
                 }
             })
