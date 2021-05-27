@@ -62,6 +62,7 @@ class AdilRepository(private val remoteDataSource: RemoteDataSource,
 
     override fun getBookmarkById(legislationId: String): Flow<Bookmark> {
         return bookmarkDao.getBookmarkById(legislationId)
+    }
 
     override fun getLegislationDetail(legislationId: String): LiveData<LegislationResponse> {
         return remoteDataSource.getLegislationDetail(legislationId)
