@@ -24,6 +24,7 @@ class CategoriesResultAdapter (val activity: CategoryResultActivity) :
         if (legislation == null) return
         this.listLegislation.clear()
         this.listLegislation.addAll(legislation)
+        this.notifyDataSetChanged()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ResultViewHolder {
