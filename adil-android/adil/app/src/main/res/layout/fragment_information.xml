@@ -81,13 +81,13 @@
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/entitas"
+                    android:text="@string/instansi"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/info_jenis"
                     app:layout_constraintWidth_percent="0.3" />
 
                 <TextView
-                    android:id="@+id/info_entitas"
+                    android:id="@+id/info_instansi"
                     style="@style/InformationAnswerText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/nomor"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/info_entitas"
+                    app:layout_constraintTop_toBottomOf="@+id/info_instansi"
                     app:layout_constraintWidth_percent="0.3" />
 
                 <TextView
@@ -115,7 +115,7 @@
                     android:layout_marginStart="8dp"
                     android:text="@string/lorem_ipsum"
                     app:layout_constraintStart_toEndOf="@+id/textView10"
-                    app:layout_constraintTop_toBottomOf="@+id/info_entitas"
+                    app:layout_constraintTop_toBottomOf="@+id/info_instansi"
                     app:layout_constraintWidth_percent="0.6" />
 
                 <TextView
@@ -207,13 +207,13 @@
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/berlaku_tanggal"
+                    android:text="@string/daerah_id"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView14"
                     app:layout_constraintWidth_percent="0.3" />
 
                 <TextView
-                    android:id="@+id/info_berlaku"
+                    android:id="@+id/info_daerah"
                     style="@style/InformationAnswerText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -228,13 +228,13 @@
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/perihal"
+                    android:text="@string/kategori"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView15"
                     app:layout_constraintWidth_percent="0.3" />
 
                 <TextView
-                    android:id="@+id/info_perihal"
+                    android:id="@+id/info_kategori"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"

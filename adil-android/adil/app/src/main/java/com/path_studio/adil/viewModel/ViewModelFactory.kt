@@ -11,6 +11,7 @@ import com.path_studio.adil.ui.main.bookmark.BookmarkViewModel
 import com.path_studio.adil.ui.main.category.CategoryViewModel
 import com.path_studio.adil.ui.main.home.HomeViewModel
 import com.path_studio.adil.ui.pdfView.PdfViewerViewModel
+import com.path_studio.adil.ui.searchResult.SearchResultViewModel
 
 class ViewModelFactory private constructor(private val mAdilRepository: AdilRepository) : ViewModelProvider.NewInstanceFactory() {
 
@@ -47,6 +48,10 @@ class ViewModelFactory private constructor(private val mAdilRepository: AdilRepo
             modelClass.isAssignableFrom(InformationViewModel::class.java) -> {
                 InformationViewModel(mAdilRepository) as T
             }
+            modelClass.isAssignableFrom(SearchResultViewModel::class.java) -> {
+                SearchResultViewModel(mAdilRepository) as T
+            }
+            
             else -> throw Throwable("Unknown ViewModel class: " + modelClass.name)
         }
     }
