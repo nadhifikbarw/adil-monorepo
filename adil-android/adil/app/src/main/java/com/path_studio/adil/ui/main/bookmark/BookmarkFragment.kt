@@ -22,6 +22,8 @@ class BookmarkFragment : Fragment() {
     private var _binding: FragmentBookmarkBinding? = null
     private val binding get() = _binding as FragmentBookmarkBinding
     private val bookmarkAdapter = BookmarkAdapter(this)
+    private val factory by lazy { ViewModelFactory.getInstance(requireActivity()) }
+    private val viewModel by lazy { ViewModelProvider(this, factory)[BookmarkViewModel::class.java] }
 
 
     override fun onCreateView(
@@ -36,20 +38,15 @@ class BookmarkFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        Log.e("OnViewCreated", "Create the view")
-        if (activity != null && isAdded) {
-            val factory  = ViewModelFactory.getInstance(requireActivity())
-            val viewModel = ViewModelProvider(this, factory)[BookmarkViewModel::class.java]
-
+        if (activity != null) {
             Transformations.switchMap(
                 viewModel.allBookmarks
             ) { bookmarks ->
+                Log.wtf("Bookmarks Object", bookmarks.toString())
                 viewModel.getBookmarkedLegislation(bookmarks)
             }.observe(requireActivity()) {
-                if(it != null) {
-                    bookmarkAdapter.setBookmark(it)
-                    bookmarkAdapter.notifyDataSetChanged()
-                }
+                bookmarkAdapter.setBookmark(it)
+                bookmarkAdapter.notifyDataSetChanged()
             }
 
             with(binding.rvListBookmark) {
@@ -57,17 +54,6 @@ class BookmarkFragment : Fragment() {
                 setHasFixedSize(true)
                 adapter = bookmarkAdapter
             }
-            bookmarkAdapter.notifyDataSetChanged()
-        }
-    }
-
-    override fun onResume() {
-        super.onResume()
-        bookmarkAdapter.notifyDataSetChanged()
-        with(binding.rvListBookmark) {
-            layoutManager = LinearLayoutManager(context)
-            setHasFixedSize(true)
-            adapter = bookmarkAdapter
         }
     }
 }

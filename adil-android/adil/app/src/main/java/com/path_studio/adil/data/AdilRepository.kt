@@ -1,14 +1,12 @@
 package com.path_studio.adil.data
 
 import androidx.lifecycle.LiveData
-import com.path_studio.adil.data.database.AdilDatabase
 import com.path_studio.adil.data.database.dao.BookmarkDao
 import com.path_studio.adil.data.database.entity.Bookmark
 import com.path_studio.adil.data.source.remote.RemoteDataSource
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
 import kotlinx.coroutines.flow.Flow
-import java.io.File
 
 class AdilRepository(private val remoteDataSource: RemoteDataSource,
                      private val bookmarkDao: BookmarkDao): AdilDataSource {
@@ -34,8 +32,8 @@ class AdilRepository(private val remoteDataSource: RemoteDataSource,
         return remoteDataSource.getHomeCategories()
     }
 
-    override fun getLegislationByCategoryName(categoryName: String): LiveData<List<LegislationResponse>>{
-        return remoteDataSource.getLegislationByCategory(categoryName)
+    override fun getLegislationByCategoryName(categoryId: String): LiveData<List<LegislationResponse>>{
+        return remoteDataSource.getLegislationByCategory(categoryId)
     }
 
     override fun getLegislationDocument(legislationId: String): LiveData<List<String>> {
