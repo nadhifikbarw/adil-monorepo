@@ -1,10 +1,10 @@
 # Data Model
 
-Bentuk data model ini menggunakan pola camelCase untuk mendukung support GSON.
+Current data model uses camelCase casing standard for its field to provide support for GSON parsing used by Android app.
 
-Contoh dataset penuh dapat dilihat pada `data_fixed_firestore_camel.json`
+Full dataset can be found at `data_fixed_firestore_camel.json`
 
-## Contoh Data Satu Dokumen Legislasi
+## Legislation Firestore Doc Example
 ```json
 {
     "source": "https://peraturan.go.id/peraturan/view.html?id=11e44c4ed09124909b9c313231363531",
@@ -85,9 +85,10 @@ Contoh dataset penuh dapat dilihat pada `data_fixed_firestore_camel.json`
   }
 ```
 
-## Keterangan Field Relationship
+## Relationship Fields
 
-Untuk key berikut adalah Field yang menyimpan RELATIONSHIP dengan dokumen lain
+These fields contain collection object RelationshipItem objects
+
 1. "dasarHukumDari"
 2. "mencabut"
 3. "dilaksanakanOlehPeraturanPelaksana"
@@ -99,9 +100,8 @@ Untuk key berikut adalah Field yang menyimpan RELATIONSHIP dengan dokumen lain
 9. "peraturanPelaksanaDari"
 10. "memilikiDasarHukum"
 
-Field relationship memiliki bentuk value Array of Object (NodeJS) / HashMap (Java) / Dictionary (Python).
 
-Lihat contohnya pada field "mengubah" dibawah ini:
+Below are example of "mengubah" field which shows one RelationshipItem object:
 
 ```json
 {

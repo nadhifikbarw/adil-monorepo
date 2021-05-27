@@ -11,10 +11,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.path_studio.adil.R
 import com.path_studio.adil.data.database.entity.Bookmark
+import com.path_studio.adil.data.source.remote.response.LegislationResponse
 import com.path_studio.adil.databinding.FragmentInformationBinding
 import com.path_studio.adil.ui.detailUU.DetailUUActivity
 import com.path_studio.adil.ui.main.MainActivity
 import com.path_studio.adil.ui.pdfView.PdfViewActivity
+import com.path_studio.adil.ui.pdfView.PdfViewerViewModel
 import com.path_studio.adil.viewModel.ViewModelFactory
 
 class InformationFragment : Fragment() {
@@ -40,8 +42,17 @@ class InformationFragment : Fragment() {
             val extras_id = DetailUUActivity.EXTRA_LEGISLATION_ID
             val extras = requireActivity().intent.extras?.getString(extras_id)
             var checked = false
-
             if(extras != null) {
+                val legisId =extras.getString(DetailUUActivity.EXTRA_LEGISLATION_ID)
+                viewModel.selectedLegislation(legisId.toString())
+                viewModel.getLegislationDetail().observe(viewLifecycleOwner,{ data ->
+                populateDetail(data)
+                binding.button.setOnClickListener {
+                    val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)
+                    intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID,data.document?.get(0))
+                    startActivity(intent)
+                }
+            })
                 viewModel.getBookmarkById(extras).observe(requireActivity()) { bookmark ->
                     if(bookmark != null) {
                         checked = bookmark.legislationId == extras
@@ -53,12 +64,6 @@ class InformationFragment : Fragment() {
                     createOrDeleteBookmark(checked, viewModel, Bookmark(extras))
                     isButtonChecked(checked)
                 }
-            }
-
-            binding.button.setOnClickListener {
-                val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)
-                intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID,"11e44c4e281ce9d0947a313231323039")
-                startActivity(intent)
             }
         }
     }
@@ -79,6 +84,20 @@ class InformationFragment : Fragment() {
             binding.bookmarkButton.setImageResource(R.drawable.ic_bookmark_checked)
         } else {
             binding.bookmarkButton.setImageResource(R.drawable.ic_bookmark_uncheck)
+        }
+    }
+
+    private fun populateDetail(data: LegislationResponse?){
+        with(binding){
+            infoJenis.text = data?.jenisPeraturan
+            infoInstansi.text = data?.instansi
+            infoJudul.text = data?.tentang
+            infoNomor.text = data?.nomorPeraturan
+            infoTahun.text = data?.tahunPeraturan.toString()
+            infoDitetapkan.text = data?.tglDitetapkan
+            infoDiundangkan.text = data?.tglDiundangkan
+            infoDaerah.text = data?.daerahId
+            //infoKategori.text = data?.category
         }
     }
 
