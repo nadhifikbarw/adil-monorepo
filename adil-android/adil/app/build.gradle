@@ -67,6 +67,11 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:28.0.1')
     implementation 'com.google.firebase:firebase-analytics-ktx'
 
+    //Room
+    implementation "androidx.room:room-ktx:$rootProject.roomVersion"
+    kapt "androidx.room:room-compiler:$rootProject.roomVersion"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
+
     //testing
     implementation 'androidx.test.espresso:espresso-idling-resource:3.3.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
