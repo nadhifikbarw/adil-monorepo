@@ -118,25 +118,29 @@ class RemoteDataSource {
     fun getBookmarkedLegislations(legislationIds: List<Bookmark>) : LiveData<List<LegislationResponse>> {
         val legisDocResponse = MutableLiveData<List<LegislationResponse>>()
         val bookmarkedList = ArrayList<LegislationResponse>()
-        for(bookmark in legislationIds) {
-            FirestoreConfig.getFirestoreService().collection("legislation")
-                .document(bookmark.legislationId)
-                .get()
-                .addOnCompleteListener { task ->
-                    if(task.isSuccessful) {
-                        val result = task.result
-                        if(result != null) {
-                            val obj = result.toObject<LegislationResponse>()
-                            if (obj != null) {
-                                obj.id = result.id
-                                bookmarkedList.add(obj)
+        if(legislationIds.isEmpty()) {
+            legisDocResponse.postValue(bookmarkedList)
+        } else {
+            legislationIds.forEach {
+                FirestoreConfig.getFirestoreService().collection("legislation")
+                    .document(it.legislationId)
+                    .get()
+                    .addOnCompleteListener { task ->
+                        if(task.isSuccessful) {
+                            val result = task.result
+                            if(result != null) {
+                                val obj = result.toObject<LegislationResponse>()
+                                if (obj != null) {
+                                    obj.id = result.id
+                                    bookmarkedList.add(obj)
+                                }
                             }
+                            legisDocResponse.postValue(bookmarkedList)
+                        } else {
+                            Log.e("Legislation Firebase Error", "Failed to fetch the data")
                         }
-                        legisDocResponse.postValue(bookmarkedList)
-                    } else {
-                        Log.e("Legislation Firebase Error", "Failed to fetch the data")
                     }
-                }
+            }
         }
         return legisDocResponse
     }

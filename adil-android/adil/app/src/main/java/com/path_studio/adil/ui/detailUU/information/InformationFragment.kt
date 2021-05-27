@@ -67,10 +67,10 @@ class InformationFragment : Fragment() {
                                        bookmark: Bookmark) {
         if(checked) {
             viewModel.insertBookmark(bookmark)
-            Toast.makeText(requireActivity(), "insert Bookmark", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireActivity(), "Success Add Bookmark", Toast.LENGTH_SHORT).show()
         } else {
             viewModel.deleteBookmark(bookmark)
-            Toast.makeText(requireActivity(), "Delete Bookmark", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireActivity(), "Success Delete Bookmark", Toast.LENGTH_SHORT).show()
         }
     }
 
