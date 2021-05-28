@@ -3,7 +3,6 @@ package com.path_studio.adil.ui.main.bookmark
 import android.annotation.SuppressLint
 import android.app.ActionBar
 import android.content.Intent
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Button

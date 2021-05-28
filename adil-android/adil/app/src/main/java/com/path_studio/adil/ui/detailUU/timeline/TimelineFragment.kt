@@ -1,8 +1,6 @@
 package com.path_studio.adil.ui.detailUU.timeline
 
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,9 +10,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.path_studio.adil.data.source.remote.response.RelationshipItem
 import com.path_studio.adil.databinding.FragmentTimelineBinding
 import com.path_studio.adil.ui.detailUU.DetailUUActivity
-import com.path_studio.adil.ui.detailUU.information.InformationViewModel
-import com.path_studio.adil.ui.pdfView.PdfViewActivity
-import com.path_studio.adil.utils.DataDummy
 import com.path_studio.adil.viewModel.ViewModelFactory
 
 class TimelineFragment : Fragment() {
@@ -45,7 +40,7 @@ class TimelineFragment : Fragment() {
             if (docLegisId != null) {
                 viewModel.getTimeline(docLegisId).addOnCompleteListener { task ->
                     val timelineList = task.result
-                    Log.e("timeLine", timelineList.toString())
+
                     with(binding){
                         rvTimeline.layoutManager = LinearLayoutManager(activity)
                         rvTimeline.adapter = TimeLineAdapter(requireContext(),

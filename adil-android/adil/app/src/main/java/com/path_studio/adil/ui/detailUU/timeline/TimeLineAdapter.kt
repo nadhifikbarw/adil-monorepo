@@ -2,14 +2,11 @@ package com.path_studio.adil.ui.detailUU.timeline
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.gms.tasks.Task
 import com.path_studio.adil.R
-import com.path_studio.adil.data.entity.TimeLineEntity
 import com.path_studio.adil.data.source.remote.response.RelationshipItem
 import com.path_studio.adil.databinding.ItemTimelineBinding
 
@@ -59,8 +56,6 @@ class TimeLineAdapter(val context: Context, private val listTimeline: List<Relat
                     binding.itemStatus.text = "Sedang dilihat"
                 }
             }
-
-            Log.e("type", timeline.type.toString())
 
             when (position) {
                 0 -> binding.timeline.initLine(1)

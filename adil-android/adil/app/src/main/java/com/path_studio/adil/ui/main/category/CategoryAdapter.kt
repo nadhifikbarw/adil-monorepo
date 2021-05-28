@@ -3,7 +3,6 @@ package com.path_studio.adil.ui.main.category
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
@@ -13,7 +12,6 @@ import com.path_studio.adil.data.source.remote.response.CategoryResponse
 import com.path_studio.adil.databinding.ItemGridCategoryBinding
 import com.path_studio.adil.ui.categoryResult.CategoryResultActivity
 import com.path_studio.adil.ui.main.MainActivity
-import com.path_studio.adil.ui.searchResult.TagsAdapter
 import java.util.*
 
 class CategoryAdapter(val activity: MainActivity) : RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>() {
