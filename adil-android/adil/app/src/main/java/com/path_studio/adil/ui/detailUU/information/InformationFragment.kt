@@ -45,17 +45,18 @@ class InformationFragment : Fragment() {
             if(extras != null) {
                 val legisId =extras
                 viewModel.selectedLegislation(legisId.toString())
-                viewModel.getLegislationDetail().observe(viewLifecycleOwner,{ data -> {
+                viewModel.getLegislationDetail().observe(viewLifecycleOwner,{ data ->
                     populateDetail(data)
                     binding.skeletonLayout.showOriginal()
-                }
-                
-                binding.button.setOnClickListener {
-                    val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)
-                    intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID, data.document?.get(0))
-                    startActivity(intent)
-                }
-            })
+
+                    binding.button.setOnClickListener {
+                        val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)
+                        intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID, data.document?.get(0))
+                        startActivity(intent)
+                    }
+
+                })
+
                 viewModel.getBookmarkById(extras).observe(requireActivity()) { bookmark ->
                     if(bookmark != null) {
                         checked = bookmark.legislationId == extras

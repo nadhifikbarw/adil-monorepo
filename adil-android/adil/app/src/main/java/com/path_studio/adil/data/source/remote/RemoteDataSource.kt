@@ -7,10 +7,10 @@ import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.gms.tasks.Task
 import com.google.firebase.firestore.QuerySnapshot
 import com.google.firebase.firestore.ktx.toObject
-import com.path_studio.adil.data.database.entity.Bookmark
 import com.google.firebase.functions.FirebaseFunctions
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.path_studio.adil.data.database.entity.Bookmark
 import com.path_studio.adil.data.source.remote.firestore.FirestoreConfig
 import com.path_studio.adil.data.source.remote.response.*
 

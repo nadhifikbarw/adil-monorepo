@@ -1,7 +1,6 @@
 package com.path_studio.adil.ui.searchResult
 
 import android.os.Bundle
-import android.util.Log
 import android.view.Gravity
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout

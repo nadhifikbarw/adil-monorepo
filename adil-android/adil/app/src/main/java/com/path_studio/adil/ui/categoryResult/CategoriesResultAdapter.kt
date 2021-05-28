@@ -1,19 +1,14 @@
 package com.path_studio.adil.ui.categoryResult
 
 import android.annotation.SuppressLint
-import android.app.ActionBar
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.Button
-import androidx.core.view.marginRight
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.path_studio.adil.R
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
 import com.path_studio.adil.databinding.ItemRowSearchResultBinding
 import com.path_studio.adil.ui.detailUU.DetailUUActivity
-import com.path_studio.adil.ui.detailUU.information.InformationFragment
 import com.path_studio.adil.ui.searchResult.TagsAdapter
 import com.path_studio.adil.utils.Utils
 import java.util.*
