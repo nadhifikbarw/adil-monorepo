@@ -40,7 +40,12 @@ class SearchResultActivity : AppCompatActivity() {
 
             queryLegislation(query.toString()).addOnCompleteListener {
                 val hitItems = it.result
-                Log.d("TESTING", hitItems?.get(0)?.id.toString())
+
+                val jumlahPeraturan = "Total ${hitItems?.size} jumlah peraturan"
+                binding.textView.text = jumlahPeraturan
+
+                rvSearchAdapter.setLegislation(hitItems)
+                rvSearchAdapter.notifyDataSetChanged()
             }
 
             with(binding.rvListNotification){
@@ -48,6 +53,7 @@ class SearchResultActivity : AppCompatActivity() {
                 setHasFixedSize(true)
                 adapter = rvSearchAdapter
             }
+
         }
 
         // Set back button listener

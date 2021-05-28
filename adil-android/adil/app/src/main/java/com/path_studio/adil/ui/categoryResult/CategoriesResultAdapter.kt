@@ -7,12 +7,14 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.core.view.marginRight
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.path_studio.adil.R
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
 import com.path_studio.adil.databinding.ItemRowSearchResultBinding
 import com.path_studio.adil.ui.detailUU.DetailUUActivity
 import com.path_studio.adil.ui.detailUU.information.InformationFragment
+import com.path_studio.adil.ui.searchResult.TagsAdapter
 import com.path_studio.adil.utils.Utils
 import java.util.ArrayList
 
@@ -24,6 +26,7 @@ class CategoriesResultAdapter (val activity: CategoryResultActivity) :
         if (legislation == null) return
         this.listLegislation.clear()
         this.listLegislation.addAll(legislation)
+        this.notifyDataSetChanged()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ResultViewHolder {
@@ -49,9 +52,14 @@ class CategoriesResultAdapter (val activity: CategoryResultActivity) :
                 detailDitetapkanBerlaku.text = "Ditetapkan: ${Utils.changeStringToDateFormat(legislation.tglDitetapkan.toString() )} " +
                         "| Diundangkan: ${Utils.changeStringToDateFormat(legislation.tglDiundangkan.toString() )}"
 
-                legislationTags.addView(setButton(legislation.tahunPeraturan.toString()))
-                for (category in legislation.category!!){
-                    legislationTags.addView(setButton(category!!))
+
+                tvTagYear.text = legislation.tahunPeraturan.toString()
+                rvLegislationTags.apply {
+                    layoutManager = LinearLayoutManager(context,
+                        LinearLayoutManager.HORIZONTAL,false)
+                    val tagAdapter = TagsAdapter()
+                    tagAdapter.setTags(legislation.category)
+                    adapter = tagAdapter
                 }
 
                 itemView.setOnClickListener {
@@ -60,29 +68,8 @@ class CategoriesResultAdapter (val activity: CategoryResultActivity) :
                     itemView.context.startActivity(intent)
                 }
 
+
             }
-        }
-
-        @SuppressLint("UseCompatLoadingForDrawables")
-        private fun setButton(value: String): Button{
-            //set the properties for button
-            val btnTag = Button(activity)
-
-            //set margin and create button
-            val params: ActionBar.LayoutParams = ActionBar.LayoutParams(
-                ActionBar.LayoutParams.WRAP_CONTENT,
-                ActionBar.LayoutParams.WRAP_CONTENT
-            )
-            params.setMargins(0, 0, 30, 0)
-
-            btnTag.layoutParams = ActionBar.LayoutParams(params)
-            btnTag.text = value
-            btnTag.textSize = 12f
-            btnTag.background = activity.getDrawable(R.drawable.secondary_rounded_button)
-
-            //set padding
-            btnTag.setPadding(5, 0, 5, 0)
-            return btnTag
         }
     }
 }

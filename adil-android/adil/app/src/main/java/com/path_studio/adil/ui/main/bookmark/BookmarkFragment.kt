@@ -1,19 +1,30 @@
 package com.path_studio.adil.ui.main.bookmark
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.Observer
+import androidx.lifecycle.Transformations
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.path_studio.adil.R
+import com.path_studio.adil.data.database.entity.Bookmark
+import com.path_studio.adil.data.source.remote.response.LegislationResponse
 import com.path_studio.adil.databinding.FragmentBookmarkBinding
-import com.path_studio.adil.ui.main.category.CategoryFragment
+import com.path_studio.adil.viewModel.ViewModelFactory
+import java.util.ArrayList
 
 class BookmarkFragment : Fragment() {
 
     private var _binding: FragmentBookmarkBinding? = null
     private val binding get() = _binding as FragmentBookmarkBinding
+    private val bookmarkAdapter = BookmarkAdapter(this)
+    private val factory by lazy { ViewModelFactory.getInstance(requireActivity()) }
+    private val viewModel by lazy { ViewModelProvider(this, factory)[BookmarkViewModel::class.java] }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -27,80 +38,22 @@ class BookmarkFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         if (activity != null) {
-            val bookmarks = dummyData()
-            val bookmarkAdapter = BookmarkAdapter()
-            bookmarkAdapter.setBookmark(bookmarks)
+            Transformations.switchMap(
+                viewModel.allBookmarks
+            ) { bookmarks ->
+                Log.wtf("Bookmarks Object", bookmarks.toString())
+                viewModel.getBookmarkedLegislation(bookmarks)
+            }.observe(requireActivity()) {
+                bookmarkAdapter.setBookmark(it)
+                bookmarkAdapter.notifyDataSetChanged()
+            }
+
             with(binding.rvListBookmark) {
                 layoutManager = LinearLayoutManager(context)
                 setHasFixedSize(true)
                 adapter = bookmarkAdapter
             }
         }
-    }
-
-    class Bookmark(
-        var bookmarkTitle : String = "",
-        var bookmarkDescription : String = "",
-        var bookmarkDitetapkan : String = "",
-        var bookmarkBerlaku : String = ""
-    )
-
-    //Dummy Data
-    private fun dummyData() : ArrayList<Bookmark> {
-        var items: ArrayList<Bookmark> = ArrayList()
-
-        items.add(
-            Bookmark(
-                "Peraturan Pemerintah Tahun 2020",
-                "Pelaksanaan undang-undang tentang cipta kerja sektor energi dan sumber daya mineral",
-                "Ditetapkan : 24 Februari 2020",
-                "Berlaku : 26 Februari 2020"
-            )
-        )
-        items.add(
-            Bookmark(
-                "Peraturan Pemerintah Tahun 2020",
-                "Pelaksanaan undang-undang tentang cipta kerja sektor energi dan sumber daya mineral",
-                "Ditetapkan : 24 Februari 2020",
-                "Berlaku : 26 Februari 2020"
-            )
-        )
-        items.add(
-            Bookmark(
-                "Peraturan Pemerintah Tahun 2020",
-                "Pelaksanaan undang-undang tentang cipta kerja sektor energi dan sumber daya mineral",
-                "Ditetapkan : 24 Februari 2020",
-                "Berlaku : 26 Februari 2020"
-            )
-        )
-        items.add(
-            Bookmark(
-                "Peraturan Pemerintah Tahun 2020",
-                "Pelaksanaan undang-undang tentang cipta kerja sektor energi dan sumber daya mineral",
-                "Ditetapkan : 24 Februari 2020",
-                "Berlaku : 26 Februari 2020"
-            )
-        )
-        items.add(
-            Bookmark(
-                "Peraturan Pemerintah Tahun 2020",
-                "Pelaksanaan undang-undang tentang cipta kerja sektor energi dan sumber daya mineral",
-                "Ditetapkan : 24 Februari 2020",
-                "Berlaku : 26 Februari 2020"
-            )
-        )
-        items.add(
-            Bookmark(
-                "Peraturan Pemerintah Tahun 2020",
-                "Pelaksanaan undang-undang tentang cipta kerja sektor energi dan sumber daya mineral",
-                "Ditetapkan : 24 Februari 2020",
-                "Berlaku : 26 Februari 2020"
-            )
-        )
-
-
-        return items
     }
 }
