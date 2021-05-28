@@ -38,7 +38,7 @@ class SearchResultActivity : AppCompatActivity() {
 
             val rvSearchAdapter = SearchResultAdapter(this)
 
-            queryLegislation(query.toString()).addOnCompleteListener {
+            viewModel.queryLegislation(query.toString()).addOnCompleteListener {
                 val hitItems = it.result
 
                 val jumlahPeraturan = "Total ${hitItems?.size} jumlah peraturan"
@@ -66,25 +66,4 @@ class SearchResultActivity : AppCompatActivity() {
         }
     }
 
-    private fun queryLegislation(query: String): Task<List<QueryHitItem>> {
-        val data = hashMapOf(
-            "query" to query
-        )
-
-        return functions
-            .getHttpsCallable("queryLegislation")
-            .call(data)
-            .continueWith { task ->
-                val resultMap = task.result?.data as Map<String,Any>
-
-                // Cast Map to JSON
-                val gson = Gson()
-                val json = gson.toJson(resultMap)
-
-                // Extract List of QueryHitItem
-                val queryResponse = gson.fromJson(json, QueryResponse::class.java)
-                val result = queryResponse.hits.hits
-                result
-            }
-    }
 }

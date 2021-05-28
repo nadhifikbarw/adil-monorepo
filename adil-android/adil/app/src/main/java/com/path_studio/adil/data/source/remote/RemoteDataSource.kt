@@ -152,7 +152,6 @@ class RemoteDataSource {
         return legisDocResponse
     }
 
-
     fun getLegislationDetail(legislationId : String) : LiveData<LegislationResponse>{
         val legislationResult = MutableLiveData<LegislationResponse>()
         FirestoreConfig.getFirestoreService().collection("legislation").document(legislationId)
@@ -202,7 +201,7 @@ class RemoteDataSource {
             }
     }
 
-    fun queryLegislation(query: String): Task<List<QueryHitItem?>> {
+    fun queryLegislation(query: String): Task<List<QueryHitItem>> {
         val data = hashMapOf(
             "query" to query
         )
@@ -223,4 +222,7 @@ class RemoteDataSource {
                 result
             }
     }
+
+
+
 }

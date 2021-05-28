@@ -42,16 +42,24 @@ class InformationFragment : Fragment() {
             val extras_id = DetailUUActivity.EXTRA_LEGISLATION_ID
             val extras = requireActivity().intent.extras?.getString(extras_id)
             var checked = false
+
             if(extras != null) {
                 val legisId =extras
+
                 viewModel.selectedLegislation(legisId.toString())
                 viewModel.getLegislationDetail().observe(viewLifecycleOwner,{ data ->
                 populateDetail(data)
+
+                val title = "${data.jenisPeraturan} Nomor ${data.nomorPeraturan} Tahun ${data.tahunPeraturan}"
+                binding.tvTitleDetail.text = title
+
                 binding.button.setOnClickListener {
                     val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)
-                    intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID, data.document?.get(0))
+                    intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID, legisId)
+                    intent.putExtra(PdfViewActivity.EXTRA_TITLE, title)
                     startActivity(intent)
                 }
+
             })
                 viewModel.getBookmarkById(extras).observe(requireActivity()) { bookmark ->
                     if(bookmark != null) {
@@ -89,15 +97,29 @@ class InformationFragment : Fragment() {
 
     private fun populateDetail(data: LegislationResponse?){
         with(binding){
-            infoJenis.text = data?.jenisPeraturan
-            infoInstansi.text = data?.instansi
-            infoJudul.text = data?.tentang
-            infoNomor.text = data?.nomorPeraturan
-            infoTahun.text = data?.tahunPeraturan.toString()
-            infoDitetapkan.text = data?.tglDitetapkan
-            infoDiundangkan.text = data?.tglDiundangkan
-            infoDaerah.text = data?.daerahId
-            //infoKategori.text = data?.category
+            infoJenis.text = ":" +data?.jenisPeraturan
+
+            if(data?.instansi.isNullOrBlank()) {
+                   infoInstansi.text = ":Tidak ada data"
+            }else{
+                infoInstansi.text = ":" +data?.instansi
+            }
+
+            infoJudul.text = ":" + data?.tentang
+            infoNomor.text = ":" +data?.nomorPeraturan
+            infoTahun.text = ":" +data?.tahunPeraturan.toString()
+            infoDitetapkan.text = ":" +data?.tglDitetapkan
+            infoDiundangkan.text = ":" +data?.tglDiundangkan
+
+            if(data?.daerahId.isNullOrBlank()){
+                infoDaerah.text = ":Tidak ada data"
+            } else {
+                infoDaerah.text = ":" +data?.daerahId
+            }
+
+            for (i in 0 until data?.category?.size!!){
+                infoKategori.append(data?.category[i].toString() + " ; ")
+            }
         }
     }
 
