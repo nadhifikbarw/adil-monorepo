@@ -2,7 +2,6 @@ package com.path_studio.adil.ui.detailUU.information
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,9 +13,7 @@ import com.path_studio.adil.data.database.entity.Bookmark
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
 import com.path_studio.adil.databinding.FragmentInformationBinding
 import com.path_studio.adil.ui.detailUU.DetailUUActivity
-import com.path_studio.adil.ui.main.MainActivity
 import com.path_studio.adil.ui.pdfView.PdfViewActivity
-import com.path_studio.adil.ui.pdfView.PdfViewerViewModel
 import com.path_studio.adil.viewModel.ViewModelFactory
 
 class InformationFragment : Fragment() {
@@ -39,9 +36,12 @@ class InformationFragment : Fragment() {
         if(activity != null) {
             val factory = ViewModelFactory.getInstance(requireActivity())
             val viewModel = ViewModelProvider(this, factory)[InformationViewModel::class.java]
+
             val extras_id = DetailUUActivity.EXTRA_LEGISLATION_ID
             val extras = requireActivity().intent.extras?.getString(extras_id)
             var checked = false
+
+            binding.skeletonLayout.showSkeleton()
 
             if(extras != null) {
                 val legisId =extras
@@ -49,6 +49,7 @@ class InformationFragment : Fragment() {
                 viewModel.selectedLegislation(legisId.toString())
                 viewModel.getLegislationDetail().observe(viewLifecycleOwner,{ data ->
                 populateDetail(data)
+                binding.skeletonLayout.showOriginal()
 
                 val title = "${data.jenisPeraturan} Nomor ${data.nomorPeraturan} Tahun ${data.tahunPeraturan}"
                 binding.tvTitleDetail.text = title
@@ -59,8 +60,8 @@ class InformationFragment : Fragment() {
                     intent.putExtra(PdfViewActivity.EXTRA_TITLE, title)
                     startActivity(intent)
                 }
-
             })
+
                 viewModel.getBookmarkById(extras).observe(requireActivity()) { bookmark ->
                     if(bookmark != null) {
                         checked = bookmark.legislationId == extras

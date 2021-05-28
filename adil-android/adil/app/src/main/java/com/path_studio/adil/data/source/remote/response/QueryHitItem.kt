@@ -1,8 +1,8 @@
 package com.path_studio.adil.data.source.remote.response
 
 import android.os.Parcelable
-import kotlinx.android.parcel.Parcelize
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class QueryHitItem(

@@ -1,10 +1,8 @@
 package com.path_studio.adil.ui.main.home
 
-import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.text.Html
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,10 +16,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.viewpager.widget.ViewPager
 import com.path_studio.adil.R
 import com.path_studio.adil.databinding.FragmentHomeBinding
-import com.path_studio.adil.ui.detailUU.DetailUUActivity
 import com.path_studio.adil.ui.main.MainActivity
-import com.path_studio.adil.ui.main.category.CategoryViewModel
-import com.path_studio.adil.ui.searchResult.SearchResultActivity
 import com.path_studio.adil.utils.DataDummy
 import com.path_studio.adil.viewModel.ViewModelFactory
 import java.util.*
@@ -81,15 +76,6 @@ class HomeFragment : Fragment() {
 
         }
 
-        binding.btnDetailUU.setOnClickListener {
-            val intent = Intent(activity as MainActivity, DetailUUActivity::class.java)
-            startActivity(intent)
-        }
-
-        binding.btnSearchResult.setOnClickListener{
-            val intent = Intent(activity as MainActivity, SearchResultActivity::class.java)
-            startActivity(intent)
-        }
     }
 
     private fun setAnnouncement(){
