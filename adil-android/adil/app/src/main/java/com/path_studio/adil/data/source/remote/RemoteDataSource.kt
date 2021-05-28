@@ -6,6 +6,7 @@ import com.google.android.gms.tasks.Task
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.firestore.QuerySnapshot
 import com.google.firebase.firestore.ktx.toObject
+import com.path_studio.adil.data.database.entity.Bookmark
 import com.google.firebase.functions.FirebaseFunctions
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.gson.Gson
@@ -111,7 +112,7 @@ class RemoteDataSource {
             .get().addOnSuccessListener { doc ->
                 if(doc != null){
                     val groupLink = doc["document"] as List<String>?
-                    legisDocList.postValue(groupLink)
+                    legisDocList.postValue(groupLink!!)
                 }else{
                     Log.e("Legislation Info", "Error getting Pdf documents.")
                 }
@@ -120,6 +121,37 @@ class RemoteDataSource {
             }
         return legisDocList
     }
+
+    fun getBookmarkedLegislations(legislationIds: List<Bookmark>) : LiveData<List<LegislationResponse>> {
+        val legisDocResponse = MutableLiveData<List<LegislationResponse>>()
+        val bookmarkedList = ArrayList<LegislationResponse>()
+        if(legislationIds.isEmpty()) {
+            legisDocResponse.postValue(bookmarkedList)
+        } else {
+            legislationIds.forEach {
+                FirestoreConfig.getFirestoreService().collection("legislation")
+                    .document(it.legislationId)
+                    .get()
+                    .addOnCompleteListener { task ->
+                        if(task.isSuccessful) {
+                            val result = task.result
+                            if(result != null) {
+                                val obj = result.toObject<LegislationResponse>()
+                                if (obj != null) {
+                                    obj.id = result.id
+                                    bookmarkedList.add(obj)
+                                }
+                            }
+                            legisDocResponse.postValue(bookmarkedList)
+                        } else {
+                            Log.e("Legislation Firebase Error", "Failed to fetch the data")
+                        }
+                    }
+            }
+        }
+        return legisDocResponse
+    }
+
 
     fun getLegislationDetail(legislationId : String) : LiveData<LegislationResponse>{
         val legislationResult = MutableLiveData<LegislationResponse>()

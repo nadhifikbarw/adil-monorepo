@@ -75,13 +75,28 @@
             app:layout_constraintStart_toStartOf="@+id/guideline2"
             app:layout_constraintTop_toBottomOf="@id/tv_bookmark_tetap" />
 
-        <Button
-            android:layout_width="wrap_content"
+        <HorizontalScrollView
+            android:id="@+id/legislationTagsContainer"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tag"
-            android:layout_marginTop="9dp"
-            app:layout_constraintStart_toStartOf="@+id/guideline2"
-            app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_berlaku" />
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_berlaku">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/tv_bookmark_tags"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!-- Some Code here... -->
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </HorizontalScrollView>
+
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"
