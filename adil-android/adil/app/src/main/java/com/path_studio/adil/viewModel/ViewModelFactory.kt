@@ -7,6 +7,7 @@ import com.path_studio.adil.data.AdilRepository
 import com.path_studio.adil.di.Injection
 import com.path_studio.adil.ui.categoryResult.CategoryResultViewModel
 import com.path_studio.adil.ui.detailUU.information.InformationViewModel
+import com.path_studio.adil.ui.detailUU.timeline.TimelineViewModel
 import com.path_studio.adil.ui.main.category.CategoryViewModel
 import com.path_studio.adil.ui.main.home.HomeViewModel
 import com.path_studio.adil.ui.pdfView.PdfViewerViewModel
@@ -46,6 +47,9 @@ class ViewModelFactory private constructor(private val mAdilRepository: AdilRepo
             }
             modelClass.isAssignableFrom(SearchResultViewModel::class.java) -> {
                 SearchResultViewModel(mAdilRepository) as T
+            }
+            modelClass.isAssignableFrom(TimelineViewModel::class.java) -> {
+                TimelineViewModel(mAdilRepository) as T
             }
             else -> throw Throwable("Unknown ViewModel class: " + modelClass.name)
         }

@@ -1,19 +1,19 @@
 package com.path_studio.adil.ui.searchResult
 
-import android.util.Log
 import android.os.Bundle
-import com.google.gson.Gson
+import android.util.Log
 import android.view.Gravity
-import com.google.android.gms.tasks.Task
-import androidx.lifecycle.ViewModelProvider
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
-import com.path_studio.adil.viewModel.ViewModelFactory
-import com.google.firebase.functions.FirebaseFunctions
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.path_studio.adil.databinding.ActivitySearchResultBinding
+import com.google.android.gms.tasks.Task
+import com.google.firebase.functions.FirebaseFunctions
+import com.google.gson.Gson
 import com.path_studio.adil.data.source.remote.response.QueryHitItem
 import com.path_studio.adil.data.source.remote.response.QueryResponse
+import com.path_studio.adil.databinding.ActivitySearchResultBinding
+import com.path_studio.adil.viewModel.ViewModelFactory
 
 class SearchResultActivity : AppCompatActivity() {
     private var drawerLayout: DrawerLayout? = null

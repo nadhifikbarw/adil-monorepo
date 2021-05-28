@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Adil">
-        <activity android:name=".ui.categoryResult.CategoryResultActivity"></activity>
+        <activity android:name=".ui.about.AboutActivity"></activity>
+        <activity android:name=".ui.categoryResult.CategoryResultActivity" />
         <activity android:name=".ui.pdfView.PdfViewActivity" />
         <activity android:name=".ui.detailUU.DetailUUActivity" />
         <activity android:name=".ui.searchResult.SearchResultActivity" />
