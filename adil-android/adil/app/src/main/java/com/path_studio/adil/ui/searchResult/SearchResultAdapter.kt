@@ -2,14 +2,17 @@ package com.path_studio.adil.ui.searchResult
 
 import android.annotation.SuppressLint
 import android.app.ActionBar
+import android.app.DownloadManager
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.path_studio.adil.R
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
+import com.path_studio.adil.data.source.remote.response.QueryHitItem
 import com.path_studio.adil.databinding.ActivitySearchResultBinding
 import com.path_studio.adil.databinding.ItemRowSearchResultBinding
 import com.path_studio.adil.ui.categoryResult.CategoriesResultAdapter
@@ -19,29 +22,32 @@ import java.util.ArrayList
 
 class SearchResultAdapter (val activity: SearchResultActivity) : RecyclerView.Adapter<SearchResultAdapter.ViewHolder>() {
 
-    private var listLegislation = ArrayList<LegislationResponse>()
+    private var listSearchedLegis = ArrayList<QueryHitItem>()
 
-    fun setLegislation(legislation: List<LegislationResponse>?) {
+    fun setLegislation(legislation: List<QueryHitItem>?) {
         if (legislation == null) return
-        this.listLegislation.clear()
-        this.listLegislation.addAll(legislation)
+        this.listSearchedLegis.clear()
+        this.listSearchedLegis.addAll(legislation)
     }
 
     inner class ViewHolder(private val binding : ItemRowSearchResultBinding) : RecyclerView.ViewHolder(binding.root) {
 
         @SuppressLint("SetTextI18n")
-        fun bind(legislation: LegislationResponse) {
+        fun bind(legislation: QueryHitItem) {
             with(binding) {
                 detailNomor.text =
-                    "${legislation.jenisPeraturan} ${legislation.nomorPeraturan} ${legislation.tahunPeraturan}"
-                detailTentang.text = legislation.tentang
+                    "${legislation.source?.jenisPeraturan} ${legislation.source?.jenisPeraturan} ${legislation.source?.tahunPeraturan}"
+                detailTentang.text = legislation.source?.tentang
                 detailDitetapkanBerlaku.text =
-                    "Ditetapkan: ${Utils.changeStringToDateFormat(legislation.tglDitetapkan.toString())} " +
-                            "| Diundangkan: ${Utils.changeStringToDateFormat(legislation.tglDiundangkan.toString())}"
+                    "Ditetapkan: ${Utils.changeStringToDateFormat(legislation.source?.tglDitetapkan.toString())} " +
+                            "| Diundangkan: ${Utils.changeStringToDateFormat(legislation.source?.tglDiundangkan.toString())}"
 
-                legislationTags.addView(setButton(legislation.tahunPeraturan.toString()))
-                for (category in legislation.category!!) {
-                    legislationTags.addView(setButton(category!!))
+                tvTagYear.text = legislation.source?.tahunPeraturan.toString()
+                rvLegislationTags.apply {
+                    layoutManager = LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL,false)
+                    val tagAdapter = TagsAdapter()
+                    tagAdapter.setTags(legislation.source?.category)
+                    adapter = tagAdapter
                 }
 
                 itemView.setOnClickListener {
@@ -60,34 +66,12 @@ class SearchResultAdapter (val activity: SearchResultActivity) : RecyclerView.Ad
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val category = listLegislation[position]
+        val category = listSearchedLegis[position]
         holder.bind(category)
     }
 
     override fun getItemCount(): Int {
-        return listLegislation.size
-    }
-
-    @SuppressLint("UseCompatLoadingForDrawables")
-    private fun setButton(value: String): Button {
-        //set the properties for button
-        val btnTag = Button(activity)
-
-        //set margin and create button
-        val params: ActionBar.LayoutParams = ActionBar.LayoutParams(
-            ActionBar.LayoutParams.WRAP_CONTENT,
-            ActionBar.LayoutParams.WRAP_CONTENT
-        )
-        params.setMargins(0, 0, 30, 0)
-
-        btnTag.layoutParams = ActionBar.LayoutParams(params)
-        btnTag.text = value
-        btnTag.textSize = 12f
-        btnTag.background = activity.getDrawable(R.drawable.secondary_rounded_button)
-
-        //set padding
-        btnTag.setPadding(5, 0, 5, 0)
-        return btnTag
+        return listSearchedLegis.size
     }
 
 }
