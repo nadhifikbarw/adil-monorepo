@@ -6,9 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.path_studio.adil.R
 import com.path_studio.adil.databinding.FragmentBookmarkBinding
-import com.path_studio.adil.ui.main.category.CategoryFragment
 
 class BookmarkFragment : Fragment() {
 

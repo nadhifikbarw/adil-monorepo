@@ -14,23 +14,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <Button
-                android:id="@+id/btnDetailUU"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Detail UU Shorcut"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/btnSearchResult"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:text="Search Result"
-                app:layout_constraintStart_toEndOf="@+id/btnDetailUU"
-                app:layout_constraintTop_toTopOf="parent" />
-
             <!--Home Banner Part-->
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout2"
@@ -39,7 +22,7 @@
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnDetailUU">
+                app:layout_constraintTop_toTopOf="parent">
 
                 <LinearLayout
                     android:id="@+id/dotsLayoutHomeBanner"

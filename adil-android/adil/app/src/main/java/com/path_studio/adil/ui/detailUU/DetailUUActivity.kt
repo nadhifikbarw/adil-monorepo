@@ -1,6 +1,5 @@
 package com.path_studio.adil.ui.detailUU
 
-import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import androidx.annotation.StringRes
@@ -11,7 +10,6 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import com.path_studio.adil.R
 import com.path_studio.adil.databinding.ActivityDetailUuActivityBinding
-import com.path_studio.adil.ui.categoryResult.CategoryResultActivity
 
 class DetailUUActivity : AppCompatActivity() {
 

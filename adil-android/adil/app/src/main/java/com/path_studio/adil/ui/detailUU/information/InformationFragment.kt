@@ -2,7 +2,6 @@ package com.path_studio.adil.ui.detailUU.information
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,9 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
 import com.path_studio.adil.databinding.FragmentInformationBinding
 import com.path_studio.adil.ui.detailUU.DetailUUActivity
-import com.path_studio.adil.ui.main.MainActivity
 import com.path_studio.adil.ui.pdfView.PdfViewActivity
-import com.path_studio.adil.ui.pdfView.PdfViewerViewModel
 import com.path_studio.adil.viewModel.ViewModelFactory
 
 class InformationFragment : Fragment() {
@@ -40,9 +37,14 @@ class InformationFragment : Fragment() {
         val extras = activity?.intent?.extras
         if(extras != null) {
             val legisId =extras.getString(DetailUUActivity.EXTRA_LEGISLATION_ID)
+
+            binding.skeletonLayout.showSkeleton()
+
             viewModel.selectedLegislation(legisId.toString())
             viewModel.getLegislationDetail().observe(viewLifecycleOwner,{ data ->
                 populateDetail(data)
+
+                binding.skeletonLayout.showOriginal()
 
                 binding.button.setOnClickListener {
                     val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)

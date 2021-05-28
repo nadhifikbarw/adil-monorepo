@@ -2,26 +2,19 @@ package com.path_studio.adil.ui.main
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.Gravity
 import android.view.View
-import android.widget.SearchView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.Navigation
-import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
-import com.google.android.gms.tasks.Task
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
-import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.functions.FirebaseFunctions
 import com.path_studio.adil.R
-import com.path_studio.adil.data.source.remote.response.LegislationResponse
 import com.path_studio.adil.databinding.ActivityMainBinding
+import com.path_studio.adil.ui.about.AboutActivity
 import com.path_studio.adil.ui.searchResult.SearchResultActivity
-
 
 class MainActivity : AppCompatActivity() {
 
@@ -68,12 +61,16 @@ class MainActivity : AppCompatActivity() {
         navigationView = findViewById<View>(R.id.nv) as NavigationView
         navigationView!!.setNavigationItemSelectedListener(NavigationView.OnNavigationItemSelectedListener { item ->
             when (item.itemId) {
-                R.id.drawerAbout -> Toast.makeText(this@MainActivity, R.string.drawer_menu_01, Toast.LENGTH_SHORT)
-                    .show()
+                R.id.drawerAbout -> showAboutPage()
                 else -> return@OnNavigationItemSelectedListener true
             }
             true
         })
+    }
+
+    private fun showAboutPage(){
+        val intent = Intent(this, AboutActivity::class.java)
+        startActivity(intent)
     }
 
     private fun setBottomNav(){

@@ -5,11 +5,15 @@ import android.content.Context
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.gms.tasks.Task
+import com.path_studio.adil.R
 import com.path_studio.adil.data.entity.TimeLineEntity
+import com.path_studio.adil.data.source.remote.response.RelationshipItem
 import com.path_studio.adil.databinding.ItemTimelineBinding
 
-class TimeLineAdapter(val context: Context, private val listTimeline: List<TimeLineEntity>):
+class TimeLineAdapter(val context: Context, private val listTimeline: List<RelationshipItem>):
     RecyclerView.Adapter<TimeLineAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ViewHolder {
@@ -25,11 +29,38 @@ class TimeLineAdapter(val context: Context, private val listTimeline: List<TimeL
 
     inner class ViewHolder(private val binding: ItemTimelineBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        @SuppressLint("UseCompatLoadingForDrawables")
-        fun bind(timeline: TimeLineEntity, position: Int, lastIndex: Int) {
-            binding.itemYear.text = timeline.year.toString()
-            binding.itemTitle.text = timeline.title
-            binding.itemDescription.text = timeline.detail
+        @SuppressLint("UseCompatLoadingForDrawables", "SetTextI18n")
+        fun bind(timeline: RelationshipItem, position: Int, lastIndex: Int) {
+            with(binding){
+                itemYear.text = timeline.tahunPeraturan.toString()
+                itemTitle.text = "${timeline.jenisPeraturan} ${timeline.nomorPeraturan} ${timeline.tahunPeraturan}"
+                itemDescription.text = timeline.tentang
+            }
+
+            when(timeline.type){
+                "mengubah" -> {
+                    binding.itemIndicator.setBackgroundColor(ContextCompat.getColor(context, R.color.gossip) )
+                    binding.itemStatus.text = "Mengubah"
+                }
+                "mencabut" -> {
+                    binding.itemIndicator.setBackgroundColor(ContextCompat.getColor(context, R.color.safety_orange) )
+                    binding.itemStatus.text = "Mencabut"
+                }
+                "diubahOleh" -> {
+                    binding.itemIndicator.setBackgroundColor(ContextCompat.getColor(context, R.color.mauve) )
+                    binding.itemStatus.text = "Diubah oleh"
+                }
+                "dicabutOleh" -> {
+                    binding.itemIndicator.setBackgroundColor(ContextCompat.getColor(context, R.color.dark_pink) )
+                    binding.itemStatus.text = "Dicabut Oleh"
+                }
+                "this" -> {
+                    binding.itemIndicator.setBackgroundColor(ContextCompat.getColor(context, R.color.cerulean) )
+                    binding.itemStatus.text = "Sedang dilihat"
+                }
+            }
+
+            Log.e("type", timeline.type.toString())
 
             when (position) {
                 0 -> binding.timeline.initLine(1)
