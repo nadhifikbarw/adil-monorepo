@@ -1,17 +1,17 @@
 package com.path_studio.adil.ui.pdfView
 
-import java.io.File
 import android.os.Bundle
 import android.util.Log
-import com.krishna.fileloader.FileLoader
-import androidx.lifecycle.ViewModelProvider
 import androidx.appcompat.app.AppCompatActivity
-import com.krishna.fileloader.pojo.FileResponse
+import androidx.lifecycle.ViewModelProvider
 import com.github.barteksc.pdfviewer.util.FitPolicy
-import com.krishna.fileloader.request.FileLoadRequest
-import com.path_studio.adil.viewModel.ViewModelFactory
+import com.krishna.fileloader.FileLoader
 import com.krishna.fileloader.listener.FileRequestListener
+import com.krishna.fileloader.pojo.FileResponse
+import com.krishna.fileloader.request.FileLoadRequest
 import com.path_studio.adil.databinding.ActivityPdfViewBinding
+import com.path_studio.adil.viewModel.ViewModelFactory
+import java.io.File
 
 
 class PdfViewActivity : AppCompatActivity() {

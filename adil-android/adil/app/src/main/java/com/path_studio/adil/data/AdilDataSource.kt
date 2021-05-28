@@ -2,13 +2,13 @@ package com.path_studio.adil.data
 
 
 import androidx.lifecycle.LiveData
+import com.google.android.gms.tasks.Task
 import com.path_studio.adil.data.database.entity.Bookmark
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
-import kotlinx.coroutines.flow.Flow
-import com.google.android.gms.tasks.Task
 import com.path_studio.adil.data.source.remote.response.QueryHitItem
 import com.path_studio.adil.data.source.remote.response.RelationshipItem
+import kotlinx.coroutines.flow.Flow
 
 interface AdilDataSource {
     fun getAllCategories(): LiveData<List<CategoryResponse>>

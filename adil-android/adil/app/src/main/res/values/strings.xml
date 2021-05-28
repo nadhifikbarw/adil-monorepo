@@ -14,11 +14,9 @@
     <string name="temp_search_details">Ditetapkan : 24 Februari 2020 | Diundangkan : 26 Februari 2020</string>
     <string name="temp_year">2021</string>
     <string name="temp_hierarki_peraturan">Peraturan Pemerintah</string>
-
     <string name="drawer_menu_01">Tentang Adil Open Law</string>
     <string name="drawer_menu_02"><![CDATA[Kebijakan Privasi & Persyaratan]]></string>
     <string name="drawer_menu_03">Pengaturan</string>
-
     <string name="detailTab01">Informasi</string>
     <string name="detailTab02">Timeline</string>
     <string name="temp_total_category_results">21 jumlah peraturan</string>
@@ -54,4 +52,15 @@
     <string name="belum_dicabut_ubah">Belum Dicabut/Ubah</string>
     <string name="telah_dicabut">Telah Dicabut</string>
     <string name="detail">Details</string>
+    <string name="tentang_adil_open_law">TENTANG ADIL OPEN LAW</string>
+    <string name="about_pharagraph_01">Kami mencoba menyelesaikan masalah hiper-regulasi Indonesia yang menyebabkan ketidakharmonisan,
+        inkonsistensi, tumpang tindih, yang mengarah pada interpretasi peraturan yang ambigu dan sulit bagi warga negara untuk
+        mengakses regulasi yang paling relevan dengan kebutuhan mereka.</string>
+    <string name="about_pharagraph_02">Kami ingin membantu masyarakat Indonesia dalam mengakses informasi hukum untuk menemukan
+        jawaban atas pertanyaan hukum terkait melalui platform arsip hukum digital yang komprehensif dan terpusat berbasis
+        Android sebagai jembatan antara ahli hukum dan pencari bantuan hukum.</string>
+    <string name="about_pharagraph_03">Kami memanfaatkan ML untuk menstandarkan produk hukum berbasis PDF ke format yang
+        lebih terbuka (HTML) yang dikombinasikan dengan kemampuan pencarian teks lengkap yang dibangun di cloud untuk
+        skalabilitas.</string>
+    <string name="temp_status">Diubah Oleh</string>
 </resources>

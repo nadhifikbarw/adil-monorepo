@@ -1,16 +1,10 @@
 package com.path_studio.adil.ui.categoryResult
 
 import android.os.Bundle
-import android.util.Log
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.path_studio.adil.databinding.ActivityCategoryResultBinding
-import com.path_studio.adil.ui.main.MainActivity
-import com.path_studio.adil.ui.main.home.HomeCategoriesAdapter
-import com.path_studio.adil.ui.main.home.HomeViewModel
 import com.path_studio.adil.viewModel.ViewModelFactory
 
 class CategoryResultActivity : AppCompatActivity() {
@@ -36,9 +30,9 @@ class CategoryResultActivity : AppCompatActivity() {
             val factory = ViewModelFactory.getInstance(this)
             val viewModel = ViewModelProvider(this, factory)[CategoryResultViewModel::class.java]
 
-            binding.progressBar.visibility = View.VISIBLE
+            binding.skeletonLayout.showSkeleton()
             viewModel.getLegislationResult(categoryName.toString()).observe(this, { legislation ->
-                binding.progressBar.visibility = View.GONE
+                binding.skeletonLayout.showOriginal()
 
                 binding.categoryName.text = categoryName.toString()
 

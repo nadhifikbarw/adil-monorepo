@@ -6,22 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".ui.detailUU.information.InformationFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <com.faltenreich.skeletonlayout.SkeletonLayout
+        android:id="@+id/skeletonLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/tv_title_detail"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/temp_uu_name"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.75" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_title_detail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/temp_uu_name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.75" />
 
         <ImageButton
             android:id="@+id/bookmark_button"
@@ -34,6 +39,7 @@
             android:src="@drawable/ic_bookmark_uncheck"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
@@ -50,8 +56,9 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/white_smoke">
+                android:layout_height="match_parent"
+                android:background="@color/white_smoke"
+                >
 
                 <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guideline10"
@@ -93,7 +100,6 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
-
                     android:text="@string/lorem_ipsum"
                     app:layout_constraintStart_toStartOf="@+id/guideline10"
                     app:layout_constraintTop_toBottomOf="@+id/textview_details"
@@ -289,34 +295,34 @@
                     app:layout_constraintStart_toStartOf="@+id/guideline10"
                     app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
+            </androidx.cardview.widget.CardView>
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.path_studio.adil.ui.customButtons.BlueLinearButton
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/download_pdf"
+                android:textColor="@color/cerulean"
+                android:fontFamily="@font/roboto_regular"
+                app:layout_constraintEnd_toStartOf="@+id/button"
+                app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
-        </androidx.cardview.widget.CardView>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/see_pdf"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
-        <com.path_studio.adil.ui.customButtons.BlueLinearButton
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="16dp"
-            android:text="@string/download_pdf"
-            android:textColor="@color/cerulean"
-            android:fontFamily="@font/roboto_regular"
-            app:layout_constraintEnd_toStartOf="@+id/button"
-            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="24dp"
-            android:text="@string/see_pdf"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardView" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.faltenreich.skeletonlayout.SkeletonLayout>
 
 </ScrollView>

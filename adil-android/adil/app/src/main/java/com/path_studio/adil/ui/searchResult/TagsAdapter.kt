@@ -3,10 +3,8 @@ package com.path_studio.adil.ui.searchResult
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.path_studio.adil.data.source.remote.response.QueryHitItem
-import com.path_studio.adil.databinding.ItemRowSearchResultBinding
 import com.path_studio.adil.databinding.ItemRowTagsBinding
-import java.util.ArrayList
+import java.util.*
 
 class TagsAdapter : RecyclerView.Adapter<TagsAdapter.ViewHolder>(){
 

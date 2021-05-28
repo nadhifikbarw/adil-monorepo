@@ -1,14 +1,10 @@
 package com.path_studio.adil.ui.main.home
 
 import android.annotation.SuppressLint
-import android.content.Context
-import android.content.res.Resources
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.path_studio.adil.data.entity.AnnouncementEntity
-import com.path_studio.adil.data.entity.CategoryEntity
-import com.path_studio.adil.databinding.ItemGridCategoryBinding
 import com.path_studio.adil.databinding.ItemRowAnnouncementBinding
 
 class AnnouncementAdapter (private val listAnnouncement: ArrayList<AnnouncementEntity>) :
