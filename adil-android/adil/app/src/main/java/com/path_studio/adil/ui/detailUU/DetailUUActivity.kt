@@ -44,7 +44,6 @@ class DetailUUActivity : AppCompatActivity() {
         val extras = intent.extras
         if (extras != null) {
             val legislationId = extras.getString(EXTRA_LEGISLATION_ID)
-            Log.e("Legislation ID", legislationId.toString())
         }
 
         //set back button listener

@@ -2,6 +2,7 @@ package com.path_studio.adil.ui.pdfView
 
 import java.io.File
 import android.os.Bundle
+import android.util.Log
 import com.krishna.fileloader.FileLoader
 import androidx.lifecycle.ViewModelProvider
 import androidx.appcompat.app.AppCompatActivity
@@ -17,7 +18,8 @@ class PdfViewActivity : AppCompatActivity() {
     private lateinit var binding: ActivityPdfViewBinding
 
     companion object {
-        val EXTRA_LEGISLATION_ID = "extra_id"
+        const val EXTRA_TITLE = "extra_title"
+        const val EXTRA_LEGISLATION_ID = "extra_id"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,11 +32,18 @@ class PdfViewActivity : AppCompatActivity() {
 
         val extras = intent.extras
         if (extras != null) {
+
+            val title = extras.getString(EXTRA_TITLE)
+            binding.tvTitlePdfview.text = title
+
             val docLegisId = extras.getString(EXTRA_LEGISLATION_ID) as String
+            Log.d("Isi dari ID : ", docLegisId)
+
             with(viewModel) {
                 selectedLegislation(docLegisId)
                 getSignedUrl(docLegisId).addOnCompleteListener { task ->
                     val url = task.result
+                    Log.d("isi dari URL :", url.toString())
                     showDocument(url)
                 }
 

@@ -53,4 +53,5 @@
     <string name="status_hukum">Status Hukum</string>
     <string name="belum_dicabut_ubah">Belum Dicabut/Ubah</string>
     <string name="telah_dicabut">Telah Dicabut</string>
+    <string name="detail">Details</string>
 </resources>

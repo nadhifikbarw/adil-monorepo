@@ -7,6 +7,6 @@ import com.path_studio.adil.data.source.remote.response.QueryHitItem
 
 class SearchResultViewModel(private val adilRepository: AdilRepository) : ViewModel(){
 
-    fun queryLegislation(query :String) : Task<List<QueryHitItem?>> = adilRepository.queryLegislation(query)
+    fun queryLegislation(query :String) : Task<List<QueryHitItem>> = adilRepository.queryLegislation(query)
 
 }

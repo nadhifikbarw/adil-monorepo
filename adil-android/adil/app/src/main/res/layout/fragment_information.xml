@@ -11,7 +11,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/tv_title_detail"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -46,22 +46,45 @@
             app:cardUseCompatPadding="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView6">
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_detail">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white_smoke">
 
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_begin="155dp" />
+
+
+                <TextView
+                    android:id="@+id/textview_details"
+                    style="@style/InformationText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/detail"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.3" />
+
                 <TextView
                     android:id="@+id/textView8"
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="15dp"
                     android:text="@string/jenis"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textview_details"
                     app:layout_constraintWidth_percent="0.3" />
 
                 <TextView
@@ -69,39 +92,43 @@
                     style="@style/InformationAnswerText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="15dp"
+
                     android:text="@string/lorem_ipsum"
-                    app:layout_constraintStart_toEndOf="@+id/textView8"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintWidth_percent="0.6" />
+                    app:layout_constraintStart_toStartOf="@+id/guideline10"
+                    app:layout_constraintTop_toBottomOf="@+id/textview_details"
+                    app:layout_constraintEnd_toEndOf="parent"
+/>
 
                 <TextView
                     android:id="@+id/textView9"
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="15dp"
                     android:text="@string/instansi"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/info_jenis"
-                    app:layout_constraintWidth_percent="0.3" />
+                    app:layout_constraintTop_toBottomOf="@+id/info_jenis" />
 
                 <TextView
                     android:id="@+id/info_instansi"
                     style="@style/InformationAnswerText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="15dp"
                     android:text="@string/lorem_ipsum"
-                    app:layout_constraintStart_toEndOf="@+id/textView9"
-                    app:layout_constraintTop_toBottomOf="@+id/info_jenis"
-                    app:layout_constraintWidth_percent="0.6" />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline10"
+                    app:layout_constraintTop_toBottomOf="@+id/info_jenis" />
 
                 <TextView
                     android:id="@+id/textView10"
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="15dp"
                     android:text="@string/nomor"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/info_instansi"
@@ -112,17 +139,19 @@
                     style="@style/InformationAnswerText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="15dp"
                     android:text="@string/lorem_ipsum"
-                    app:layout_constraintStart_toEndOf="@+id/textView10"
-                    app:layout_constraintTop_toBottomOf="@+id/info_instansi"
-                    app:layout_constraintWidth_percent="0.6" />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline10"
+                    app:layout_constraintTop_toBottomOf="@+id/info_instansi" />
 
                 <TextView
                     android:id="@+id/textView11"
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="15dp"
                     android:text="@string/tahun"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/info_nomor"
@@ -133,17 +162,19 @@
                     style="@style/InformationAnswerText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="15dp"
                     android:text="@string/lorem_ipsum"
-                    app:layout_constraintStart_toEndOf="@+id/textView11"
-                    app:layout_constraintTop_toBottomOf="@+id/info_nomor"
-                    app:layout_constraintWidth_percent="0.6" />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline10"
+                    app:layout_constraintTop_toBottomOf="@+id/info_nomor" />
 
                 <TextView
                     android:id="@+id/textView12"
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="15dp"
                     android:text="@string/judul"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/info_tahun"
@@ -154,18 +185,21 @@
                     style="@style/InformationAnswerText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="15dp"
                     android:text="@string/lorem_ipsum"
-                    app:layout_constraintStart_toEndOf="@+id/textView12"
-                    app:layout_constraintTop_toBottomOf="@+id/info_tahun"
-                    app:layout_constraintWidth_percent="0.6" />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline10"
+                    app:layout_constraintTop_toBottomOf="@+id/info_tahun" />
 
                 <TextView
                     android:id="@+id/textView13"
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="15dp"
                     android:text="@string/ditetapkan_tanggal"
+
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/info_judul"
                     app:layout_constraintWidth_percent="0.3" />
@@ -175,17 +209,20 @@
                     style="@style/InformationAnswerText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="15dp"
                     android:text="@string/lorem_ipsum"
-                    app:layout_constraintStart_toEndOf="@+id/textView13"
-                    app:layout_constraintTop_toBottomOf="@+id/info_judul"
-                    app:layout_constraintWidth_percent="0.6" />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline10"
+                    app:layout_constraintTop_toBottomOf="@+id/info_judul" />
 
                 <TextView
                     android:id="@+id/textView14"
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="15dp"
+                    android:lineHeight="15sp"
                     android:text="@string/diundangkan_tanggal"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView13"
@@ -196,17 +233,19 @@
                     style="@style/InformationAnswerText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="15dp"
                     android:text="@string/lorem_ipsum"
-                    app:layout_constraintStart_toEndOf="@+id/textView14"
-                    app:layout_constraintTop_toBottomOf="@+id/textView13"
-                    app:layout_constraintWidth_percent="0.6" />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline10"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
                 <TextView
                     android:id="@+id/textView15"
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="15dp"
                     android:text="@string/daerah_id"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView14"
@@ -217,17 +256,19 @@
                     style="@style/InformationAnswerText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="15dp"
                     android:text="@string/lorem_ipsum"
-                    app:layout_constraintStart_toEndOf="@+id/textView15"
-                    app:layout_constraintTop_toBottomOf="@+id/textView14"
-                    app:layout_constraintWidth_percent="0.6" />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline10"
+                    app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
                 <TextView
                     android:id="@+id/textView16"
                     style="@style/InformationText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="15dp"
                     android:text="@string/kategori"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView15"
@@ -237,16 +278,18 @@
                     android:id="@+id/info_kategori"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginBottom="16dp"
-                    android:text="@string/lorem_ipsum"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="21dp"
+                    android:text=""
                     android:textColor="@color/cerulean"
                     android:textSize="12sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/textView16"
-                    app:layout_constraintTop_toTopOf="@+id/textView16"
-                    app:layout_constraintWidth_percent="0.6" />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/guideline10"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -76,7 +76,7 @@ class AdilRepository(private val remoteDataSource: RemoteDataSource,
         return remoteDataSource.getTimeline(docId)
     }
 
-    override fun queryLegislation(query: String): Task<List<QueryHitItem?>> {
+    override fun queryLegislation(query: String): Task<List<QueryHitItem>> {
         return remoteDataSource.queryLegislation(query)
     }
 

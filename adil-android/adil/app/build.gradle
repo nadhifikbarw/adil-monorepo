@@ -71,6 +71,7 @@ dependencies {
 
     //Room
     implementation "androidx.room:room-ktx:$rootProject.roomVersion"
+    implementation 'androidx.room:room-runtime:2.2.5'
     kapt "androidx.room:room-compiler:$rootProject.roomVersion"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
 
