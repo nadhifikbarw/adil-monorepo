@@ -10,9 +10,10 @@ class TagsAdapter : RecyclerView.Adapter<TagsAdapter.ViewHolder>(){
 
     private var listTags = ArrayList<String?>()
 
-    fun setTags(category: List<String?>?) {
+    fun setTags(year: String?, category: List<String?>?) {
         if (category != null){
             this.listTags.clear()
+            listTags.add(year)
             this.listTags.addAll(category)
         }
     }

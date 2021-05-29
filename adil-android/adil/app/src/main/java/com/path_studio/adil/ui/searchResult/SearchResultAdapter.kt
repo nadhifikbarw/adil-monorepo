@@ -34,11 +34,11 @@ class SearchResultAdapter (val activity: SearchResultActivity) : RecyclerView.Ad
                     "Ditetapkan: ${Utils.changeStringToDateFormat(legislation.source?.tglDitetapkan.toString())} " +
                             "| Diundangkan: ${Utils.changeStringToDateFormat(legislation.source?.tglDiundangkan.toString())}"
 
-                tvTagYear.text = legislation.source?.tahunPeraturan.toString()
                 rvLegislationTags.apply {
                     layoutManager = LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL,false)
                     val tagAdapter = TagsAdapter()
-                    tagAdapter.setTags(legislation.source?.category)
+                    tagAdapter.setTags(legislation.source?.tahunPeraturan.toString(),
+                        legislation.source?.category)
                     adapter = tagAdapter
                 }
 
