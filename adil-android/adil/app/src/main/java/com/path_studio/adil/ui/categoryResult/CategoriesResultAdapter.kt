@@ -46,14 +46,12 @@ class CategoriesResultAdapter (val activity: CategoryResultActivity) :
                 detailTentang.text = legislation.tentang
                 detailDitetapkanBerlaku.text = "Ditetapkan: ${Utils.changeStringToDateFormat(legislation.tglDitetapkan.toString() )} " +
                         "| Diundangkan: ${Utils.changeStringToDateFormat(legislation.tglDiundangkan.toString() )}"
-
-
-                tvTagYear.text = legislation.tahunPeraturan.toString()
                 rvLegislationTags.apply {
                     layoutManager = LinearLayoutManager(context,
                         LinearLayoutManager.HORIZONTAL,false)
                     val tagAdapter = TagsAdapter()
-                    tagAdapter.setTags(legislation.category)
+                    tagAdapter.setTags(legislation.tahunPeraturan.toString(),
+                                        legislation.category)
                     adapter = tagAdapter
                 }
 
@@ -62,8 +60,6 @@ class CategoriesResultAdapter (val activity: CategoryResultActivity) :
                     intent.putExtra(DetailUUActivity.EXTRA_LEGISLATION_ID, legislation.id)
                     itemView.context.startActivity(intent)
                 }
-
-
             }
         }
     }
