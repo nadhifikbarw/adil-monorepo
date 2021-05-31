@@ -1,5 +1,6 @@
 package com.path_studio.adil.ui.searchResult
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Gravity
 import androidx.appcompat.app.AppCompatActivity
@@ -28,14 +29,13 @@ class SearchResultActivity : AppCompatActivity() {
         binding = ActivitySearchResultBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val factory = ViewModelFactory.getInstance(this)
+        val viewModel = ViewModelProvider(this, factory)[SearchResultViewModel::class.java]
+        val rvSearchAdapter = SearchResultAdapter(this)
+
         val extras = intent.extras
         if(extras != null) {
             val query = extras.getString(EXTRA_QUERY)
-
-            val factory = ViewModelFactory.getInstance(this)
-            val viewModel = ViewModelProvider(this, factory)[SearchResultViewModel::class.java]
-
-            val rvSearchAdapter = SearchResultAdapter(this)
 
             viewModel.queryLegislation(query.toString()).addOnCompleteListener {
                 val hitItems = it.result
@@ -45,24 +45,47 @@ class SearchResultActivity : AppCompatActivity() {
 
                 rvSearchAdapter.setLegislation(hitItems)
                 rvSearchAdapter.notifyDataSetChanged()
-            }
 
-            with(binding.rvListNotification){
-                binding.rvListNotification.layoutManager = LinearLayoutManager(context)
-                setHasFixedSize(true)
-                adapter = rvSearchAdapter
+                with(binding.rvListNotification){
+                    binding.rvListNotification.layoutManager = LinearLayoutManager(context)
+                    setHasFixedSize(true)
+                    adapter = rvSearchAdapter
+                }
             }
-
         }
+
+        binding.searchLegis.setOnQueryTextListener(object : androidx.appcompat.widget.SearchView.OnQueryTextListener{
+            override fun onQueryTextSubmit(query: String): Boolean {
+
+                viewModel.queryLegislation(query).addOnCompleteListener {
+                    val hitItems = it.result
+
+                    val jumlahPeraturan = "Total ${hitItems?.size} jumlah peraturan"
+                    binding.textView.text = jumlahPeraturan
+
+                    rvSearchAdapter.setLegislation(hitItems)
+                    rvSearchAdapter.notifyDataSetChanged()
+
+                    with(binding.rvListNotification) {
+                        binding.rvListNotification.layoutManager = LinearLayoutManager(context)
+                        setHasFixedSize(true)
+                        adapter = rvSearchAdapter
+                    }
+                }
+
+                return true
+            }
+            override fun onQueryTextChange(newText: String?): Boolean {
+                return true
+            }
+
+        })
 
         // Set back button listener
         binding.backButton.setOnClickListener {
             super.onBackPressed()
         }
 
-        binding.filterButton.setOnClickListener {
-            binding.fragmentSearchResult.openDrawer(Gravity.RIGHT)
-        }
     }
 
 }

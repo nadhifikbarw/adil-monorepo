@@ -1,10 +1,12 @@
 package com.path_studio.adil.ui.categoryResult
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.path_studio.adil.databinding.ActivityCategoryResultBinding
+import com.path_studio.adil.ui.searchResult.SearchResultActivity
 import com.path_studio.adil.viewModel.ViewModelFactory
 
 class CategoryResultActivity : AppCompatActivity() {
@@ -49,6 +51,20 @@ class CategoryResultActivity : AppCompatActivity() {
                 adapter = resultAdapter
             }
         }
+
+        binding.searchLegis.setOnQueryTextListener(object : androidx.appcompat.widget.SearchView.OnQueryTextListener{
+            override fun onQueryTextSubmit(query: String): Boolean {
+                val intent = Intent(this@CategoryResultActivity, SearchResultActivity::class.java)
+                intent.putExtra(SearchResultActivity.EXTRA_QUERY, query)
+                startActivity(intent)
+                return true
+            }
+            override fun onQueryTextChange(newText: String?): Boolean {
+                return true
+            }
+
+        })
+
 
         //set back button listener
         binding.backButton.setOnClickListener {

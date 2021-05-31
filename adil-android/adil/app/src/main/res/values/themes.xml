@@ -56,12 +56,14 @@
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/dim_gray</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
         <item name="android:layout_marginStart">8dp</item>
         <item name="android:layout_marginTop">8dp</item>
     </style>
 
     <style name="InformationAnswerText">
         <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:layout_marginTop">8dp</item>
     </style>
 

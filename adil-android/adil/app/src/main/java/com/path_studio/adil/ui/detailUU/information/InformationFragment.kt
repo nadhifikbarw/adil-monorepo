@@ -48,19 +48,19 @@ class InformationFragment : Fragment() {
 
                 viewModel.selectedLegislation(legisId.toString())
                 viewModel.getLegislationDetail().observe(viewLifecycleOwner,{ data ->
-                populateDetail(data)
-                binding.skeletonLayout.showOriginal()
+                    populateDetail(data)
+                    binding.skeletonLayout.showOriginal()
 
-                val title = "${data.jenisPeraturan} Nomor ${data.nomorPeraturan} Tahun ${data.tahunPeraturan}"
-                binding.tvTitleDetail.text = title
+                    val title = "${data.jenisPeraturan} Nomor ${data.nomorPeraturan} Tahun ${data.tahunPeraturan}"
+                    binding.tvTitleDetail.text = title
 
-                binding.button.setOnClickListener {
-                    val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)
-                    intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID, legisId)
-                    intent.putExtra(PdfViewActivity.EXTRA_TITLE, title)
-                    startActivity(intent)
-                }
-            })
+                    binding.button.setOnClickListener {
+                        val intent = Intent(activity as DetailUUActivity, PdfViewActivity::class.java)
+                        intent.putExtra(PdfViewActivity.EXTRA_LEGISLATION_ID, legisId)
+                        intent.putExtra(PdfViewActivity.EXTRA_TITLE, title)
+                        startActivity(intent)
+                    }
+                })
 
                 viewModel.getBookmarkById(extras).observe(requireActivity()) { bookmark ->
                     if(bookmark != null) {
@@ -98,24 +98,24 @@ class InformationFragment : Fragment() {
 
     private fun populateDetail(data: LegislationResponse?){
         with(binding){
-            infoJenis.text = ":" +data?.jenisPeraturan
+            infoJenis.text = data?.jenisPeraturan
 
             if(data?.instansi.isNullOrBlank()) {
-                   infoInstansi.text = ":Tidak ada data"
+                infoInstansi.text = "Tidak ada data"
             }else{
-                infoInstansi.text = ":" +data?.instansi
+                infoInstansi.text = data?.instansi
             }
 
-            infoJudul.text = ":" + data?.tentang
-            infoNomor.text = ":" +data?.nomorPeraturan
-            infoTahun.text = ":" +data?.tahunPeraturan.toString()
-            infoDitetapkan.text = ":" +data?.tglDitetapkan
-            infoDiundangkan.text = ":" +data?.tglDiundangkan
+            infoJudul.text = data?.tentang
+            infoNomor.text = data?.nomorPeraturan
+            infoTahun.text = data?.tahunPeraturan.toString()
+            infoDitetapkan.text = data?.tglDitetapkan
+            infoDiundangkan.text = data?.tglDiundangkan
 
             if(data?.daerahId.isNullOrBlank()){
-                infoDaerah.text = ":Tidak ada data"
+                infoDaerah.text = "Tidak ada data"
             } else {
-                infoDaerah.text = ":" +data?.daerahId
+                infoDaerah.text = data?.daerahId
             }
 
             for (i in 0 until data?.category?.size!!){
