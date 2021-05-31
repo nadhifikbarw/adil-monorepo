@@ -3,6 +3,7 @@ package com.path_studio.adil.ui.searchResult
 import android.content.Intent
 import android.os.Bundle
 import android.view.Gravity
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.ViewModelProvider
@@ -35,6 +36,7 @@ class SearchResultActivity : AppCompatActivity() {
 
         val extras = intent.extras
         if(extras != null) {
+            binding.progressBar.visibility = View.VISIBLE
             val query = extras.getString(EXTRA_QUERY)
 
             viewModel.queryLegislation(query.toString()).addOnCompleteListener {
@@ -42,6 +44,8 @@ class SearchResultActivity : AppCompatActivity() {
 
                 val jumlahPeraturan = "Total ${hitItems?.size} jumlah peraturan"
                 binding.textView.text = jumlahPeraturan
+
+                binding.progressBar.visibility = View.GONE
 
                 rvSearchAdapter.setLegislation(hitItems)
                 rvSearchAdapter.notifyDataSetChanged()
