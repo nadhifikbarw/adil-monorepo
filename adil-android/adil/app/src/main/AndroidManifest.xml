@@ -11,10 +11,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Adil">
         <activity android:name=".ui.about.AboutActivity"></activity>
+<<<<<<< HEAD
         <activity android:name=".ui.categoryResult.CategoryResultActivity" />
         <activity android:name=".ui.pdfView.PdfViewActivity" />
         <activity android:name=".ui.detailUU.DetailUUActivity" />
         <activity android:name=".ui.searchResult.SearchResultActivity" />
+=======
+        <activity android:name=".ui.categoryResult.CategoryResultActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".ui.pdfView.PdfViewActivity" />
+        <activity android:name=".ui.detailUU.DetailUUActivity" />
+        <activity android:name=".ui.searchResult.SearchResultActivity"
+            android:windowSoftInputMode="adjustPan"/>
+>>>>>>> 0ad8ccca012482c42036b32662beaa92be20b243
         <activity
             android:name=".ui.splash.SplashActivity"
             android:theme="@style/SplashTheme">
@@ -24,7 +33,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".ui.main.MainActivity">
+=======
+        <activity android:name=".ui.main.MainActivity"
+            android:windowSoftInputMode="adjustPan"
+            >
+>>>>>>> 0ad8ccca012482c42036b32662beaa92be20b243
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>

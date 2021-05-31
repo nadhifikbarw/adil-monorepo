@@ -56,12 +56,20 @@
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/dim_gray</item>
         <item name="android:textStyle">bold</item>
+<<<<<<< HEAD
+=======
+        <item name="android:fontFamily">@font/roboto_medium</item>
+>>>>>>> 0ad8ccca012482c42036b32662beaa92be20b243
         <item name="android:layout_marginStart">8dp</item>
         <item name="android:layout_marginTop">8dp</item>
     </style>
 
     <style name="InformationAnswerText">
         <item name="android:textSize">12sp</item>
+<<<<<<< HEAD
+=======
+        <item name="android:fontFamily">@font/roboto_regular</item>
+>>>>>>> 0ad8ccca012482c42036b32662beaa92be20b243
         <item name="android:layout_marginTop">8dp</item>
     </style>
 

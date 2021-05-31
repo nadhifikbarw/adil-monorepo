@@ -22,6 +22,10 @@ interface AdilDataSource {
     fun getBookmarkById(legislationId: String): Flow<Bookmark>
     fun getLegislationDetail(legislationId : String) : LiveData<LegislationResponse>
     fun getSignedUrl(docId: String): Task<String>
+<<<<<<< HEAD
     fun getTimeline(query: String): Task<List<RelationshipItem?>>
+=======
+    fun getTimeline(docId: String): Task<List<RelationshipItem?>>
+>>>>>>> 0ad8ccca012482c42036b32662beaa92be20b243
     fun queryLegislation(query: String): Task<List<QueryHitItem>>
 }

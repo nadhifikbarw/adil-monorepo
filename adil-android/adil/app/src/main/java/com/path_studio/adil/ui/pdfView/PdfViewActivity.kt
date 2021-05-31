@@ -2,6 +2,10 @@ package com.path_studio.adil.ui.pdfView
 
 import android.os.Bundle
 import android.util.Log
+<<<<<<< HEAD
+=======
+import android.view.View
+>>>>>>> 0ad8ccca012482c42036b32662beaa92be20b243
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.github.barteksc.pdfviewer.util.FitPolicy
@@ -32,6 +36,10 @@ class PdfViewActivity : AppCompatActivity() {
 
         val extras = intent.extras
         if (extras != null) {
+<<<<<<< HEAD
+=======
+            binding.progressBar.visibility = View.VISIBLE
+>>>>>>> 0ad8ccca012482c42036b32662beaa92be20b243
 
             val title = extras.getString(EXTRA_TITLE)
             binding.tvTitlePdfview.text = title
@@ -67,6 +75,10 @@ class PdfViewActivity : AppCompatActivity() {
                 ) {
                     val pdfFile = response!!.body
                     binding.pdfView.fromFile(pdfFile).pageFitPolicy(FitPolicy.WIDTH).load()
+<<<<<<< HEAD
+=======
+                    binding.progressBar.visibility = View.GONE
+>>>>>>> 0ad8ccca012482c42036b32662beaa92be20b243
                 }
 
                 override fun onError(request: FileLoadRequest?, t: Throwable?) {
