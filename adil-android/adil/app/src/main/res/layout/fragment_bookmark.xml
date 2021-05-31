@@ -8,7 +8,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:paddingBottom="40dp"
         >
 
@@ -26,15 +26,17 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_list_bookmark"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginTop="16dp"
             android:overScrollMode="never"
+            android:paddingBottom="15dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constrainedWidth="true"
             app:layout_constraintEnd_toStartOf="@+id/guideline7"
             app:layout_constraintStart_toStartOf="@+id/guideline6"
             app:layout_constraintTop_toBottomOf="@id/tv_bookmark_fragment_title"
             app:spanCount="3"
+            app:layout_constraintHeight_percent="0.93"
             tools:listitem="@layout/item_list_bookmark" />
 
         <androidx.constraintlayout.widget.Guideline

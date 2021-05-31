@@ -5,10 +5,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     app:cardCornerRadius="8dp"
-    app:cardElevation="4dp"
-    android:layout_marginBottom="18dp"
-    android:layout_marginStart="18dp"
-    android:layout_marginEnd="18dp">
+    app:cardElevation="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="18dp"
+    android:layout_marginBottom="20dp"
+>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -58,7 +60,7 @@
             android:id="@+id/tv_bookmark_tetap"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
             android:text="Ditetapkan : 24 febuari 2020"
             android:textSize="12sp"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -69,39 +71,39 @@
             android:id="@+id/tv_bookmark_berlaku"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Berlaku : 26 febuari 2020"
+            android:layout_marginTop="8dp"
+            android:text="Ditetapkan : 24 febuari 2020"
             android:textSize="12sp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline2"
             app:layout_constraintTop_toBottomOf="@id/tv_bookmark_tetap" />
 
+
         <HorizontalScrollView
             android:id="@+id/legislationTagsContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp"
+            android:scrollbars="none"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toEndOf="@id/iv_bookmark_icon"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@+id/tv_bookmark_berlaku">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_legislationTags"
                 android:layout_width="wrap_content"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                android:orientation="horizontal"
-                tools:listitem="@layout/item_row_tags"
-                tools:itemCount="4"
-                android:layout_marginStart="5dp"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:itemCount="5"
+                tools:listitem="@layout/item_row_tags" />
 
         </HorizontalScrollView>
-
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"

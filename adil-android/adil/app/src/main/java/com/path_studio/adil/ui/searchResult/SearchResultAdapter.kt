@@ -27,13 +27,12 @@ class SearchResultAdapter (val activity: SearchResultActivity) : RecyclerView.Ad
         @SuppressLint("SetTextI18n")
         fun bind(legislation: QueryHitItem) {
             with(binding) {
-                detailNomor.text =
+                tvCardTitle.text =
                     "${legislation.source?.jenisPeraturan} ${legislation.source?.jenisPeraturan} ${legislation.source?.tahunPeraturan}"
-                detailTentang.text = legislation.source?.tentang
-                detailDitetapkanBerlaku.text =
-                    "Ditetapkan: ${Utils.changeStringToDateFormat(legislation.source?.tglDitetapkan.toString())} " +
-                            "| Diundangkan: ${Utils.changeStringToDateFormat(legislation.source?.tglDiundangkan.toString())}"
-
+                tvCardDescription.text = legislation.source?.tentang
+                tvCardTetap.text =
+                    "Ditetapkan: ${Utils.changeStringToDateFormat(legislation.source?.tglDitetapkan.toString())}"
+                tvCardBerlaku.text = "Berlaku: ${Utils.changeStringToDateFormat(legislation.source?.tglDiundangkan.toString())}"
                 rvLegislationTags.apply {
                     layoutManager = LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL,false)
                     val tagAdapter = TagsAdapter()

@@ -36,6 +36,7 @@ class CategoryResultActivity : AppCompatActivity() {
             viewModel.getLegislationResult(categoryName.toString()).observe(this, { legislation ->
                 binding.skeletonLayout.showOriginal()
 
+                binding.searchLegis.setQuery(categoryName,false)
                 binding.categoryName.text = categoryName.toString()
 
                 val jumlahPeraturan = "${legislation.size} jumlah peraturan"

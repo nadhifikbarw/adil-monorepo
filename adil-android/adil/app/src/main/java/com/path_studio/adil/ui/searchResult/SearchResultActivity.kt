@@ -83,7 +83,7 @@ class SearchResultActivity : AppCompatActivity() {
 
         // Set back button listener
         binding.backButton.setOnClickListener {
-            super.onBackPressed()
+            finish()
         }
 
     }

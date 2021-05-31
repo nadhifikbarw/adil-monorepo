@@ -16,7 +16,9 @@
         <activity android:name=".ui.pdfView.PdfViewActivity" />
         <activity android:name=".ui.detailUU.DetailUUActivity" />
         <activity android:name=".ui.searchResult.SearchResultActivity"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".ui.main.MainActivity"
+            />
         <activity
             android:name=".ui.splash.SplashActivity"
             android:theme="@style/SplashTheme">

@@ -19,7 +19,6 @@ import com.path_studio.adil.ui.searchResult.SearchResultActivity
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private var functions = FirebaseFunctions.getInstance("asia-southeast2")
     private var drawerLayout: DrawerLayout? = null
     private var navigationView: NavigationView? = null
 
@@ -48,16 +47,11 @@ class MainActivity : AppCompatActivity() {
             override fun onQueryTextChange(newText: String?): Boolean {
                 return true
             }
-
         })
-
     }
-
-
 
     private fun setMenuDrawer(){
         drawerLayout = findViewById<View>(R.id.activity_main) as DrawerLayout
-
         navigationView = findViewById<View>(R.id.nv) as NavigationView
         navigationView!!.setNavigationItemSelectedListener(NavigationView.OnNavigationItemSelectedListener { item ->
             when (item.itemId) {

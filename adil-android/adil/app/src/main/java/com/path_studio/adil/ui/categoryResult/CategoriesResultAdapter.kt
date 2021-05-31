@@ -42,10 +42,10 @@ class CategoriesResultAdapter (val activity: CategoryResultActivity) :
         @ExperimentalStdlibApi
         fun bind(legislation: LegislationResponse) {
             with(binding) {
-                detailNomor.text = "${legislation.jenisPeraturan} ${legislation.nomorPeraturan} ${legislation.tahunPeraturan}"
-                detailTentang.text = legislation.tentang
-                detailDitetapkanBerlaku.text = "Ditetapkan: ${Utils.changeStringToDateFormat(legislation.tglDitetapkan.toString() )} " +
-                        "| Diundangkan: ${Utils.changeStringToDateFormat(legislation.tglDiundangkan.toString() )}"
+                tvCardTitle.text = "${legislation.jenisPeraturan} ${legislation.nomorPeraturan} ${legislation.tahunPeraturan}"
+                tvCardDescription.text = legislation.tentang
+                tvCardTetap.text = "Ditetapkan: ${Utils.changeStringToDateFormat(legislation.tglDitetapkan.toString() )}"
+                tvCardBerlaku.text = "Berlaku: ${Utils.changeStringToDateFormat(legislation.tglDiundangkan.toString())}"
                 rvLegislationTags.apply {
                     layoutManager = LinearLayoutManager(context,
                         LinearLayoutManager.HORIZONTAL,false)

@@ -16,25 +16,6 @@ abstract class AdilDatabase : RoomDatabase() {
 
     abstract fun bookmarkDao(): BookmarkDao
 
-    private class AdilDatabaseCallback(
-        private val scope: CoroutineScope
-    ) : RoomDatabase.Callback() {
-
-        override fun onCreate(db: SupportSQLiteDatabase) {
-            super.onCreate(db)
-            INSTANCE?.let { database ->
-                scope.launch {
-                    val bookmarkDao = database.bookmarkDao()
-                    bookmarkDao.deleteAllData()
-                    val bookmark1 = Bookmark("11e4a1e5a9835d80c031313032303439")
-                    bookmarkDao.insertBookmark(bookmark1)
-                    val bookmark2 = Bookmark("11e4a2b65ec2e1c29f62313131343438")
-                    bookmarkDao.insertBookmark(bookmark2)
-                }
-            }
-        }
-    }
-
     companion object {
         @Volatile
         private var INSTANCE: AdilDatabase? = null
@@ -46,7 +27,6 @@ abstract class AdilDatabase : RoomDatabase() {
                     AdilDatabase::class.java,
                     "adil_database"
                 )
-                    .addCallback(AdilDatabaseCallback(MainScope()))
                     .build()
                 INSTANCE = instance
                 instance
