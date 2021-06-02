@@ -1,11 +1,12 @@
 const {getESClient} = require("./elasticsearch");
 const functions = require("firebase-functions");
+const {cleanKeyword} = require("./utils");
 
 exports.queryLegislation = functions
     .region("asia-southeast2")
     .https
     .onCall(async (data, context) => {
-    // Check query dat6
+      // Check query dat6
       const keyword = data.query || "";
       functions.logger.debug(`Query value: ${keyword}`);
       if (!(typeof keyword === "string") || keyword.length === 0) {
@@ -22,7 +23,7 @@ exports.queryLegislation = functions
         body: {
           query: {
             query_string: {
-              query: keyword,
+              query: cleanKeyword(keyword),
               fields: ["legislationTitle^2.2", "tentang^1.8", "content", "category", "instansi", "daerahId"],
             },
           },

@@ -18,3 +18,10 @@ exports.createBody = (data) => {
   }
   return body;
 };
+
+exports.cleanKeyword = (keyword) => {
+  return keyword
+      .replace(/\W/gm, " ")
+      .replace(/\s+/gm, " ")
+      .trim();
+};
