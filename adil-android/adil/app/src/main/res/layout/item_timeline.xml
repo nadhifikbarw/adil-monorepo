@@ -1,36 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <com.github.vipulasri.timelineview.TimelineView
-        android:id="@+id/timeline"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        app:marker="@drawable/ic_baseline_dot_blue"
-        app:markerSize="20dp"
-        app:lineWidth="2dp"
-        app:startLineColor="@color/colorPrimary"
-        app:endLineColor="@color/colorPrimary"
-        app:linePadding="5dp"/>
+    android:orientation="horizontal">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
+        app:cardCornerRadius="5dp"
         app:cardElevation="5dp"
-        app:cardUseCompatPadding="true"
-        app:cardCornerRadius="5dp">
+        app:cardUseCompatPadding="true">
 
         <LinearLayout
             android:id="@+id/itemIndicator"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:background="@color/safety_orange"
+            android:orientation="horizontal"
             android:paddingStart="10dp"
             tools:ignore="RtlSymmetry">
 
@@ -41,46 +30,47 @@
 
                 <TextView
                     android:id="@+id/itemYear"
+                    style="@style/HeaderText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:text="@string/temp_year"
                     android:textColor="@color/charcoal"
-                    style="@style/HeaderText"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintWidth_percent="0.4" />
 
                 <TextView
                     android:id="@+id/itemStatus"
+                    style="@style/TagsText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
+                    android:gravity="right"
                     android:text="@string/temp_status"
                     android:textColor="@color/cerulean"
-                    style="@style/TagsText"
-                    android:gravity="right"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintWidth_percent="0.5" />
 
                 <TextView
                     android:id="@+id/itemTitle"
+                    style="@style/TabTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
                     android:text="@string/lorem_ipsum"
                     android:textColor="@color/charcoal"
-                    style="@style/TabTitle"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/itemYear" />
 
                 <TextView
                     android:id="@+id/itemDescription"
+                    style="@style/LinkText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -88,7 +78,6 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="8dp"
                     android:text="@string/lorem_ipsum"
-                    style="@style/LinkText"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -99,5 +88,16 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <com.github.vipulasri.timelineview.TimelineView
+        android:id="@+id/timeline"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:endLineColor="@color/colorPrimary"
+        app:linePadding="5dp"
+        app:lineWidth="2dp"
+        app:marker="@drawable/ic_baseline_dot_blue"
+        app:markerSize="20dp"
+        app:startLineColor="@color/colorPrimary" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

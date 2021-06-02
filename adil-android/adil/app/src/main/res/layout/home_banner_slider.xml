@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -20,9 +20,9 @@
                 android:id="@+id/home_banner_img"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/home_banner_01"
-                android:scaleType="centerCrop"
                 android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_banner_01"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -39,6 +39,7 @@
 
                 <TextView
                     android:id="@+id/homeBannerTitle"
+                    style="@style/HeaderText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -46,13 +47,13 @@
                     android:maxLines="1"
                     android:text="@string/temp_banner_title"
                     android:textColor="@color/white"
-                    style="@style/HeaderText"
                     app:layout_constraintBottom_toTopOf="@+id/homeBannerDetails"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintWidth_percent="0.7" />
 
                 <TextView
                     android:id="@+id/homeBannerDetails"
+                    style="@style/LinkText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -61,7 +62,6 @@
                     android:maxLines="1"
                     android:text="@string/temp_banner_detail"
                     android:textColor="@color/white"
-                    style="@style/LinkText"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintWidth_percent="0.9" />

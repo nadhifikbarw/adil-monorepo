@@ -69,4 +69,5 @@
     </string>
     <string name="temp_status">Diubah Oleh</string>
     <string name="not_found">Maaf, peraturan tidak ditemukan</string>
+    <string name="bookmark_not_found">Belum ada bookmark yang ditambahkan</string>
 </resources>

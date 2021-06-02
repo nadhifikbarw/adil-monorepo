@@ -32,7 +32,7 @@ class PdfViewActivity : AppCompatActivity() {
 
         val parentLayout = findViewById<View>(R.id.content)
 
-        Snackbar.make(binding.root,"Pdf Downloaded in Internal Directory", Snackbar.LENGTH_SHORT).show()
+        Snackbar.make(binding.root,"Legislation downloaded", Snackbar.LENGTH_SHORT).show()
 
         val factory = ViewModelFactory.getInstance(this)
         val viewModel = ViewModelProvider(this, factory)[PdfViewerViewModel::class.java]

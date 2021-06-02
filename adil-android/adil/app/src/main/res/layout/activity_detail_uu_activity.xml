@@ -35,11 +35,11 @@
             android:id="@+id/detailTab"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:tabInlineLabel="true"
-            app:tabMaxWidth="0dp"
-            app:tabGravity="fill"
             app:tabBackground="@drawable/tab_color_selector"
-            app:tabIconTint="@color/shakespeare" />
+            app:tabGravity="fill"
+            app:tabIconTint="@color/shakespeare"
+            app:tabInlineLabel="true"
+            app:tabMaxWidth="0dp" />
 
     </androidx.cardview.widget.CardView>
 

@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/FragmentContainer"
-    tools:context=".ui.main.category.CategoryFragment"
-    android:background="@color/white_smoke">
+    android:background="@color/white_smoke"
+    android:scrollbars="none"
+    tools:context=".ui.main.category.CategoryFragment">
 
     <com.faltenreich.skeletonlayout.SkeletonLayout
         android:id="@+id/skeletonLayout"
@@ -18,11 +19,11 @@
 
             <TextView
                 android:id="@+id/tv_category_fragment_title"
+                style="@style/HeaderText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:text="Semua Kategori"
-                style="@style/HeaderText"
                 app:layout_constraintStart_toStartOf="@+id/guideline4"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -42,16 +43,16 @@
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_list_category"
-                tools:listitem="@layout/item_grid_category"
-                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                app:spanCount="3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:overScrollMode="never"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                 app:layout_constrainedWidth="true"
                 app:layout_constraintEnd_toStartOf="@+id/guideline5"
                 app:layout_constraintStart_toStartOf="@+id/guideline4"
-                app:layout_constraintTop_toBottomOf="@+id/tv_category_fragment_title" />
+                app:layout_constraintTop_toBottomOf="@+id/tv_category_fragment_title"
+                app:spanCount="3"
+                tools:listitem="@layout/item_grid_category" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

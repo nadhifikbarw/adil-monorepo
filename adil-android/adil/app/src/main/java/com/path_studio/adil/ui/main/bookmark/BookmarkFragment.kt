@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModelProvider
@@ -37,13 +38,17 @@ class BookmarkFragment : Fragment() {
             Transformations.switchMap(
                 viewModel.allBookmarks
             ) { bookmarks ->
-                Log.wtf("Bookmarks Object", bookmarks.toString())
                 viewModel.getBookmarkedLegislation(bookmarks)
             }.observe(requireActivity()) {
-                bookmarkAdapter.setBookmark(it)
-                bookmarkAdapter.notifyDataSetChanged()
-            }
 
+                if(it.size != 0){
+                    bookmarkAdapter.setBookmark(it)
+                    bookmarkAdapter.notifyDataSetChanged()
+                }else{
+                   notFound(true)
+                }
+
+            }
             with(binding.rvListBookmark) {
                 layoutManager = LinearLayoutManager(context)
                 setHasFixedSize(true)
@@ -51,4 +56,11 @@ class BookmarkFragment : Fragment() {
             }
         }
     }
+
+    private fun notFound(flag: Boolean) {
+        binding.imgNotFound.isVisible = flag
+        binding.tvNotFound.isVisible = flag
+        binding.rvListBookmark.isVisible = !flag
+    }
+
 }

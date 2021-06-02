@@ -22,7 +22,7 @@ class SearchResultActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySearchResultBinding
     private var functions = FirebaseFunctions.getInstance("asia-southeast2")
 
-    companion object{
+    companion object {
         const val EXTRA_QUERY = "extra_query"
     }
 
@@ -36,16 +36,16 @@ class SearchResultActivity : AppCompatActivity() {
         val rvSearchAdapter = SearchResultAdapter(this)
 
         val extras = intent.extras
-        if(extras != null) {
+        if (extras != null) {
             binding.progressBar.visibility = View.VISIBLE
             val query = extras.getString(EXTRA_QUERY)
 
-            binding.searchLegis.setQuery(query,false)
+            binding.searchLegis.setQuery(query, false)
 
             viewModel.queryLegislation(query.toString()).addOnCompleteListener {
                 val hitItems = it.result
 
-                if(hitItems?.size != 0){
+                if (hitItems?.size != 0) {
                     val jumlahPeraturan = "Total ${hitItems?.size} jumlah peraturan"
                     binding.textView.text = jumlahPeraturan
 
@@ -55,12 +55,12 @@ class SearchResultActivity : AppCompatActivity() {
                     rvSearchAdapter.setLegislation(hitItems)
                     rvSearchAdapter.notifyDataSetChanged()
 
-                    with(binding.rvListNotification){
+                    with(binding.rvListNotification) {
                         binding.rvListNotification.layoutManager = LinearLayoutManager(context)
                         setHasFixedSize(true)
                         adapter = rvSearchAdapter
                     }
-                }else{
+                } else {
                     binding.progressBar.visibility = View.GONE
                     notFound(true)
                 }
@@ -68,13 +68,14 @@ class SearchResultActivity : AppCompatActivity() {
             }
         }
 
-        binding.searchLegis.setOnQueryTextListener(object : androidx.appcompat.widget.SearchView.OnQueryTextListener{
+        binding.searchLegis.setOnQueryTextListener(object :
+            androidx.appcompat.widget.SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String): Boolean {
 
                 viewModel.queryLegislation(query).addOnCompleteListener {
                     val hitItems = it.result
 
-                    if(hitItems?.size != 0){
+                    if (hitItems?.size != 0) {
                         val jumlahPeraturan = "Total ${hitItems?.size} jumlah peraturan"
                         binding.textView.text = jumlahPeraturan
 
@@ -84,12 +85,12 @@ class SearchResultActivity : AppCompatActivity() {
                         rvSearchAdapter.setLegislation(hitItems)
                         rvSearchAdapter.notifyDataSetChanged()
 
-                        with(binding.rvListNotification){
+                        with(binding.rvListNotification) {
                             binding.rvListNotification.layoutManager = LinearLayoutManager(context)
                             setHasFixedSize(true)
                             adapter = rvSearchAdapter
                         }
-                    }else{
+                    } else {
                         binding.progressBar.visibility = View.GONE
                         notFound(true)
                     }
@@ -98,6 +99,7 @@ class SearchResultActivity : AppCompatActivity() {
 
                 return true
             }
+
             override fun onQueryTextChange(newText: String?): Boolean {
                 return true
             }
@@ -111,17 +113,16 @@ class SearchResultActivity : AppCompatActivity() {
 
     }
 
-    private fun notFound(flag : Boolean){
+    private fun notFound(flag: Boolean) {
         binding.imgNotFound.isVisible = flag
         binding.tvNotFound.isVisible = flag
-        if(flag){
+        if (flag) {
             binding.rvListNotification.isVisible = false
             binding.textView.isVisible = false
-        }else{
+        } else {
             binding.rvListNotification.isVisible = true
             binding.textView.isVisible = true
         }
-
     }
 
 }

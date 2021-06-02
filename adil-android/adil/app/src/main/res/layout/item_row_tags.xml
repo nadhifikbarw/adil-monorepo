@@ -3,25 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:cardCornerRadius="15dp"
-    app:cardBackgroundColor="@color/burnt_orange"
     android:layout_marginRight="7dp"
-    >
+    app:cardBackgroundColor="@color/burnt_orange"
+    app:cardCornerRadius="15dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
-        android:paddingBottom="3dp"
-        >
+        android:paddingBottom="3dp">
 
         <TextView
             android:id="@+id/tv_tags"
+            style="@style/TagsText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            style="@style/TagsText"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

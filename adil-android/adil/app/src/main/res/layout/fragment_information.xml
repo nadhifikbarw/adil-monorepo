@@ -17,11 +17,12 @@
 
             <Button
                 android:id="@+id/button"
+                style="@style/DetailSubTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="24dp"
-                style="@style/DetailSubTitle"
+                android:textColor="@color/white"
                 android:text="@string/see_pdf"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView" />
@@ -41,12 +42,12 @@
 
             <TextView
                 android:id="@+id/tv_title_detail"
+                style="@style/HeaderText"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="16dp"
                 android:text="@string/temp_uu_name"
-                style="@style/HeaderText"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintWidth_percent="0.75" />
@@ -71,12 +72,12 @@
 
                     <TextView
                         android:id="@+id/textview_details"
+                        style="@style/DetailTitle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="16dp"
                         android:text="@string/detail"
-                        style="@style/DetailTitle"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintWidth_percent="0.3" />
@@ -103,9 +104,9 @@
                         android:layout_marginTop="25dp"
                         android:lineHeight="15sp"
                         android:text="@string/lorem_ipsum"
-                        app:layout_constraintWidth_percent="0.58"
                         app:layout_constraintStart_toEndOf="@+id/textView8"
-                        app:layout_constraintTop_toBottomOf="@+id/textview_details" />
+                        app:layout_constraintTop_toBottomOf="@+id/textview_details"
+                        app:layout_constraintWidth_percent="0.58" />
 
                     <TextView
                         android:id="@+id/textView9"
@@ -116,9 +117,9 @@
                         android:layout_marginTop="15dp"
                         android:lineHeight="15sp"
                         android:text="@string/instansi"
-                        app:layout_constraintWidth_percent="0.3"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/info_jenis" />
+                        app:layout_constraintTop_toBottomOf="@+id/info_jenis"
+                        app:layout_constraintWidth_percent="0.3" />
 
                     <TextView
                         android:id="@+id/info_instansi"
@@ -129,9 +130,9 @@
                         android:layout_marginTop="15dp"
                         android:lineHeight="15sp"
                         android:text="@string/lorem_ipsum"
-                        app:layout_constraintWidth_percent="0.58"
                         app:layout_constraintStart_toEndOf="@+id/textView9"
-                        app:layout_constraintTop_toBottomOf="@+id/info_jenis" />
+                        app:layout_constraintTop_toBottomOf="@+id/info_jenis"
+                        app:layout_constraintWidth_percent="0.58" />
 
                     <TextView
                         android:id="@+id/textView10"
@@ -154,9 +155,9 @@
                         android:layout_marginTop="15dp"
                         android:lineHeight="15sp"
                         android:text="@string/lorem_ipsum"
-                        app:layout_constraintWidth_percent="0.58"
                         app:layout_constraintStart_toEndOf="@+id/textView10"
-                        app:layout_constraintTop_toBottomOf="@+id/info_instansi" />
+                        app:layout_constraintTop_toBottomOf="@+id/info_instansi"
+                        app:layout_constraintWidth_percent="0.58" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -179,9 +180,9 @@
                         android:layout_marginTop="15dp"
                         android:lineHeight="15sp"
                         android:text="@string/lorem_ipsum"
-                        app:layout_constraintWidth_percent="0.58"
                         app:layout_constraintStart_toEndOf="@+id/textView11"
-                        app:layout_constraintTop_toBottomOf="@+id/info_nomor" />
+                        app:layout_constraintTop_toBottomOf="@+id/info_nomor"
+                        app:layout_constraintWidth_percent="0.58" />
 
                     <TextView
                         android:id="@+id/textView12"
@@ -197,16 +198,16 @@
 
                     <TextView
                         android:id="@+id/info_judul"
-                       style="@style/DetailInfo"
+                        style="@style/DetailInfo"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="15dp"
                         android:lineHeight="15sp"
                         android:text="@string/lorem_ipsum"
-                        app:layout_constraintWidth_percent="0.58"
                         app:layout_constraintStart_toEndOf="@+id/textView12"
-                        app:layout_constraintTop_toBottomOf="@+id/info_tahun" />
+                        app:layout_constraintTop_toBottomOf="@+id/info_tahun"
+                        app:layout_constraintWidth_percent="0.58" />
 
                     <TextView
                         android:id="@+id/textView13"
@@ -230,9 +231,9 @@
                         android:layout_marginTop="15dp"
                         android:lineHeight="15sp"
                         android:text="@string/lorem_ipsum"
-                        app:layout_constraintWidth_percent="0.58"
                         app:layout_constraintStart_toEndOf="@+id/textView13"
-                        app:layout_constraintTop_toBottomOf="@+id/info_judul" />
+                        app:layout_constraintTop_toBottomOf="@+id/info_judul"
+                        app:layout_constraintWidth_percent="0.58" />
 
                     <TextView
                         android:id="@+id/textView14"
@@ -256,9 +257,9 @@
                         android:layout_marginTop="15dp"
                         android:lineHeight="15sp"
                         android:text="@string/lorem_ipsum"
-                        app:layout_constraintWidth_percent="0.58"
                         app:layout_constraintStart_toEndOf="@+id/textView14"
-                        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+                        app:layout_constraintTop_toBottomOf="@+id/textView13"
+                        app:layout_constraintWidth_percent="0.58" />
 
                     <TextView
                         android:id="@+id/textView15"
@@ -281,9 +282,9 @@
                         android:layout_marginTop="15dp"
                         android:lineHeight="15sp"
                         android:text="@string/lorem_ipsum"
-                        app:layout_constraintWidth_percent="0.58"
                         app:layout_constraintStart_toEndOf="@+id/textView15"
-                        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+                        app:layout_constraintTop_toBottomOf="@+id/textView14"
+                        app:layout_constraintWidth_percent="0.58" />
 
                     <TextView
                         android:id="@+id/textView16"
