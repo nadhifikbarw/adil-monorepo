@@ -10,7 +10,6 @@ import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
-import com.google.firebase.functions.FirebaseFunctions
 import com.path_studio.adil.R
 import com.path_studio.adil.databinding.ActivityMainBinding
 import com.path_studio.adil.ui.about.AboutActivity

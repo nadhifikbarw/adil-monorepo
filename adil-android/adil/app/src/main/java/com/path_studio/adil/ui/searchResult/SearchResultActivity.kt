@@ -1,19 +1,13 @@
 package com.path_studio.adil.ui.searchResult
 
-import android.content.Intent
 import android.os.Bundle
-import android.view.Gravity
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.android.gms.tasks.Task
 import com.google.firebase.functions.FirebaseFunctions
-import com.google.gson.Gson
-import com.path_studio.adil.data.source.remote.response.QueryHitItem
-import com.path_studio.adil.data.source.remote.response.QueryResponse
 import com.path_studio.adil.databinding.ActivitySearchResultBinding
 import com.path_studio.adil.viewModel.ViewModelFactory
 

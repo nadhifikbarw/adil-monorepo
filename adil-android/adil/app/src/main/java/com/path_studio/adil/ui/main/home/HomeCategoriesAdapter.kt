@@ -9,7 +9,6 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.RequestOptions
 import com.path_studio.adil.R
 import com.path_studio.adil.data.source.remote.response.CategoryResponse
-import com.path_studio.adil.databinding.ItemGridCategoryBinding
 import com.path_studio.adil.databinding.ItemGridHomeCategoryBinding
 import com.path_studio.adil.ui.categoryResult.CategoryResultActivity
 import com.path_studio.adil.ui.main.MainActivity

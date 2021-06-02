@@ -6,7 +6,6 @@
 
     <color name="safety_orange">#FF6900</color>
     <color name="burnt_orange">#F9802D</color>
-    <color name="sandy_brown">#F29859</color>
 
     <color name="charcoal">#484848</color>
     <color name="dim_gray">#6A6A6A</color>
@@ -16,7 +15,5 @@
     <color name="mauve">#E09DFF</color>
     <color name="dark_pink">#DE5D7C</color>
 
-    <color name="black">#FF000000</color>
-    <color name="grey_100">#F5F5F5</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

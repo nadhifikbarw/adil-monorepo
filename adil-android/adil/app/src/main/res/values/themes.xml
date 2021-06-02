@@ -29,21 +29,6 @@
     </style>
 
     <!-- Search Bar Styles -->
-    <style name="SearchBar.Light" parent="MaterialSearchBarLight">
-        <item name="android:padding">10dp</item>
-        <item name="mt_searchBarColor">@color/grey_100</item>
-        <item name="mt_dividerColor">@color/searchBarDividerColor</item>
-        <item name="mt_navIconTint">@color/searchBarNavIconTintColor</item>
-        <item name="mt_searchIconTint">@color/searchBarSearchIconTintColor</item>
-        <item name="mt_clearIconTint">@color/searchBarClearIconTintColor</item>
-        <item name="mt_menuIconTint">@color/searchBarMenuIconTintColor</item>
-        <item name="mt_backIconTint">@color/searchBarBackIconTintColor</item>
-        <item name="mt_textCursorTint">@color/searchBarCursorColor</item>
-        <item name="mt_textColor">@color/searchBarTextColor</item>
-        <item name="mt_hintColor">@color/searchBarHintColor</item>
-        <item name="mt_placeholderColor">@color/searchBarPlaceholderColor</item>
-        <item name="mt_highlightedTextColor">@color/searchBarTextHighlightColor</item>
-    </style>
 
     <style name="FragmentContainer">
         <item name="android:layout_width">match_parent</item>

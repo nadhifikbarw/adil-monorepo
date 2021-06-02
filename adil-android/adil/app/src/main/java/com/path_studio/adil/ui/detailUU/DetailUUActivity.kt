@@ -1,7 +1,6 @@
 package com.path_studio.adil.ui.detailUU
 
 import android.os.Bundle
-import android.util.Log
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat

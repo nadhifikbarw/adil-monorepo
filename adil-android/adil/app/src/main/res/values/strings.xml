@@ -1,21 +1,13 @@
 <resources>
     <string name="app_name">Adil</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="beranda">Beranda</string>
     <string name="kategori">Kategori</string>
     <string name="bookmark">Bookmark</string>
     <string name="menu_button">menu button</string>
-    <string name="filter_button">filter button</string>
-    <string name="temp_search_result">Total 10 hasil untuk</string>
     <string name="temp_selected_category"><![CDATA[Energi & Sumber Daya Mineral]]></string>
     <string name="temp_uu_name">Rancangan Peraturan Pemerintah 2020</string>
-    <string name="temp_uu_overview">Pelaksanaan undang-undang tentang cipta kerja sektor energi dan sumber daya mineral</string>
-    <string name="temp_search_details">Ditetapkan : 24 Februari 2020</string>
     <string name="temp_year">2021</string>
-    <string name="temp_hierarki_peraturan">Peraturan Pemerintah</string>
     <string name="drawer_menu_01">Tentang Adil Open Law</string>
-    <string name="drawer_menu_02"><![CDATA[Kebijakan Privasi & Persyaratan]]></string>
-    <string name="drawer_menu_03">Pengaturan</string>
     <string name="detailTab01">Informasi</string>
     <string name="detailTab02">Timeline</string>
     <string name="temp_total_category_results">21 jumlah peraturan</string>
@@ -37,7 +29,6 @@
     <string name="ditetapkan_tanggal">Ditetapkan Tanggal</string>
     <string name="diundangkan_tanggal">Diundangkan Tanggal</string>
     <string name="daerah_id">Id Daerah</string>
-    <string name="download_pdf">Download PDF</string>
     <string name="see_pdf">See PDF</string>
     <string name="filter_peraturan">Filter Peraturan</string>
     <string name="tahun_peraturan">Tahun Peraturan</string>
