@@ -23,6 +23,7 @@ exports.queryLegislation = functions
           query: {
             query_string: {
               query: keyword,
+              fields: ["legislationTitle^2.2", "tentang^1.8", "content", "category", "instansi", "daerahId"],
             },
           },
         },
