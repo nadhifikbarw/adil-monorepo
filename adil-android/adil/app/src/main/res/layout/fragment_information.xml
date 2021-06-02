@@ -21,6 +21,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="24dp"
+                style="@style/DetailSubTitle"
                 android:text="@string/see_pdf"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView" />
@@ -45,8 +46,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="16dp"
                 android:text="@string/temp_uu_name"
-                android:textSize="20sp"
-                android:fontFamily="@font/roboto_bold"
+                style="@style/HeaderText"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintWidth_percent="0.75" />
@@ -75,10 +75,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="16dp"
-                        android:fontFamily="@font/roboto_black"
                         android:text="@string/detail"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
+                        style="@style/DetailTitle"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintWidth_percent="0.3" />
@@ -86,7 +84,7 @@
 
                     <TextView
                         android:id="@+id/textView8"
-                        style="@style/InformationText"
+                        style="@style/DetailSubTitle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -98,7 +96,7 @@
 
                     <TextView
                         android:id="@+id/info_jenis"
-                        style="@style/InformationAnswerText"
+                        style="@style/DetailInfo"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -111,7 +109,7 @@
 
                     <TextView
                         android:id="@+id/textView9"
-                        style="@style/InformationText"
+                        style="@style/DetailSubTitle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -124,7 +122,7 @@
 
                     <TextView
                         android:id="@+id/info_instansi"
-                        style="@style/InformationAnswerText"
+                        style="@style/DetailInfo"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -137,7 +135,7 @@
 
                     <TextView
                         android:id="@+id/textView10"
-                        style="@style/InformationText"
+                        style="@style/DetailSubTitle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -149,7 +147,7 @@
 
                     <TextView
                         android:id="@+id/info_nomor"
-                        style="@style/InformationAnswerText"
+                        style="@style/DetailInfo"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -162,7 +160,7 @@
 
                     <TextView
                         android:id="@+id/textView11"
-                        style="@style/InformationText"
+                        style="@style/DetailSubTitle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -174,7 +172,7 @@
 
                     <TextView
                         android:id="@+id/info_tahun"
-                        style="@style/InformationAnswerText"
+                        style="@style/DetailInfo"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -187,7 +185,7 @@
 
                     <TextView
                         android:id="@+id/textView12"
-                        style="@style/InformationText"
+                        style="@style/DetailSubTitle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -199,7 +197,7 @@
 
                     <TextView
                         android:id="@+id/info_judul"
-                        style="@style/InformationAnswerText"
+                       style="@style/DetailInfo"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -212,11 +210,12 @@
 
                     <TextView
                         android:id="@+id/textView13"
-                        style="@style/InformationText"
+                        style="@style/DetailSubTitle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
                         android:layout_marginTop="15dp"
+                        android:lineHeight="15sp"
                         android:text="@string/ditetapkan_tanggal"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/info_judul"
@@ -224,7 +223,7 @@
 
                     <TextView
                         android:id="@+id/info_ditetapkan"
-                        style="@style/InformationAnswerText"
+                        style="@style/DetailInfo"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -237,7 +236,7 @@
 
                     <TextView
                         android:id="@+id/textView14"
-                        style="@style/InformationText"
+                        style="@style/DetailSubTitle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -250,7 +249,7 @@
 
                     <TextView
                         android:id="@+id/info_diundangkan"
-                        style="@style/InformationAnswerText"
+                        style="@style/DetailInfo"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -263,7 +262,7 @@
 
                     <TextView
                         android:id="@+id/textView15"
-                        style="@style/InformationText"
+                        style="@style/DetailSubTitle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -275,7 +274,7 @@
 
                     <TextView
                         android:id="@+id/info_daerah"
-                        style="@style/InformationAnswerText"
+                        style="@style/DetailInfo"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -288,7 +287,7 @@
 
                     <TextView
                         android:id="@+id/textView16"
-                        style="@style/InformationText"
+                        style="@style/DetailSubTitle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -300,6 +299,7 @@
 
                     <TextView
                         android:id="@+id/info_kategori"
+                        style="@style/DetailInfo"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -308,8 +308,6 @@
                         android:lineHeight="15sp"
                         android:text=""
                         android:textColor="@color/cerulean"
-                        android:textSize="12sp"
-                        android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/textView16"
                         app:layout_constraintTop_toBottomOf="@+id/textView15"
@@ -318,18 +316,6 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.cardview.widget.CardView>
-
-            <com.path_studio.adil.ui.customButtons.BlueLinearButton
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:layout_marginEnd="16dp"
-                android:fontFamily="@font/roboto_regular"
-                android:text="@string/download_pdf"
-                android:textColor="@color/cerulean"
-                app:layout_constraintEnd_toStartOf="@+id/button"
-                app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -1,11 +1,13 @@
 package com.path_studio.adil.ui.pdfView
 
+import android.R
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.github.barteksc.pdfviewer.util.FitPolicy
+import com.google.android.material.snackbar.Snackbar
 import com.krishna.fileloader.FileLoader
 import com.krishna.fileloader.listener.FileRequestListener
 import com.krishna.fileloader.pojo.FileResponse
@@ -28,6 +30,10 @@ class PdfViewActivity : AppCompatActivity() {
         binding = ActivityPdfViewBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val parentLayout = findViewById<View>(R.id.content)
+
+        Snackbar.make(binding.root,"Pdf Downloaded in Internal Directory", Snackbar.LENGTH_SHORT).show()
+
         val factory = ViewModelFactory.getInstance(this)
         val viewModel = ViewModelProvider(this, factory)[PdfViewerViewModel::class.java]
 
@@ -43,7 +49,7 @@ class PdfViewActivity : AppCompatActivity() {
 
             with(viewModel) {
                 selectedLegislation(docLegisId)
-                getSignedUrl(docLegisId).addOnCompleteListener { task ->
+                getSignedUrl().addOnCompleteListener { task ->
                     val url = task.result
                     Log.d("isi dari URL :", url.toString())
                     showDocument(url)

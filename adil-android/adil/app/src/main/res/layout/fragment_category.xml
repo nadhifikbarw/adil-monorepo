@@ -21,9 +21,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:fontFamily="@font/roboto_bold"
                 android:text="Semua Kategori"
-                android:textSize="16sp"
+                style="@style/HeaderText"
                 app:layout_constraintStart_toStartOf="@+id/guideline4"
                 app:layout_constraintTop_toTopOf="parent" />
 

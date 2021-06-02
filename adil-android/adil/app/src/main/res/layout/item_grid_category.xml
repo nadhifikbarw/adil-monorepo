@@ -24,6 +24,7 @@
             android:layout_gravity="center"
             android:src="@color/cerulean"
             tools:ignore="ContentDescription" />
+
         <TextView
             android:id="@+id/category_name"
             android:layout_width="match_parent"
@@ -32,8 +33,7 @@
             android:layout_marginHorizontal="5dp"
             android:gravity="center"
             android:text="@string/temp_category_name"
-            android:textStyle="bold"
-            android:textSize="10sp"
+            style="@style/CategoryIconText"
             android:textColor="@color/charcoal"/>
     </androidx.appcompat.widget.LinearLayoutCompat>
 </androidx.cardview.widget.CardView>

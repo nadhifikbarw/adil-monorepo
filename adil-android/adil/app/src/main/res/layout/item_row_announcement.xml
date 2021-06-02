@@ -16,13 +16,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="12dp"
             android:ellipsize="end"
             android:maxLines="2"
             android:text="@string/temp_announcement_title"
             android:textColor="@color/charcoal"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            style="@style/HeaderText"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.65" />
@@ -32,12 +31,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="8dp"
             android:ellipsize="end"
             android:maxLines="2"
             android:text="@string/temp_announcement_detail"
             android:textColor="@color/dim_gray"
-            android:textSize="12sp"
+            style="@style/DescriptionText"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_announcement_title"
@@ -60,9 +60,8 @@
                 android:paddingHorizontal="10dp"
                 android:gravity="center"
                 android:text="@string/temp_announcement_status"
-                android:textSize="12sp"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/TagsText"
+                android:textColor="@color/white" />
         </RelativeLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

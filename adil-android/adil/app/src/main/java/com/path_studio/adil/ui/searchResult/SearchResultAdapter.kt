@@ -28,7 +28,7 @@ class SearchResultAdapter (val activity: SearchResultActivity) : RecyclerView.Ad
         fun bind(legislation: QueryHitItem) {
             with(binding) {
                 tvCardTitle.text =
-                    "${legislation.source?.jenisPeraturan} ${legislation.source?.jenisPeraturan} ${legislation.source?.tahunPeraturan}"
+                    "${legislation.source?.jenisPeraturan} ${legislation.source?.nomorPeraturan} ${legislation.source?.tahunPeraturan}"
                 tvCardDescription.text = legislation.source?.tentang
                 tvCardTetap.text =
                     "Ditetapkan: ${Utils.changeStringToDateFormat(legislation.source?.tglDitetapkan.toString())}"

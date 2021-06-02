@@ -27,6 +27,7 @@
         android:layout_marginTop="24dp"
         android:ellipsize="end"
         android:maxLines="1"
+        style="@style/HeaderText"
         android:text="@string/temp_uu_name"
         android:textColor="@color/white"
         app:layout_constraintWidth_percent="0.8"
