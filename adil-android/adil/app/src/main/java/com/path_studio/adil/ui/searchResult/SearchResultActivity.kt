@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.Gravity
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.isVisible
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -39,22 +40,31 @@ class SearchResultActivity : AppCompatActivity() {
             binding.progressBar.visibility = View.VISIBLE
             val query = extras.getString(EXTRA_QUERY)
 
+            binding.searchLegis.setQuery(query,false)
+
             viewModel.queryLegislation(query.toString()).addOnCompleteListener {
                 val hitItems = it.result
 
-                val jumlahPeraturan = "Total ${hitItems?.size} jumlah peraturan"
-                binding.textView.text = jumlahPeraturan
+                if(hitItems?.size != 0){
+                    val jumlahPeraturan = "Total ${hitItems?.size} jumlah peraturan"
+                    binding.textView.text = jumlahPeraturan
 
-                binding.progressBar.visibility = View.GONE
+                    binding.progressBar.visibility = View.GONE
+                    notFound(false)
 
-                rvSearchAdapter.setLegislation(hitItems)
-                rvSearchAdapter.notifyDataSetChanged()
+                    rvSearchAdapter.setLegislation(hitItems)
+                    rvSearchAdapter.notifyDataSetChanged()
 
-                with(binding.rvListNotification){
-                    binding.rvListNotification.layoutManager = LinearLayoutManager(context)
-                    setHasFixedSize(true)
-                    adapter = rvSearchAdapter
+                    with(binding.rvListNotification){
+                        binding.rvListNotification.layoutManager = LinearLayoutManager(context)
+                        setHasFixedSize(true)
+                        adapter = rvSearchAdapter
+                    }
+                }else{
+                    binding.progressBar.visibility = View.GONE
+                    notFound(true)
                 }
+
             }
         }
 
@@ -64,17 +74,26 @@ class SearchResultActivity : AppCompatActivity() {
                 viewModel.queryLegislation(query).addOnCompleteListener {
                     val hitItems = it.result
 
-                    val jumlahPeraturan = "Total ${hitItems?.size} jumlah peraturan"
-                    binding.textView.text = jumlahPeraturan
+                    if(hitItems?.size != 0){
+                        val jumlahPeraturan = "Total ${hitItems?.size} jumlah peraturan"
+                        binding.textView.text = jumlahPeraturan
 
-                    rvSearchAdapter.setLegislation(hitItems)
-                    rvSearchAdapter.notifyDataSetChanged()
+                        binding.progressBar.visibility = View.GONE
+                        notFound(false)
 
-                    with(binding.rvListNotification) {
-                        binding.rvListNotification.layoutManager = LinearLayoutManager(context)
-                        setHasFixedSize(true)
-                        adapter = rvSearchAdapter
+                        rvSearchAdapter.setLegislation(hitItems)
+                        rvSearchAdapter.notifyDataSetChanged()
+
+                        with(binding.rvListNotification){
+                            binding.rvListNotification.layoutManager = LinearLayoutManager(context)
+                            setHasFixedSize(true)
+                            adapter = rvSearchAdapter
+                        }
+                    }else{
+                        binding.progressBar.visibility = View.GONE
+                        notFound(true)
                     }
+
                 }
 
                 return true
@@ -88,6 +107,19 @@ class SearchResultActivity : AppCompatActivity() {
         // Set back button listener
         binding.backButton.setOnClickListener {
             finish()
+        }
+
+    }
+
+    private fun notFound(flag : Boolean){
+        binding.imgNotFound.isVisible = flag
+        binding.tvNotFound.isVisible = flag
+        if(flag){
+            binding.rvListNotification.isVisible = false
+            binding.textView.isVisible = false
+        }else{
+            binding.rvListNotification.isVisible = true
+            binding.textView.isVisible = true
         }
 
     }

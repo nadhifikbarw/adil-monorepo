@@ -3,11 +3,13 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_icon"
-        android:title="@string/beranda" />
+        android:title="@string/beranda"
+        />
 
     <item
         android:id="@+id/navigation_category"
         android:icon="@drawable/ic_category_blue"
+
         android:title="@string/kategori" />
 
     <item

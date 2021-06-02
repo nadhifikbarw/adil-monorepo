@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Adil</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="beranda">Beranda</string>
     <string name="kategori">Kategori</string>
@@ -53,14 +52,21 @@
     <string name="telah_dicabut">Telah Dicabut</string>
     <string name="detail">Details</string>
     <string name="tentang_adil_open_law">TENTANG ADIL OPEN LAW</string>
-    <string name="about_pharagraph_01">Kami mencoba menyelesaikan masalah hiper-regulasi Indonesia yang menyebabkan ketidakharmonisan,
+    <string name="about_pharagraph_01">
+        Kami mencoba menyelesaikan masalah hiper-regulasi Indonesia yang menyebabkan ketidakharmonisan,
         inkonsistensi, tumpang tindih, yang mengarah pada interpretasi peraturan yang ambigu dan sulit bagi warga negara untuk
-        mengakses regulasi yang paling relevan dengan kebutuhan mereka.</string>
-    <string name="about_pharagraph_02">Kami ingin membantu masyarakat Indonesia dalam mengakses informasi hukum untuk menemukan
+        mengakses regulasi yang paling relevan dengan kebutuhan mereka.
+        \n
+        \n
+        Kami ingin membantu masyarakat Indonesia dalam mengakses informasi hukum untuk menemukan
         jawaban atas pertanyaan hukum terkait melalui platform arsip hukum digital yang komprehensif dan terpusat berbasis
-        Android sebagai jembatan antara ahli hukum dan pencari bantuan hukum.</string>
-    <string name="about_pharagraph_03">Kami memanfaatkan ML untuk menstandarkan produk hukum berbasis PDF ke format yang
+        Android sebagai jembatan antara ahli hukum dan pencari bantuan hukum.
+        \n
+        \n
+        Kami memanfaatkan ML untuk menstandarkan produk hukum berbasis PDF ke format yang
         lebih terbuka (HTML) yang dikombinasikan dengan kemampuan pencarian teks lengkap yang dibangun di cloud untuk
-        skalabilitas.</string>
+        skalabilitas.
+    </string>
     <string name="temp_status">Diubah Oleh</string>
+    <string name="not_found">Maaf, peraturan tidak ditemukan</string>
 </resources>
