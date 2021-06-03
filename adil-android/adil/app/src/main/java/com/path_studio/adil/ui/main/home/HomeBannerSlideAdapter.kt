@@ -17,18 +17,18 @@ class HomeBannerSlideAdapter(val context: Context, val activity: MainActivity): 
     private var bannerDataList: ArrayList<BannerEntity> = arrayListOf(
         BannerEntity(
             1,
-            "Judul Berita 01",
-            "Ini adalah detail berita dari berita 01"
+            "Mendorong Revisi UU Pembentukan Peraturan terkait Metode Omnibus Law",
+            "Merevisi UU 12/2011 untuk kedua kalinya, untuk memasukan mekanisme penggunaan metode omnibus law."
         ),
         BannerEntity(
             2,
-            "Judul Berita 02",
-            "Ini adalah detail berita dari berita 02"
+            "Pegawai KPK Minta Penegasan MK Soal Tafsir Kata Dapat dan Tidak Merugikan Pegawai",
+            "Mereka menganggap KPK dan BKN mempunyai penafsiran berbeda sehingga merugikan pegawai."
         ),
         BannerEntity(
             3,
-            "Judul Berita 03",
-            "Ini adalah detail berita dari berita 03"
+            "Tanggapan Anggota DPR Atas Pernyataan Presiden Soal Hasil TWK",
+            "Sejumlah anggota DPR mendukung dan sikap Presiden Jokowi terkait hasil TWK terutama bagi 75 pegawai KPK yang tidak lulus TWK."
         )
     )
 
@@ -55,10 +55,10 @@ class HomeBannerSlideAdapter(val context: Context, val activity: MainActivity): 
         slideImageView.setImageResource(image[position])
 
         val slideAppName = view.findViewById<View>(R.id.homeBannerTitle) as TextView
-        slideAppName.text = bannerDataList[0].bannerTitle
+        slideAppName.text = bannerDataList[position].bannerTitle
 
         val slideDevName = view.findViewById<View>(R.id.homeBannerDetails) as TextView
-        slideDevName.text = bannerDataList[0].bannerDetails
+        slideDevName.text = bannerDataList[position].bannerDetails
 
         container.addView(view)
         return view

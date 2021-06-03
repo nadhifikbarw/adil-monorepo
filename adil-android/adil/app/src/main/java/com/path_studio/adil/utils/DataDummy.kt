@@ -54,41 +54,38 @@ object DataDummy {
         return arrayListOf(
             AnnouncementEntity(
                 1,
-                "PP Tahun 2020 Telah Dicabut",
-                "Pelaksanaan undang-undang tentang cipta kerja sektor energi dan sumber daya mineral.",
-                "Dicabut"
-            ),
-            AnnouncementEntity(
-                2,
-                "UU No. 13 Tahun 2003 tentang Ketenagakerjaan Telah Disahkan",
-                "Hukum ketenagakerjaan mengatur tentang segala hal yang berhubungan dengan tenaga kerja pada waktu sebelum, " +
-                        "selama, dan sesudah kerja.",
+                "Surat Edaran Menteri Investasi/Kepala Badan Koordinasi Penanaman Modal Nomor 14 Tahun 2021",
+                "PERALIHAN PENYELENGGARAAN PERIZINAN BERUSAHA MENJADI PENYELENGGARAAN PERIZINAN BERUSAHA BERBASIS RISIKO MELALUI SISTEM OSS",
                 "Disahkan"
             ),
             AnnouncementEntity(
-                1,
-                "PP Tahun 2020 Telah Dicabut",
-                "Pelaksanaan undang-undang tentang cipta kerja sektor energi dan sumber daya mineral.",
-                "Dicabut"
-            ),
-            AnnouncementEntity(
                 2,
-                "UU No. 13 Tahun 2003 tentang Ketenagakerjaan Telah Disahkan",
-                "Hukum ketenagakerjaan mengatur tentang segala hal yang berhubungan dengan tenaga kerja pada waktu sebelum, " +
-                        "selama, dan sesudah kerja.",
+                "Peraturan Menteri Perdagangan Nomor 34 Tahun 2021",
+                "PENETAPAN HARGA PATOKAN EKSPOR ATAS PRODUK PERTANIAN DAN KEHUTANAN YANG DIKENAKAN BEA KELUAR",
                 "Disahkan"
             ),
             AnnouncementEntity(
-                1,
-                "PP Tahun 2020 Telah Dicabut",
-                "Pelaksanaan undang-undang tentang cipta kerja sektor energi dan sumber daya mineral.",
-                "Dicabut"
+                3,
+                "Instruksi Menteri Dalam Negeri Nomor 12 Tahun 2021",
+                "PERPANJANGAN PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT BERBASIS MIKRO DAN MENGOPTIMALKAN POSKO PENANGANAN CORONA VIRUS DISEASE 2019 DI TINGKAT DESA DAN KELURAHAN UNTUK PENGENDALIAN PENYEBARAN CORONA VIRUS DISEASE 2019",
+                "Disahkan"
             ),
             AnnouncementEntity(
-                2,
-                "UU No. 13 Tahun 2003 tentang Ketenagakerjaan Telah Disahkan",
-                "Hukum ketenagakerjaan mengatur tentang segala hal yang berhubungan dengan tenaga kerja pada waktu sebelum, " +
-                        "selama, dan sesudah kerja.",
+                4,
+                "Surat Edaran Direksi KSEI Nomor KSEI-4012/DIR/0521 Tahun 2021",
+                "PENERAPAN MODUL E-PROXY DAN MODUL E-VOTING PADA APLIKASI eASY.KSEI BESERTA TAYANGAN RAPAT UMUM PEMEGANG SAHAM",
+                "Disahkan"
+            ),
+            AnnouncementEntity(
+                5,
+                "Surat Edaran Direktur Jenderal Pajak Nomor SE-35/PJ/2021 Tahun 2021",
+                "PETUNJUK PELAKSANAAN PENELITIAN SURAT KETERANGAN DOMISILI WAJIB PAJAK LUAR NEGERI PADA PROSES PEMERIKSAAN, KEBERATAN, DAN PENGURANGAN ATAU PEMBATALAN SURAT KETETAPAN PAJAK",
+                "Disahkan"
+            ),
+            AnnouncementEntity(
+                6,
+                "Keputusan Gubernur DKI Jakarta Nomor 671 Tahun 2021",
+                "PERPANJANGAN PEMBERLAKUAN PEMBATASAN KEGIATAN MASYARAKAT BERBASIS MIKRO",
                 "Disahkan"
             )
         )
