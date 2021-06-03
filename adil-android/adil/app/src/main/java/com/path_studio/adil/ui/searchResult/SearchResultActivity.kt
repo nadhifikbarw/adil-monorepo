@@ -12,9 +12,7 @@ import com.path_studio.adil.databinding.ActivitySearchResultBinding
 import com.path_studio.adil.viewModel.ViewModelFactory
 
 class SearchResultActivity : AppCompatActivity() {
-    private var drawerLayout: DrawerLayout? = null
     private lateinit var binding: ActivitySearchResultBinding
-    private var functions = FirebaseFunctions.getInstance("asia-southeast2")
 
     companion object {
         const val EXTRA_QUERY = "extra_query"
