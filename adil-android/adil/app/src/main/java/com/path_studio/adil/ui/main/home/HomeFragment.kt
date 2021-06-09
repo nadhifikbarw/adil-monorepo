@@ -6,6 +6,7 @@ import android.text.Html
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
@@ -48,11 +49,18 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+//        val bannerAnimation = AnimationUtils.loadAnimation(requireContext(),R.anim.drop_animation)
+//        val kategoriAnimation = AnimationUtils.loadAnimation(requireContext(), R.anim.drop_animation)
+//        kategoriAnimation.startOffset = 400
+
         //Setting Home Banner Slide Show
         showHomeBanner()
+//        binding.constraintLayout2.startAnimation(bannerAnimation)
 
         //set rv for categories & announcement
         setAnnouncement()
+//        binding.textView5.startAnimation(kategoriAnimation)
+//        binding.rvCategories.startAnimation(kategoriAnimation)
 
         if(activity!= null){
             val categoryAdapter = HomeCategoriesAdapter(activity as MainActivity)

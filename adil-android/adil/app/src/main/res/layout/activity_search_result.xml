@@ -24,6 +24,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView2"
             android:layout_width="match_parent"
@@ -106,7 +107,7 @@
                 app:layout_constraintVertical_bias="0.136" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rv_list_notification"
+                android:id="@+id/rv_list_search"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_marginStart="16dp"

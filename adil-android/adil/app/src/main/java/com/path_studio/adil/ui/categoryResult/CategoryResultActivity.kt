@@ -46,8 +46,8 @@ class CategoryResultActivity : AppCompatActivity() {
                 resultAdapter.notifyDataSetChanged()
             })
 
-            with(binding.rvListNotification){
-                binding.rvListNotification.layoutManager = LinearLayoutManager(context)
+            with(binding.rvListCategoryResult){
+                layoutManager = LinearLayoutManager(context)
                 setHasFixedSize(true)
                 adapter = resultAdapter
             }

@@ -39,7 +39,6 @@ class BookmarkFragment : Fragment() {
             ) { bookmarks ->
                 viewModel.getBookmarkedLegislation(bookmarks)
             }.observe(requireActivity()) {
-
                 if(it.size != 0){
                     bookmarkAdapter.setBookmark(it)
                     bookmarkAdapter.notifyDataSetChanged()

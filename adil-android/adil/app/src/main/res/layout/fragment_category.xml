@@ -46,6 +46,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:overScrollMode="never"
+                android:layout_marginTop="16dp"
+                android:layoutAnimation="@anim/grid_animation"
                 app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                 app:layout_constrainedWidth="true"
                 app:layout_constraintEnd_toStartOf="@+id/guideline5"

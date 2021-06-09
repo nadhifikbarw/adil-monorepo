@@ -47,8 +47,8 @@ class SearchResultActivity : AppCompatActivity() {
                     rvSearchAdapter.setLegislation(hitItems)
                     rvSearchAdapter.notifyDataSetChanged()
 
-                    with(binding.rvListNotification) {
-                        binding.rvListNotification.layoutManager = LinearLayoutManager(context)
+                    with(binding.rvListSearch) {
+                        layoutManager = LinearLayoutManager(context)
                         setHasFixedSize(true)
                         adapter = rvSearchAdapter
                     }
@@ -77,8 +77,8 @@ class SearchResultActivity : AppCompatActivity() {
                         rvSearchAdapter.setLegislation(hitItems)
                         rvSearchAdapter.notifyDataSetChanged()
 
-                        with(binding.rvListNotification) {
-                            binding.rvListNotification.layoutManager = LinearLayoutManager(context)
+                        with(binding.rvListSearch) {
+                            layoutManager = LinearLayoutManager(context)
                             setHasFixedSize(true)
                             adapter = rvSearchAdapter
                         }
@@ -109,10 +109,10 @@ class SearchResultActivity : AppCompatActivity() {
         binding.imgNotFound.isVisible = flag
         binding.tvNotFound.isVisible = flag
         if (flag) {
-            binding.rvListNotification.isVisible = false
+            binding.rvListSearch.isVisible = false
             binding.textView.isVisible = false
         } else {
-            binding.rvListNotification.isVisible = true
+            binding.rvListSearch.isVisible = true
             binding.textView.isVisible = true
         }
     }
