@@ -4,10 +4,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
-import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.firebase.functions.FirebaseFunctions
 import com.path_studio.adil.databinding.ActivitySearchResultBinding
 import com.path_studio.adil.viewModel.ViewModelFactory
 
