@@ -4,15 +4,23 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners
+import com.bumptech.glide.request.RequestOptions
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import com.path_studio.adil.R
 import com.path_studio.adil.databinding.ActivityMainBinding
 import com.path_studio.adil.ui.about.AboutActivity
+import com.path_studio.adil.ui.login.LoginActivity
 import com.path_studio.adil.ui.searchResult.SearchResultActivity
 
 class MainActivity : AppCompatActivity() {
@@ -21,10 +29,29 @@ class MainActivity : AppCompatActivity() {
     private var drawerLayout: DrawerLayout? = null
     private var navigationView: NavigationView? = null
 
+    private lateinit var mAuth: FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val user = Firebase.auth.currentUser
+        if (user != null) {
+            // User is signed in
+            mAuth = FirebaseAuth.getInstance()
+
+            //Setting drawer for menu
+            setMenuDrawer()
+
+            binding.menuButton.setOnClickListener {
+                drawerLayout?.openDrawer(Gravity.LEFT)
+            }
+        } else {
+            // No user is signed in
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
 
         //Setting the Bottom Navigator
         setBottomNav()
@@ -52,9 +79,30 @@ class MainActivity : AppCompatActivity() {
     private fun setMenuDrawer(){
         drawerLayout = findViewById<View>(R.id.activity_main) as DrawerLayout
         navigationView = findViewById<View>(R.id.nv) as NavigationView
+
+        //change username and email in drawer list
+        val navigationMenu = navigationView!!.menu
+        val navigationHeader = navigationView!!.getHeaderView(0)
+
+        val user = Firebase.auth.currentUser
+        user?.let {
+            Glide.with(this)
+                .load(user.photoUrl)
+                .transform(RoundedCorners(20))
+                .apply(
+                    RequestOptions.placeholderOf(R.drawable.ic_loading)
+                        .error(R.drawable.ic_error)
+                )
+                .into(navigationHeader.findViewById(R.id.drawerHeaderPhoto))
+
+            navigationMenu.getItem(0).title = user.displayName
+            navigationMenu.getItem(1).title = user.email
+        }
+
         navigationView!!.setNavigationItemSelectedListener(NavigationView.OnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.drawerAbout -> showAboutPage()
+                R.id.drawerLogout -> signOut()
                 else -> return@OnNavigationItemSelectedListener true
             }
             true
@@ -63,6 +111,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun showAboutPage(){
         val intent = Intent(this, AboutActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun signOut(){
+        mAuth.signOut()
+
+        //Back to Sign in Page
+        val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
     }
 
