@@ -4,7 +4,10 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.util.Log
+import android.widget.Toast
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -19,11 +22,14 @@ import com.path_studio.adil.databinding.ActivityLoginBinding
 import com.path_studio.adil.databinding.ActivityPdfViewBinding
 import com.path_studio.adil.ui.main.MainActivity
 import kotlin.math.sign
+import kotlin.system.exitProcess
 
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
+
+    private var doubleBackToExitPressedOnce = false
 
     private lateinit var binding: ActivityLoginBinding
 
@@ -53,6 +59,18 @@ class LoginActivity : AppCompatActivity() {
         // Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = auth.currentUser
         updateUI(currentUser)
+    }
+
+    override fun onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed()
+            exitProcess(0)
+        }
+
+        this.doubleBackToExitPressedOnce = true
+        Toast.makeText(this, R.string.tekan_kembali, Toast.LENGTH_SHORT).show()
+
+        Handler(Looper.getMainLooper()).postDelayed(Runnable { doubleBackToExitPressedOnce = false }, 2000)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -100,6 +118,7 @@ class LoginActivity : AppCompatActivity() {
             Log.e("Status", "Updating UI")
 
             val mainActivity = Intent(this, MainActivity::class.java)
+            mainActivity.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             this.startActivity(mainActivity)
         }else{
             Log.e("Status", "Null User Data")

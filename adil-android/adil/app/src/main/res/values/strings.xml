@@ -70,4 +70,5 @@
     <string name="name">Name</string>
     <string name="email">Email</string>
     <string name="drawer_menu_02">Keluar</string>
+    <string name="tekan_kembali">Tekan kembali untuk keluar</string>
 </resources>
