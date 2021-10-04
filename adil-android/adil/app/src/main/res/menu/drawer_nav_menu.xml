@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/drawerName"
-        android:icon="@drawable/ic_person_blue"
-        android:title="@string/name"/>
-    <item android:id="@+id/drawerEmail"
-        android:icon="@drawable/ic_mail_blue"
-        android:title="@string/email"/>
     <item android:id="@+id/drawerAbout"
         android:icon="@drawable/ic_information_blue"
         android:title="@string/drawer_menu_01"/>

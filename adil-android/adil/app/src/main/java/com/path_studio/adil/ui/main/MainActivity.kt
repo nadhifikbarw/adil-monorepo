@@ -95,8 +95,8 @@ class MainActivity : AppCompatActivity() {
                 )
                 .into(navigationHeader.findViewById(R.id.drawerHeaderPhoto))
 
-            navigationMenu.getItem(0).title = user.displayName
-            navigationMenu.getItem(1).title = user.email
+            navigationHeader.findViewById<TextView>(R.id.drawerHeaderName).text = user.displayName
+            navigationHeader.findViewById<TextView>(R.id.drawerHeaderEmail).text = user.email
         }
 
         navigationView!!.setNavigationItemSelectedListener(NavigationView.OnNavigationItemSelectedListener { item ->
