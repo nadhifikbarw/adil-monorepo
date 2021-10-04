@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/FragmentContainer"
+    android:id="@+id/fragment_home"
     android:scrollbars="none"
     tools:context=".ui.main.home.HomeFragment">
 

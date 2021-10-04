@@ -2,9 +2,13 @@ package com.path_studio.adil.ui.main
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.util.Log
 import android.view.Gravity
 import android.view.View
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.Navigation
@@ -22,12 +26,15 @@ import com.path_studio.adil.databinding.ActivityMainBinding
 import com.path_studio.adil.ui.about.AboutActivity
 import com.path_studio.adil.ui.login.LoginActivity
 import com.path_studio.adil.ui.searchResult.SearchResultActivity
+import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private var drawerLayout: DrawerLayout? = null
     private var navigationView: NavigationView? = null
+
+    private var doubleBackToExitPressedOnce = false
 
     private lateinit var mAuth: FirebaseAuth
 
@@ -76,12 +83,23 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
+    override fun onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed()
+            exitProcess(0)
+        }
+
+        this.doubleBackToExitPressedOnce = true
+        Toast.makeText(this, R.string.tekan_kembali, Toast.LENGTH_SHORT).show()
+
+        Handler(Looper.getMainLooper()).postDelayed(Runnable { doubleBackToExitPressedOnce = false }, 2000)
+    }
+
     private fun setMenuDrawer(){
         drawerLayout = findViewById<View>(R.id.activity_main) as DrawerLayout
         navigationView = findViewById<View>(R.id.nv) as NavigationView
 
         //change username and email in drawer list
-        val navigationMenu = navigationView!!.menu
         val navigationHeader = navigationView!!.getHeaderView(0)
 
         val user = Firebase.auth.currentUser
@@ -112,6 +130,10 @@ class MainActivity : AppCompatActivity() {
     private fun showAboutPage(){
         val intent = Intent(this, AboutActivity::class.java)
         startActivity(intent)
+
+        //close drawer
+        drawerLayout = findViewById<View>(R.id.activity_main) as DrawerLayout
+        drawerLayout?.closeDrawer(Gravity.LEFT, false)
     }
 
     private fun signOut(){
@@ -119,6 +141,7 @@ class MainActivity : AppCompatActivity() {
 
         //Back to Sign in Page
         val intent = Intent(this, LoginActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
     }
 
