@@ -1,13 +1,9 @@
 package com.path_studio.adil.ui.login
 
-import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.util.Log
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -19,17 +15,13 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.path_studio.adil.R
 import com.path_studio.adil.databinding.ActivityLoginBinding
-import com.path_studio.adil.databinding.ActivityPdfViewBinding
 import com.path_studio.adil.ui.main.MainActivity
-import kotlin.math.sign
 import kotlin.system.exitProcess
 
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
-
-    private var doubleBackToExitPressedOnce = false
 
     private lateinit var binding: ActivityLoginBinding
 
@@ -62,15 +54,8 @@ class LoginActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        if (doubleBackToExitPressedOnce) {
-            super.onBackPressed()
-            exitProcess(0)
-        }
-
-        this.doubleBackToExitPressedOnce = true
-        Toast.makeText(this, R.string.tekan_kembali, Toast.LENGTH_SHORT).show()
-
-        Handler(Looper.getMainLooper()).postDelayed(Runnable { doubleBackToExitPressedOnce = false }, 2000)
+        //close app
+        exitProcess(0)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
