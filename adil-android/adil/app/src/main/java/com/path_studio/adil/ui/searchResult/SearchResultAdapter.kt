@@ -2,14 +2,18 @@ package com.path_studio.adil.ui.searchResult
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.path_studio.adil.data.source.remote.response.QueryHitItem
 import com.path_studio.adil.databinding.ItemRowSearchResultBinding
+import com.path_studio.adil.ui.categoryResult.CategoryResultActivity
 import com.path_studio.adil.ui.detailUU.DetailUUActivity
 import com.path_studio.adil.utils.Utils
+import java.lang.Integer.parseInt
 import java.util.*
 
 class SearchResultAdapter (val activity: SearchResultActivity) : RecyclerView.Adapter<SearchResultAdapter.ViewHolder>() {
@@ -38,6 +42,19 @@ class SearchResultAdapter (val activity: SearchResultActivity) : RecyclerView.Ad
                     val tagAdapter = TagsAdapter()
                     tagAdapter.setTags(legislation.source?.tahunPeraturan.toString(),
                         legislation.source?.category)
+                    tagAdapter.setOnItemClickCallback(object: TagsAdapter.OnItemClickCallback {
+                        override fun onItemClicked(data: String) {
+                            //check if its category or year
+                            //show category result
+                            val intent = Intent(activity, CategoryResultActivity::class.java)
+                            intent.putExtra(CategoryResultActivity.EXTRA_CATEGORY, data)
+                            activity.finish()
+                            activity.overridePendingTransition(0, 0)
+                            activity.startActivity(intent)
+
+                            Toast.makeText(context, "You choose: $data", Toast.LENGTH_LONG).show()
+                        }
+                    })
                     adapter = tagAdapter
                 }
 

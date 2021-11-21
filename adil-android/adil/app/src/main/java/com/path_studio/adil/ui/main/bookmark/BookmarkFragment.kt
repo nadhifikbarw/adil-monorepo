@@ -1,6 +1,8 @@
 package com.path_studio.adil.ui.main.bookmark
 
+import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,16 +12,16 @@ import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.path_studio.adil.databinding.FragmentBookmarkBinding
+import com.path_studio.adil.ui.main.MainActivity
 import com.path_studio.adil.viewModel.ViewModelFactory
 
 class BookmarkFragment : Fragment() {
 
     private var _binding: FragmentBookmarkBinding? = null
     private val binding get() = _binding as FragmentBookmarkBinding
-    private val bookmarkAdapter = BookmarkAdapter(this)
+    private lateinit var bookmarkAdapter:BookmarkAdapter
     private val factory by lazy { ViewModelFactory.getInstance(requireActivity()) }
     private val viewModel by lazy { ViewModelProvider(this, factory)[BookmarkViewModel::class.java] }
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -31,15 +33,18 @@ class BookmarkFragment : Fragment() {
         return view
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        bookmarkAdapter = BookmarkAdapter(requireActivity())
+
         if (activity != null) {
             Transformations.switchMap(
                 viewModel.allBookmarks
             ) { bookmarks ->
                 viewModel.getBookmarkedLegislation(bookmarks)
             }.observe(requireActivity()) {
-                if(it.size != 0){
+                if(it.isNotEmpty()){
                     bookmarkAdapter.setBookmark(it)
                     bookmarkAdapter.notifyDataSetChanged()
                 }else{

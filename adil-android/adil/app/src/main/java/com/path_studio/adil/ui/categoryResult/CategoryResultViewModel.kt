@@ -8,4 +8,7 @@ import com.path_studio.adil.data.source.remote.response.LegislationResponse
 class CategoryResultViewModel (private val adilRepository: AdilRepository): ViewModel() {
     fun getLegislationResult(categoryName: String): LiveData<List<LegislationResponse>> =
         adilRepository.getLegislationByCategoryName(categoryName)
+
+    fun getLegislationResultByYear(year: Int):LiveData<List<LegislationResponse>> =
+        adilRepository.getLegislationResultByYear(year)
 }

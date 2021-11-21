@@ -83,10 +83,10 @@ class InformationFragment : Fragment() {
                                        bookmark: Bookmark) {
         if(checked) {
             viewModel.insertBookmark(bookmark)
-            Snackbar.make(requireView(),"Added this into your bookmark",Snackbar.LENGTH_SHORT).show()
+            Snackbar.make(requireView(),"Bookmark sudah ditambah",Snackbar.LENGTH_SHORT).show()
         } else {
             viewModel.deleteBookmark(bookmark)
-            Snackbar.make(requireView(),"Bookmark removed",Snackbar.LENGTH_SHORT).show()
+            Snackbar.make(requireView(),"Bookmark sudah dihapus",Snackbar.LENGTH_SHORT).show()
         }
     }
 

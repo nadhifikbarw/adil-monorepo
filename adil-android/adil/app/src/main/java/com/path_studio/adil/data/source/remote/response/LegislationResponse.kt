@@ -44,7 +44,7 @@ data class LegislationResponse(
 
 	val menafsirkan: List<RelationshipItem?>? = null,
 
-	val instansi: String? = null
+	val instansi: String? = null,
 
 ) {
 	var id: String = ""

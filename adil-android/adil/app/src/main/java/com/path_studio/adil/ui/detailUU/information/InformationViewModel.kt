@@ -22,7 +22,7 @@ class InformationViewModel(private val repository: AdilRepository): ViewModel() 
     }
 
     fun deleteBookmark(bookmark: Bookmark) = viewModelScope.launch {
-        repository.deleteLegislatioBookmark(bookmark)
+        repository.deleteLegislationBookmark(bookmark)
     }
     
      fun selectedLegislation(legislationId: String) {

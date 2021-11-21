@@ -80,8 +80,34 @@ class RemoteDataSource {
 
     fun getLegislationByCategory(categoryName: String): LiveData<List<LegislationResponse>>{
         val legislationResult = MutableLiveData<List<LegislationResponse>>()
-        FirestoreConfig.getFirestoreService().collection("legislation")
+        FirestoreConfig.getFirestoreService().collection("legislations")
             .whereArrayContains("category", categoryName)
+            .get()
+            .addOnCompleteListener(OnCompleteListener<QuerySnapshot?> { task ->
+                if (task.isSuccessful) {
+                    val legislationList = ArrayList<LegislationResponse>()
+                    for (legislation in task.result!!)
+                    {
+                        // Automap fields to object properties
+                        val obj = legislation.toObject<LegislationResponse>()
+                        // Inject document id into object
+                        obj.id = legislation.id
+                        legislationList.add(obj)
+                    }
+                    // Post value back
+                    legislationResult.postValue(legislationList)
+                } else {
+                    Log.w("Legislation Result", "Error getting documents.", task.exception)
+                }
+
+            })
+        return legislationResult
+    }
+
+    fun getLegislationResultByYear(year: Int): LiveData<List<LegislationResponse>>{
+        val legislationResult = MutableLiveData<List<LegislationResponse>>()
+        FirestoreConfig.getFirestoreService().collection("legislations")
+            .whereEqualTo("tahunPeraturan", year)
             .get()
             .addOnCompleteListener(OnCompleteListener<QuerySnapshot?> { task ->
                 if (task.isSuccessful) {
@@ -108,7 +134,7 @@ class RemoteDataSource {
 
     fun getLegislationDocument(legislationId : String) : LiveData<List<String>>{
         val legisDocList = MutableLiveData<List<String>>()
-        FirestoreConfig.getFirestoreService().collection("legislation").document(legislationId)
+        FirestoreConfig.getFirestoreService().collection("legislations").document(legislationId)
             .get().addOnSuccessListener { doc ->
                 if(doc != null){
                     val groupLink = doc["document"] as List<String>?
@@ -129,7 +155,7 @@ class RemoteDataSource {
             legisDocResponse.postValue(bookmarkedList)
         } else {
             legislationIds.forEach {
-                FirestoreConfig.getFirestoreService().collection("legislation")
+                FirestoreConfig.getFirestoreService().collection("legislations")
                     .document(it.legislationId)
                     .get()
                     .addOnCompleteListener { task ->
@@ -154,11 +180,11 @@ class RemoteDataSource {
 
     fun getLegislationDetail(legislationId : String) : LiveData<LegislationResponse>{
         val legislationResult = MutableLiveData<LegislationResponse>()
-        FirestoreConfig.getFirestoreService().collection("legislation").document(legislationId)
+        FirestoreConfig.getFirestoreService().collection("legislations").document(legislationId)
             .get()
             .addOnSuccessListener { legislation ->
                 val obj = legislation.toObject<LegislationResponse>()
-                legislationResult.postValue(obj)
+                legislationResult.postValue(obj!!)
             }
         return legislationResult
     }

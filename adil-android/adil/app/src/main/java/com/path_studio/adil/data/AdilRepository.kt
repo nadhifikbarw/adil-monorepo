@@ -40,6 +40,10 @@ class AdilRepository(private val remoteDataSource: RemoteDataSource,
         return remoteDataSource.getLegislationByCategory(categoryId)
     }
 
+    override fun getLegislationResultByYear(year: Int): LiveData<List<LegislationResponse>>{
+        return remoteDataSource.getLegislationResultByYear(year)
+    }
+
     override fun getLegislationDocument(legislationId: String): LiveData<List<String>> {
         return remoteDataSource.getLegislationDocument(legislationId)
     }
@@ -52,7 +56,7 @@ class AdilRepository(private val remoteDataSource: RemoteDataSource,
         bookmarkDao.insertBookmark(bookmark)
     }
 
-    override suspend fun deleteLegislatioBookmark(bookmark: Bookmark) {
+    override suspend fun deleteLegislationBookmark(bookmark: Bookmark) {
         bookmarkDao.deleteBookmark(bookmark)
     }
 
