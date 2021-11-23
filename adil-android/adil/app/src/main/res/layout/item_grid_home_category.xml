@@ -2,9 +2,7 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
+    style="@style/HomeFragmentCategoryItemBg"
     app:cardCornerRadius="10dp"
     app:cardElevation="5dp"
     app:cardUseCompatPadding="true">
@@ -29,12 +27,10 @@
         <TextView
             android:id="@+id/category_name"
             style="@style/CategoryIconText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
             android:layout_marginBottom="10dp"
-            android:gravity="center"
             android:text="@string/temp_category_name"
-            android:textColor="@color/charcoal" />
+            android:autoSizeTextType="uniform"
+            tools:targetApi="o" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 </androidx.cardview.widget.CardView>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    style="@style/ItemRowAnnouncementBg"
     app:cardCornerRadius="8dp"
     app:cardElevation="5dp"
     app:cardUseCompatPadding="true">
@@ -43,7 +42,6 @@
             android:ellipsize="end"
             android:maxLines="2"
             android:text="@string/temp_announcement_detail"
-            android:textColor="@color/dim_gray"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_announcement_title"
@@ -59,7 +57,6 @@
             android:ellipsize="end"
             android:maxLines="2"
             android:text="@string/temp_announcement_title"
-            android:textColor="@color/charcoal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintWidth_percent="0.65" />
