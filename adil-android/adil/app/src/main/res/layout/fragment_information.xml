@@ -298,21 +298,19 @@
                         app:layout_constraintTop_toBottomOf="@+id/textView15"
                         app:layout_constraintWidth_percent="0.3" />
 
-                    <TextView
+                    <com.google.android.material.chip.ChipGroup
                         android:id="@+id/info_kategori"
-                        style="@style/DetailInfo"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="15dp"
                         android:layout_marginBottom="21dp"
-                        android:lineHeight="15sp"
-                        android:text=""
-                        android:textColor="@color/cerulean"
+                        app:chipSpacingVertical="-10dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/textView16"
                         app:layout_constraintTop_toBottomOf="@+id/textView15"
-                        app:layout_constraintWidth_percent="0.58" />
+                        app:layout_constraintWidth_percent="0.58"/>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 

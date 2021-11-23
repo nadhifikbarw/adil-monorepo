@@ -2,19 +2,23 @@ package com.path_studio.adil.ui.detailUU.information
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.google.android.material.chip.Chip
 import com.google.android.material.snackbar.Snackbar
 import com.path_studio.adil.R
 import com.path_studio.adil.data.database.entity.Bookmark
 import com.path_studio.adil.data.source.remote.response.LegislationResponse
 import com.path_studio.adil.databinding.FragmentInformationBinding
+import com.path_studio.adil.ui.categoryResult.CategoryResultActivity
 import com.path_studio.adil.ui.detailUU.DetailUUActivity
 import com.path_studio.adil.ui.pdfView.PdfViewActivity
 import com.path_studio.adil.viewModel.ViewModelFactory
+import android.view.ContextThemeWrapper
 
 
 class InformationFragment : Fragment() {
@@ -111,8 +115,18 @@ class InformationFragment : Fragment() {
             infoJudul.text = data?.tentang
             infoNomor.text = data?.nomorPeraturan
             infoTahun.text = data?.tahunPeraturan.toString()
-            infoDitetapkan.text = data?.tglDitetapkan
-            infoDiundangkan.text = data?.tglDiundangkan
+
+            if(data?.tglDitetapkan.isNullOrBlank()){
+                infoDitetapkan.text = "Tidak ada data"
+            }else{
+                infoDitetapkan.text = data?.tglDitetapkan
+            }
+
+            if(data?.tglDiundangkan.isNullOrBlank()){
+                infoDiundangkan.text = "Tidak ada data"
+            }else{
+                infoDiundangkan.text = data?.tglDiundangkan
+            }
 
             if(data?.daerahId.isNullOrBlank()){
                 infoDaerah.text = "Tidak ada data"
@@ -120,8 +134,23 @@ class InformationFragment : Fragment() {
                 infoDaerah.text = data?.daerahId
             }
 
-            for (i in 0 until data?.category?.size!!){
-                infoKategori.append(data.category[i].toString() + " ; ")
+            if (data != null) {
+                for (d in data.category!!){
+                    val chip = Chip(ContextThemeWrapper(activity, R.style.ThinnerChip))
+                    chip.text = d.toString()
+                    chip.isCloseIconVisible = false
+                    chip.setChipBackgroundColorResource(R.color.burnt_orange)
+                    chip.setTextColor(resources.getColor(R.color.white, null))
+
+                    chip.setOnClickListener {
+                        //go to category result
+                        val intent = Intent(activity, CategoryResultActivity::class.java)
+                        intent.putExtra(CategoryResultActivity.EXTRA_CATEGORY, d.toString())
+                        startActivity(intent)
+                    }
+
+                    infoKategori.addView(chip)
+                }
             }
         }
     }

@@ -88,5 +88,10 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
     </style>
 
+    <style name="ThinnerChip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipCornerRadius">20dp</item>
+        <item name="chipMinHeight">10dp</item>
+        <item name="android:textSize">10sp</item>
+    </style>
 
 </resources>
