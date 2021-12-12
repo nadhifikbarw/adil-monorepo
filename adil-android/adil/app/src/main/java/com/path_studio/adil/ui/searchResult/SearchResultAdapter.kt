@@ -51,8 +51,6 @@ class SearchResultAdapter (val activity: SearchResultActivity) : RecyclerView.Ad
                             activity.finish()
                             activity.overridePendingTransition(0, 0)
                             activity.startActivity(intent)
-
-                            Toast.makeText(context, "You choose: $data", Toast.LENGTH_LONG).show()
                         }
                     })
                     adapter = tagAdapter

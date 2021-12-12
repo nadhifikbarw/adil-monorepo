@@ -1,5 +1,6 @@
 package com.path_studio.adil.ui.detailUU.information
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.TypedValue
@@ -19,7 +20,7 @@ import com.path_studio.adil.ui.detailUU.DetailUUActivity
 import com.path_studio.adil.ui.pdfView.PdfViewActivity
 import com.path_studio.adil.viewModel.ViewModelFactory
 import android.view.ContextThemeWrapper
-
+import android.content.SharedPreferences
 
 class InformationFragment : Fragment() {
 
@@ -51,6 +52,20 @@ class InformationFragment : Fragment() {
 
             if(extras != null) {
                 val legisId = extras
+
+                //save or update last seen -> legisID
+                val sharedPref = requireActivity().getSharedPreferences(
+                    "com.path_studio.adil", Context.MODE_PRIVATE)
+                if(!sharedPref.contains("initialized")){
+                    sharedPref.edit()
+                        .putBoolean("initialized", true)
+                        .putString("lastLegisId", legisId.toString())
+                        .apply()
+                }else{
+                    sharedPref.edit()
+                        .putString("lastLegisId", legisId.toString())
+                        .apply()
+                }
 
                 viewModel.selectedLegislation(legisId.toString())
                 viewModel.getLegislationDetail().observe(viewLifecycleOwner,{ data ->

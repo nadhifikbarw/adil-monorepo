@@ -5,6 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.android.gms.tasks.Task
+import com.google.firebase.firestore.Query
 import com.google.firebase.firestore.QuerySnapshot
 import com.google.firebase.firestore.ktx.toObject
 import com.google.firebase.functions.FirebaseFunctions
@@ -249,6 +250,30 @@ class RemoteDataSource {
             }
     }
 
+    fun getLatestUpdates(limit: Int): LiveData<List<LegislationResponse>>{
+        val legislationResult = MutableLiveData<List<LegislationResponse>>()
+        FirestoreConfig.getFirestoreService().collection("legislations")
+            .orderBy("tglDitetapkan", Query.Direction.DESCENDING).limit(limit.toLong())
+            .get()
+            .addOnCompleteListener(OnCompleteListener<QuerySnapshot?> { task ->
+                if (task.isSuccessful) {
+                    val legislationList = ArrayList<LegislationResponse>()
+                    for (legislation in task.result!!)
+                    {
+                        // Automap fields to object properties
+                        val obj = legislation.toObject<LegislationResponse>()
+                        // Inject document id into object
+                        obj.id = legislation.id
+                        legislationList.add(obj)
+                    }
+                    // Post value back
+                    legislationResult.postValue(legislationList)
+                } else {
+                    Log.w("Legislation Result", "Error getting documents.", task.exception)
+                }
 
+            })
+        return legislationResult
+    }
 
 }

@@ -84,5 +84,7 @@ class AdilRepository(private val remoteDataSource: RemoteDataSource,
         return remoteDataSource.queryLegislation(query)
     }
 
-
+    override fun getLatestUpdates(limit: Int): LiveData<List<LegislationResponse>>{
+        return remoteDataSource.getLatestUpdates(limit)
+    }
 }

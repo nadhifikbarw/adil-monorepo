@@ -71,4 +71,12 @@
     <string name="email">Email</string>
     <string name="drawer_menu_02">Keluar</string>
     <string name="tekan_kembali">Tekan kembali untuk keluar</string>
+    <string name="pembaharuan_terbaru">Pembaharuan Terbaru</string>
+    <string name="terakhir_dilihat">Terakhir Dilihat</string>
+    <string name="last_seen">last seen</string>
+    <string name="mencabut">Mencabut</string>
+    <string name="mengubah">Mengubah</string>
+    <string name="dicabut">Dicabut</string>
+    <string name="diubah">Diubah</string>
+    <string name="ditetapkan">Ditetapkan</string>
 </resources>

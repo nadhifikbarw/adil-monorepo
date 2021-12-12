@@ -1,4 +1,4 @@
-package com.path_studio.adil.ui.main.home
+package com.path_studio.adil.ui.main.home.adapter
 
 import android.content.Context
 import android.view.LayoutInflater

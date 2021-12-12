@@ -52,8 +52,6 @@ class BookmarkAdapter(private val activity: Activity) : RecyclerView.Adapter<Boo
                             intent.putExtra(CategoryResultActivity.EXTRA_CATEGORY, data)
                             intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
                             activity.startActivity(intent)
-
-                            Toast.makeText(context, "You choose: $data", Toast.LENGTH_LONG).show()
                         }
                     })
                     adapter = tagAdapter

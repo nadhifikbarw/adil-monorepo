@@ -2,6 +2,7 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/ItemRowAnnouncementBg"
+    android:id="@+id/rv_container"
     app:cardCornerRadius="8dp"
     app:cardElevation="5dp"
     app:cardUseCompatPadding="true">
@@ -20,7 +21,7 @@
             app:layout_constraintWidth_percent="0.27">
 
             <TextView
-                android:id="@+id/tv_announcement_status"
+                android:id="@+id/rv_announcement_status"
                 style="@style/TagsText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -32,7 +33,7 @@
         </RelativeLayout>
 
         <TextView
-            android:id="@+id/tv_announcement_detail"
+            android:id="@+id/rv_announcement_detail"
             style="@style/DescriptionText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -44,11 +45,11 @@
             android:text="@string/temp_announcement_detail"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_announcement_title"
+            app:layout_constraintTop_toBottomOf="@+id/rv_announcement_title"
             app:layout_constraintWidth_percent="0.65" />
 
         <TextView
-            android:id="@+id/tv_announcement_title"
+            android:id="@+id/rv_announcement_title"
             style="@style/HeaderText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
